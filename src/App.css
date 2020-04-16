@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.ui.inverted.segment, .ui.primary.inverted.segment {
+  background-image: url('./images/backsplash.png')
+}
