@@ -17,6 +17,9 @@ import {
   Visibility,
 } from 'semantic-ui-react'
 
+import backgroundImage from './images/backsplash.png'
+import logo from './images/logo.png'
+
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
 // For more advanced usage please check Responsive docs under the "Usage" section.
@@ -32,16 +35,18 @@ const getWidth = () => {
  */
 const HomepageHeading = ({ mobile }) => (
   <Container text>
+    <img src={logo} class="welcomeLogo" alt="logo" />
     <Header
       as='h1'
-      content='modi is my dog'
-      inverted
-      style={{
-        fontSize: mobile ? '2em' : '4em',
-        fontWeight: 'normal',
-        marginBottom: 0,
-        marginTop: mobile ? '1.5em' : '3em',
-      }}
+      
+      content='12'
+      // inverted
+      // style={{
+      //   fontSize: mobile ? '2em' : '4em',
+      //   fontWeight: 'normal',
+      //   marginBottom: 0,
+      //   marginTop: mobile ? '1.5em' : '3em',
+      // }}
     />
     <Header
       as='h2'

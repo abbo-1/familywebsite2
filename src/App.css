@@ -40,3 +40,10 @@
 .ui.inverted.segment, .ui.primary.inverted.segment {
   background-image: url('./images/backsplash.png')
 }
+
+.welcomeLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 20%;
+}
