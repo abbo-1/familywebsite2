@@ -37,9 +37,9 @@
   }
 }
 
-/* .ui.inverted.segment, .ui.primary.inverted.segment {
+.ui.inverted.segment, .ui.primary.inverted.segment {
   background-image: url('./images/backsplash.png')
-} */
+}
 
 .welcomeLogo {
   display: block;

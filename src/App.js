@@ -35,7 +35,7 @@ const getWidth = () => {
  */
 const HomepageHeading = ({ mobile }) => (
   <Container text>
-      <img src={backgroundImage} class="background" alt="logo" />
+    {/* <img src={backgroundImage} class="background" alt="logo" /> */}
     <img src={logo} class="welcomeLogo" alt="logo" />
     <Header
       as='h1'
