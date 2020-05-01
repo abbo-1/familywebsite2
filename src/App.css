@@ -41,6 +41,10 @@
   background-image: url('./images/backsplash.png')
 } */
 
+.ui inverted vertical center aligned segment {
+  background-image: url('./images/backsplash.png')
+}
+
 .welcomeLogo {
   display: block;
   margin-left: auto;
