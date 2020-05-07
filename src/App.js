@@ -228,9 +228,9 @@ const HomepageLayout = () => (
             </Header>
             <p style={{ fontSize: '1.33em' }}>
             On July 11, 1981, the Richardson family and the Jones family were linked with the marriage of Kim Frank Richardson of Florida and Carol Anne Jones of Pennsylvania.
-
+<br/>
 This website seeks to house and chronicle the history/ancestry of both families for personal use, research, and future generations. Within these archives you'll find stories of love, records of war, and a small sampling of the many photos we have accumulated over the decades.
-
+<br/>
 Most of the information found here is available only thanks to the decades long research, dedication, and archival prowess of Kim Frank Richardson.
             </p>
             <Header as='h3' style={{ fontSize: '2em' }}>
