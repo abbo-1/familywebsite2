@@ -234,7 +234,7 @@ This website seeks to house and chronicle the history/ancestry of both families 
 Most of the information found here is available only thanks to the decades long research, dedication, and archival prowess of Kim Frank Richardson.
             </p>
             <Header as='h3' style={{ fontSize: '2em' }}>
-              We Make Bananas That Can Dance
+              Some info about uncle jay
             </Header>
             <p style={{ fontSize: '1.33em' }}>
               Yes that's right, you thought it was the stuff of dreams, but even bananas can be
