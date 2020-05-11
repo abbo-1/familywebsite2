@@ -247,7 +247,7 @@ Most of the information found here is available only thanks to the decades long 
         </Grid.Row>
         <Grid.Row>
           <Grid.Column textAlign='center'>
-            <Button size='huge'>Check Them Out</Button>
+            <Button size='huge'>Click Me</Button>
           </Grid.Column>
         </Grid.Row>
       </Grid>
