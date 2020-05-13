@@ -17,7 +17,7 @@ import {
   Visibility,
 } from 'semantic-ui-react'
 
-import backgroundImage from './images/backsplash.png'
+import backgroundImage from './images/backsplashWithLogo.png'
 import wedding from './images/wedding.jpg'
 import logo from './images/logo.png'
 
@@ -37,7 +37,7 @@ const getWidth = () => {
 const HomepageHeading = ({ mobile }) => (
   <Container text>
     <img src={backgroundImage} class="background" alt="logo" />
-    <img src={logo} class="welcomeLogo" alt="logo" />
+    {/* <img src={logo} class="welcomeLogo" alt="logo" /> */}
     {/* <Header
       as='h1'
       
@@ -50,7 +50,7 @@ const HomepageHeading = ({ mobile }) => (
         marginTop: mobile ? '1.5em' : '3em',
       }}
     /> */}
-    <Header
+    {/* <Header
       as='h2'
       content='Robert Jones'
       inverted
@@ -58,8 +58,8 @@ const HomepageHeading = ({ mobile }) => (
         fontSize: mobile ? '1.5em' : '1.7em',
         fontWeight: 'normal',
         marginTop: mobile ? '0.5em' : '1.5em',
-      }}
-    />
+      }} */}
+    {/* /> */}
     {/* <Button primary size='huge'>
       Get Started
       <Icon name='right arrow' />
