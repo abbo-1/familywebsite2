@@ -18,6 +18,7 @@ import {
 } from 'semantic-ui-react'
 
 import backgroundImage from './images/backsplash.png'
+import wedding from './images/wedding.jpg'
 import logo from './images/logo.png'
 
 // Heads up!
@@ -35,20 +36,20 @@ const getWidth = () => {
  */
 const HomepageHeading = ({ mobile }) => (
   <Container text>
-    {/* <img src={backgroundImage} class="background" alt="logo" /> */}
+    <img src={backgroundImage} class="background" alt="logo" />
     <img src={logo} class="welcomeLogo" alt="logo" />
-    <Header
+    {/* <Header
       as='h1'
       
       content='12'
-      // inverted
-      // style={{
-      //   fontSize: mobile ? '2em' : '4em',
-      //   fontWeight: 'normal',
-      //   marginBottom: 0,
-      //   marginTop: mobile ? '1.5em' : '3em',
-      // }}
-    />
+      inverted
+      style={{
+        fontSize: mobile ? '2em' : '4em',
+        fontWeight: 'normal',
+        marginBottom: 0,
+        marginTop: mobile ? '1.5em' : '3em',
+      }}
+    /> */}
     <Header
       as='h2'
       content='Robert Jones'
@@ -59,10 +60,10 @@ const HomepageHeading = ({ mobile }) => (
         marginTop: mobile ? '0.5em' : '1.5em',
       }}
     />
-    <Button primary size='huge'>
+    {/* <Button primary size='huge'>
       Get Started
       <Icon name='right arrow' />
-    </Button>
+    </Button> */}
   </Container>
 )
 
@@ -224,32 +225,27 @@ const HomepageLayout = () => (
         <Grid.Row>
           <Grid.Column width={8}>
             <Header as='h3' style={{ fontSize: '2em' }}>
-              We Help Companies and Companions
+              About:
             </Header>
             <p style={{ fontSize: '1.33em' }}>
             On July 11, 1981, the Richardson family and the Jones family were linked with the marriage of Kim Frank Richardson of Florida and Carol Anne Jones of Pennsylvania.
-<br/>
-This website seeks to house and chronicle the history/ancestry of both families for personal use, research, and future generations. Within these archives you'll find stories of love, records of war, and a small sampling of the many photos we have accumulated over the decades.
-<br/>
-Most of the information found here is available only thanks to the decades long research, dedication, and archival prowess of Kim Frank Richardson.
-            </p>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-              Some info about uncle jay
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-              Yes that's right, you thought it was the stuff of dreams, but even bananas can be
-              bioengineered.
+            <br/>
+            <br/>
+            This website seeks to house and chronicle the history/ancestry of both families for personal use, research, and future generations. Within these archives you'll find stories of love, records of war, and a small sampling of the many photos we have accumulated over the decades.
+            <br/>
+            <br/>
+            Most of the information found here is available only thanks to the decades long research, dedication, and archival prowess of Kim Frank Richardson.
             </p>
           </Grid.Column>
           <Grid.Column floated='right' width={6}>
-            <Image bordered rounded size='large' src='/images/wireframe/white-image.png' />
+            <Image bordered rounded size='large' src={wedding} />
           </Grid.Column>
         </Grid.Row>
-        <Grid.Row>
+        {/* <Grid.Row>
           <Grid.Column textAlign='center'>
             <Button size='huge'>Click Me</Button>
           </Grid.Column>
-        </Grid.Row>
+        </Grid.Row> */}
       </Grid>
     </Segment>
 
