@@ -6,10 +6,9 @@ const initialState = {
 
 const store = createStore((state = initialState, action) => { 
             console.log("Action:", action)
-        if (action.type === "CHANGE_DRINKS" ) {
+        if (action.type === "CHANGE_INFO" ) {
 
             return { ...state, drinkChoice : action.drinkChoice };
-
         } 
         else if (action.type === "MANUFACTURER_CHANGE") {
 
