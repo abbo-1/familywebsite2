@@ -10,7 +10,7 @@ const store = createStore((state = initialState, action) => {
 
             return { ...state, drinkChoice : action.drinkChoice };
         } 
-        else if (action.type === "MANUFACTURER_CHANGE") {
+        else if (action.type === "CHANGE_PHOTO") {
 
             console.log("in reducer manufacturer") 
             return { ...state, manufacturer : action.value };
