@@ -20,5 +20,5 @@ const store = createStore((state = initialState, action) => {
         return state;
     }
 });
-
+//functional component
 export default store;
