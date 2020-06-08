@@ -280,7 +280,7 @@ const HomepageLayout = () => (
           Probably won't keep this
         </p>
         <Button as='a' size='large'>
-          Read More
+          Jay richardson
         </Button>
 
         <Divider
