@@ -301,7 +301,7 @@ const HomepageLayout = () => (
           bananas can really dance.
         </p>
         <Button as='a' size='large'>
-          I'm Still Quite Interested
+          Kim Richardson
         </Button>
       </Container>
     </Segment>
