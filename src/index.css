@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.clydeButton {
+  /* border: 10px solid black */
+  /* background-image: './images/' */
+  border: 5px solid black
+}
+
+.clydeButton:hover {
+  cursor: pointer
+}
+
+.jonesButton {
+  border: 5px solid black
+}
+
+.jonesButton:hover {
+  cursor: pointer
+}
