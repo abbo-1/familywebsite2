@@ -14,18 +14,25 @@ code {
 
 .clydeButton {
   /* border: 10px solid black */
-  /* background-image: './images/' */
-  border: 5px solid black
+  background-image: url('./images/buttons/clydeFeatured.png');
+  border: 1px solid black;
+  width: 500px;
+  height: 220px;
 }
 
 .clydeButton:hover {
-  cursor: pointer
+  cursor: pointer;
+  background-image: url('./images/buttons/clydeHoverFeatured.png');
 }
 
 .jonesButton {
-  border: 5px solid black
+  border: 1px solid black;
+  background-image: url('./images/buttons/robertFeatured.png');
+  width: 500px;
+  height: 220px;
 }
 
 .jonesButton:hover {
-  cursor: pointer
+  cursor: pointer;
+  background-image: url('./images/buttons/robertHoverFeatured.png');
 }

@@ -253,20 +253,10 @@ const HomepageLayout = () => (
       <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <button class ="clydeButton" >
-            <Header as='h3' style={{ fontSize: '2em' }}>
-              Clyde James Richardson
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>A Biography: 1911 - 2002</p>
-            </button>
+            <button class ="clydeButton" />
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <button class="jonesButton">
-          <Header as='h3' style={{ fontSize: '2em' }}>
-              Robert Erskine Jones
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>A Biography: 1922 - 1962</p>
-            </button>
+            <button class="jonesButton" />
           </Grid.Column>
         </Grid.Row>
       </Grid>
