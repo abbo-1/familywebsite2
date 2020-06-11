@@ -18,11 +18,8 @@ import {
 } from 'semantic-ui-react'
 
 import backgroundImage from './images/backsplashWithLogo.png'
-// import zepfTimeline from './images/familyTrees/zepf.png'
 import wedding from './images/wedding.jpg'
 import logo from './images/logo.png'
-
-// import SimpleReactLightbox from "simple-react-lightbox";
 
 const getWidth = () => {
   const isSSR = typeof window === 'undefined'
@@ -112,7 +109,7 @@ class DesktopContainer extends Component {
                 <Menu.Item as='a'>Work</Menu.Item>
                 <Menu.Item position='right'>
                   <Button as='a' inverted={!fixed}>
-                    Log in
+                    Asian
                   </Button>
                   <Button as='a' inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>
                     Sign Up
@@ -163,7 +160,7 @@ class MobileContainer extends Component {
             Home
           </Menu.Item>
           <Menu.Item as='a'>Work</Menu.Item>
-          <Menu.Item as='a'>Company</Menu.Item>
+          <Menu.Item as='a'>Butternut Squash</Menu.Item>
           <Menu.Item as='a'>Careers</Menu.Item>
           <Menu.Item as='a'>Log in</Menu.Item>
           <Menu.Item as='a'>Sign Up</Menu.Item>
@@ -200,139 +197,3 @@ class MobileContainer extends Component {
     )
   }
 }
-
-MobileContainer.propTypes = {
-  children: PropTypes.node,
-}
-
-const ResponsiveContainer = ({ children }) => (
-  <div>
-    <DesktopContainer>{children}</DesktopContainer>
-    <MobileContainer>{children}</MobileContainer>
-  </div>
-)
-
-ResponsiveContainer.propTypes = {
-  children: PropTypes.node,
-}
-
-const HomepageLayout = () => (
-  <ResponsiveContainer >
-    <Segment style={{ padding: '8em 0em' }} vertical>
-    {/* <div class ="homePageBackground"> */}
-      <Grid container stackable verticalAlign='middle'>
-        <Grid.Row>
-          <Grid.Column width={8}>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-              About:
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-            On July 11, 1981, the Richardson family and the Jones family were linked with the marriage of Kim Frank Richardson of Florida and Carol Anne Jones of Pennsylvania.
-            <br/>
-            <br/>
-            This website seeks to house and chronicle the history/ancestry of both families for personal use, research, and future generations. Within these archives you'll find stories of love, records of war, and a small sampling of the many photos we have accumulated over the decades.
-            <br/>
-            <br/>
-            Most of the information found here is available only thanks to the decades long research, dedication, and archival prowess of Kim Frank Richardson.
-            </p>
-          </Grid.Column>
-          <Grid.Column floated='right' width={6}>
-            <Image bordered rounded size='large' src={wedding} />
-          </Grid.Column>
-        </Grid.Row>
-
-        {/* <Grid.Row>
-          <Grid.Column textAlign='center'>
-            <Button size='huge'>Click Me</Button>
-          </Grid.Column>
-        </Grid.Row> */}
-
-      </Grid>
-    </Segment>
-
-    <Segment  style={{ padding: '0em' }} vertical>
-      <Grid celled='internally' columns='equal' stackable>
-        <Grid.Row textAlign='center'>
-          <Grid.Column  style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-          <a href='./MainPage.js'><button class ="clydeButton" /></a>
-          </Grid.Column>
-          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <button class="jonesButton" />
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-    </Segment>
-
-    <Segment style={{ padding: '8em 0em' }} vertical>
-      <Container text>
-        <Header as='h3' style={{ fontSize: '2em' }}>
-          Check out our image gallery
-        </Header>
-        <Button as='a' size='large'>
-          Go
-        </Button>
-        
-
-        <Divider
-          as='h4'
-          className='header'
-          horizontal
-          style={{ margin: '3em 0em', textTransform: 'uppercase' }}
-        >
-          <a href='#'>Family Trees</a>
-        </Divider>
-
-        <Header as='h3' style={{ fontSize: '2em' }}>
-          These are our most up to date family trees.
-        </Header>
-        <SimpleReactLightbox>
-          {zepfTimeline}
-        </SimpleReactLightbox>
-        <p style={{ fontSize: '1.33em' }}>
-          Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but
-          it's really true. It took years of gene splicing and combinatory DNA research, but our
-          bananas can really dance.
-        </p>
-
-      </Container>
-    </Segment>
-
-
-    <Segment inverted vertical style={{ padding: '5em 0em' }}>
-      <Container>
-        <Grid divided inverted stackable>
-          <Grid.Row>
-            <Grid.Column width={3}>
-              <Header inverted as='h4' content='About' />
-              <List link inverted>
-                <List.Item as='a'>Sitemap</List.Item>
-                <List.Item as='a'>Contact Us</List.Item>
-                <List.Item as='a'>Religious Ceremonies</List.Item>
-                <List.Item as='a'>Gazebo Plans</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={3}>
-              <Header inverted as='h4' content='Services' />
-              <List link inverted>
-                <List.Item as='a'>Banana Pre-Order</List.Item>
-                <List.Item as='a'>DNA FAQ</List.Item>
-                <List.Item as='a'>How To Access</List.Item>
-                <List.Item as='a'>Favorite X-Men</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={7}>
-              <Header as='h4' inverted>
-                Footer Header
-              </Header>
-              <p>
-                Extra space for a call to action inside the footer that could help re-engage users.
-              </p>
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
-      </Container>
-    </Segment>
-  </ResponsiveContainer>
-)
-
-export default HomepageLayout
