@@ -18,11 +18,17 @@ import {
 } from 'semantic-ui-react'
 
 import backgroundImage from './images/backsplashWithLogo.png'
-// import zepfTimeline from './images/familyTrees/zepf.png'
+
+import zepfTree from './images/familyTrees/zepf.png'
+import abbottTree from './images/familyTrees/abbott.png'
+import haskellReedTree from './images/familyTrees/haskellReed.png'
+import haskellTree from './images/familyTrees/haskell.png'
+
 import wedding from './images/wedding.jpg'
 import logo from './images/logo.png'
 
-// import SimpleReactLightbox from "simple-react-lightbox";
+import SimpleReactLightbox from "simple-react-lightbox";
+import { SRLWrapper } from "simple-react-lightbox";
 
 const getWidth = () => {
   const isSSR = typeof window === 'undefined'
@@ -268,8 +274,11 @@ const HomepageLayout = () => (
         <Header as='h3' style={{ fontSize: '2em' }}>
           Check out our image gallery
         </Header>
+        <p style={{ fontSize: '1.33em' }}>
+          Our Image Gallery is full of pictures and documents from our entire family. Some of our photos of all the way back to the mid 19th century.
+        </p>
         <Button as='a' size='large'>
-          Go
+          Image Gallery
         </Button>
         
 
@@ -279,19 +288,25 @@ const HomepageLayout = () => (
           horizontal
           style={{ margin: '3em 0em', textTransform: 'uppercase' }}
         >
-          <a href='#'>Family Trees</a>
+          <a>Family Trees</a>
         </Divider>
 
         <Header as='h3' style={{ fontSize: '2em' }}>
-          These are our most up to date family trees.
+        Click on one to make it bigger.
         </Header>
         <SimpleReactLightbox>
-          {zepfTimeline}
+        <SRLWrapper>
+        <img src={zepfTree} class="familyTree" alt="This is the Zepf family tree" />
+        <img src={abbottTree} class="familyTree" alt="This is the Abbott family tree" />
+        <img src={haskellTree} class="familyTree" alt="This is the Haskell family tree" />
+        <img src={haskellReedTree} class="familyTree" alt="This is the Haskell/Reed family tree" />
+
+        </SRLWrapper>
         </SimpleReactLightbox>
+
         <p style={{ fontSize: '1.33em' }}>
-          Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but
-          it's really true. It took years of gene splicing and combinatory DNA research, but our
-          bananas can really dance.
+
+          
         </p>
 
       </Container>
