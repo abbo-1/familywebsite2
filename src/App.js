@@ -17,6 +17,19 @@ import {
   Visibility,
 } from 'semantic-ui-react'
 
+import clsx from 'clsx';
+import { makeStyles } from '@material-ui/core/styles';
+import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
+import MaterialButton from '@material-ui/core/Button';
+import MaterialList from '@material-ui/core/List';
+import MaterialDivider from '@material-ui/core/Divider';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import InboxIcon from '@material-ui/icons/MoveToInbox';
+// import MailIcon from '@material-ui/icons/Mail';
+import 'semantic-ui-css/semantic.min.css'
+
 import backgroundImage from './images/backsplashWithLogo.png'
 
 import zepfTree from './images/familyTrees/zepf.png'
@@ -115,7 +128,7 @@ class DesktopContainer extends Component {
                 <Menu.Item as='a' active>
                   Home
                 </Menu.Item>
-                <Menu.Item as='a'>Work</Menu.Item>
+                <Menu.Item as='a'>Archives</Menu.Item>
                 <Menu.Item position='right'>
                   <Button as='a' inverted={!fixed}>
                     Log in
