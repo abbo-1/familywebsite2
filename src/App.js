@@ -17,18 +17,10 @@ import {
   Visibility,
 } from 'semantic-ui-react'
 
-import clsx from 'clsx';
-import { makeStyles } from '@material-ui/core/styles';
-import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import MaterialButton from '@material-ui/core/Button';
-import MaterialList from '@material-ui/core/List';
-import MaterialDivider from '@material-ui/core/Divider';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-// import MailIcon from '@material-ui/icons/Mail';
-import 'semantic-ui-css/semantic.min.css'
+import ButtonGroup from '@material-ui/core/ButtonGroup';
+import { makeStyles } from '@material-ui/core/styles';
+
 
 import backgroundImage from './images/backsplashWithLogo.png'
 
@@ -89,6 +81,17 @@ const HomepageHeading = ({ mobile }) => (
 HomepageHeading.propTypes = {
   mobile: PropTypes.bool,
 }
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    '& > *': {
+      margin: theme.spacing(1),
+    },
+  },
+}));
+
+const classes = useStyles();
 
 /* Heads up!
  * Neither Semantic UI nor Semantic UI React offer a responsive navbar, however, it can be implemented easily.
@@ -152,6 +155,7 @@ class DesktopContainer extends Component {
 DesktopContainer.propTypes = {
   children: PropTypes.node,
 }
+
 
 class MobileContainer extends Component {
   state = {}
@@ -280,6 +284,42 @@ const HomepageLayout = () => (
           </Grid.Column>
         </Grid.Row>
       </Grid>
+    </Segment>
+
+    <Segment style={{ padding: '8em 0em' }} vertical>
+    <Grid celled='internally' columns='equal' stackable>
+    <div className={classes.root}>
+      <ButtonGroup
+        orientation="vertical"
+        color="primary"
+        aria-label="vertical outlined primary button group"
+      >
+        <Button>One</Button>
+        <Button>Two</Button>
+        <Button>Three</Button>
+      </ButtonGroup>
+      <ButtonGroup
+        orientation="vertical"
+        color="primary"
+        aria-label="vertical contained primary button group"
+        variant="contained"
+      >
+        <Button>One</Button>
+        <Button>Two</Button>
+        <Button>Three</Button>
+      </ButtonGroup>
+      <ButtonGroup
+        orientation="vertical"
+        color="primary"
+        aria-label="vertical contained primary button group"
+        variant="text"
+      >
+        <Button>One</Button>
+        <Button>Two</Button>
+        <Button>Three</Button>
+      </ButtonGroup>
+    </div>
+    </Grid>
     </Segment>
 
     <Segment style={{ padding: '8em 0em' }} vertical>
