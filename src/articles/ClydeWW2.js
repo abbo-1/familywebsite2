@@ -226,7 +226,7 @@ const ClydeWW2 = () => (
 
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
-                <Header as='h3' style={{ fontSize: '1.5em' }}>November 1 - November 20, 1942</Header>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>November 1 - 20, 1942</Header>
             </Grid.Column>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
                 <p style={{ fontSize: '1em' }}>
@@ -526,7 +526,7 @@ const ClydeWW2 = () => (
 
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
-                <Header as='h3' style={{ fontSize: '1.5em' }}>April 21 - April 27, 1944</Header>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>April 21 - 27, 1944</Header>
             </Grid.Column>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
                 <p style={{ fontSize: '1em' }}>
@@ -710,6 +710,252 @@ const ClydeWW2 = () => (
                 </p>
             </Grid.Column>
         </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 12, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                Carriers launched air strikes against Guam and Tinian.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 13, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                The Task Force is just 26 miles east of Saipan Island. 
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 14, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                Steaming in company with USS Bunker Hill (CV-17), Wasp (CV-7), Monterey (CVK-26), Cabot (CVL-28), Mobile (CL-63), Biloxi (CL-80), Santa Fe(CL-60) and Desron 52, Iowa (BB-61), New Jersey (BB-62) and USS Sullivans (DD-537).  At 0433 Bunker Hill (CV-17) launched air strike against Rota Island.  At 1251 the Marshall refueled from the Iowa (BB-61).
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 15, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                Fired on enemy plane 14,000 yards off the port quarter.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 16, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                0653—commenced fueling from USS Platte (AO-24).
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 19-20, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                Battle of the Philippine Sea (Marianas Turkey Shoot).  During the course of this battle the Japanese lost 3 aircraft carriers and 395 carrier based planes.  The Marshall was credited with an assist on downing two planes.  The Marshall was with Admiral Marc Mitscher when 216 planes were returning from a raid on Admiral Ozawa’s fleet.  It was after dark and unable to find the carriers, the planes began to run out of gas and crash into the sea.  At the risk of a submarine attack, Mitcher ordered the Task Force to turn on its lights.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 19, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                0541-Enemy aircraft reported at a distance of 25 miles, went to general quarters.  0637-Secured from general quarters.  1014-Large group of enemy aircraft reported at 114 miles and closing on task force.  1022-Went to general quarters.  1112-Enemy aircraft attacking other task groups near our formation.  1451-Secured from general quarters.  1817-Enemy aircraft reported closing our formation went to general quarters.  1853-Secured from general quarters as enemy planes turned away from our formation.  During day’s operations, Marshall assisted in shooting down two enemy planes over the formation.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 20, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                1545-Ctf 58 received contact report of Japanese Fleet, bearing 290 degrees distant 215 miles.  All carriers ordered to prepare to launch planes for strike.  1627-Carriers launched aircraft for strike against Japanese Task Force bearing 280 degrees, distant 250 miles.  2140 maneuvered at various courses and speeds to recover crash survivors.  2150-Stopped to recover 3 survivors from the USS San Jacinto (CVL-39).
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 21, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                0932-recovered 2 airmen from USS Bunker Hill (CV-17).
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+                
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 23, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                Steaming with CTF (carrier task force) 58 with USS Lexington (CV-16).  1205-General quarters as enemy planes reported in the area.  1224-secured from general quarters
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 25, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                Steaming in company with TG 58.2 composed of Bunker hill (CV-17), Wasp (CV-7), Cabot (CVL-28), Monterey CVL-26) and South Dakota (BB-57).
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 27, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                1048-Moored in Eniwetok next to Arethusa (IX-135) (tanker) to receive Navy special fuel oil.  1225-completed refueling.  1234-underway to port side USS Neshavic (AO-71) to receive diesel oil.  1340-completed refueling and anchored at berth 578 Eniwetok Harbor, Marshall Islands.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+        
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>June 30, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                0702-underway.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>July 4, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                Participated in the strikes against Chichi Jima and Iwo Jima.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>July 13, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                Formed screen for 10 ships.  Marshall assigned to screening station #9.  1122-commenced refueling with USS Pecos (AO-65).
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>July 14, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                Wasp (CV-7) and Monterey (CVL-26) commenced launching air strikes against Guam.  1540-Franklin (CV-13) and Monterey (CVL-26) commenced flight operations.  1816-Hickox (DD-673) arrived alongside for passing mail.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>July 15, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                0600-Formation commenced refueling operations.  Screen rotating revolving to cover destroyers involved.  0980-Carriers commenced flight operations.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>July 17, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                1217-Formation commenced scheduled fueling operations.  1546-arrived portside of USS Schuylkill (AO-76) for refueling.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>July 18, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                Steaming with TG 58.2 composed of Wasp (CV-7), Franklin (CV-13), Monterey (CVL-26), Boston (CA-69), Canberra (CA-70), San Juan (CL-54) and DesRon 52 at a speed of 22 knots.  Marshall (DD-676) on picket station 10 miles ahead of formation.  0846-received mail from Hancock.  1420-Marshall commenced test firing of automatic weapons.  1433-secured from drill.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>July 19, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                1356-All carriers commenced flight operations for strikes on Guam.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>July 21, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                0527-Carriers commenced launching planes for strikes on Guam.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <Header as='h3' style={{ fontSize: '1.5em' }}>July 22, 1944</Header>
+            </Grid.Column>
+            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+                <p style={{ fontSize: '1em' }}>
+                0831-exercised at general quarters for drill.  0904-secured from general quarters.  0957-Arrived along side of USS Franklin (CV-13) to transfer SC1 Paulson with acute appendicitis.  1902-Anchored in Garapan Roads, Saipan Island, Marinas islands with various units of the U.S. Pacific fleet.  Ship darkened.  Gunfire and illumination observed on Saipan Island through watch.
+                </p>
+            </Grid.Column>
+        </Grid.Row>
+
+
+
+
 
     </Grid>
 </Segment>
