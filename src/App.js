@@ -17,11 +17,6 @@ import {
   Visibility,
 } from 'semantic-ui-react'
 
-import MaterialButton from '@material-ui/core/Button';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
-import { makeStyles } from '@material-ui/core/styles';
-
-
 import backgroundImage from './images/backsplashWithLogo.png'
 
 import zepfTree from './images/familyTrees/zepf.png'
@@ -34,6 +29,8 @@ import logo from './images/logo.png'
 
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
+
+import ButtonList from './Buttonlist.js'
 
 const getWidth = () => {
   const isSSR = typeof window === 'undefined'
@@ -81,17 +78,6 @@ const HomepageHeading = ({ mobile }) => (
 HomepageHeading.propTypes = {
   mobile: PropTypes.bool,
 }
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    '& > *': {
-      margin: theme.spacing(1),
-    },
-  },
-}));
-
-const classes = useStyles();
 
 /* Heads up!
  * Neither Semantic UI nor Semantic UI React offer a responsive navbar, however, it can be implemented easily.
@@ -288,37 +274,7 @@ const HomepageLayout = () => (
 
     <Segment style={{ padding: '8em 0em' }} vertical>
     <Grid celled='internally' columns='equal' stackable>
-    <div className={classes.root}>
-      <ButtonGroup
-        orientation="vertical"
-        color="primary"
-        aria-label="vertical outlined primary button group"
-      >
-        <Button>One</Button>
-        <Button>Two</Button>
-        <Button>Three</Button>
-      </ButtonGroup>
-      <ButtonGroup
-        orientation="vertical"
-        color="primary"
-        aria-label="vertical contained primary button group"
-        variant="contained"
-      >
-        <Button>One</Button>
-        <Button>Two</Button>
-        <Button>Three</Button>
-      </ButtonGroup>
-      <ButtonGroup
-        orientation="vertical"
-        color="primary"
-        aria-label="vertical contained primary button group"
-        variant="text"
-      >
-        <Button>One</Button>
-        <Button>Two</Button>
-        <Button>Three</Button>
-      </ButtonGroup>
-    </div>
+      <ButtonList/>
     </Grid>
     </Segment>
 
