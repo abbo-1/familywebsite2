@@ -32,6 +32,8 @@ import { SRLWrapper } from "simple-react-lightbox";
 
 import ButtonList from './Buttonlist.js'
 
+import ClydeWW2 from './articles/ClydeWW2.js'
+
 const getWidth = () => {
   const isSSR = typeof window === 'undefined'
 
@@ -271,6 +273,8 @@ const HomepageLayout = () => (
         </Grid.Row>
       </Grid>
     </Segment>
+
+    <ClydeWW2/>
 
     <Segment style={{ padding: '8em 0em' }} vertical>
     <Grid celled='internally' columns='equal' stackable>
