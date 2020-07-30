@@ -50,3 +50,11 @@ code {
   width: 200px;
   height: auto;
 }
+
+  .ui.inverted.vertical.center.aligned.segment {
+    /* background: #a11f1f; */
+    background-image: url('./images/backsplash.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+  }
