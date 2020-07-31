@@ -42,6 +42,7 @@ import { SRLWrapper } from "simple-react-lightbox";
 import ButtonList from './Buttonlist.js'
 
 import ClydeWW2 from './articles/ClydeWW2.js'
+import Home from './home.js'
 
 const getWidth = () => {
   const isSSR = typeof window === 'undefined'
@@ -56,7 +57,7 @@ const getWidth = () => {
 const HomepageHeading = ({ mobile }) => (
   <Container text>
     {/* <img src={backgroundImage} class="background" alt="logo" /> */}
-    <img src={logo} class="welcomeLogo" alt="logo" />
+    {/* <img src={logo} class="welcomeLogo" alt="logo" /> */}
     {/* <Header
       as='h1'
       
@@ -238,114 +239,19 @@ ResponsiveContainer.propTypes = {
 
 const HomepageLayout = () => (
   <ResponsiveContainer >
-    <Segment style={{ padding: '8em 0em' }} vertical>
-    {/* <div class ="homePageBackground"> */}
-      <Grid container stackable verticalAlign='middle'>
-        <Grid.Row>
-          <Grid.Column width={8}>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-              About:
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-            On July 11, 1981, the Richardson family and the Jones family were linked with the marriage of Kim Frank Richardson of Florida and Carol Anne Jones of Pennsylvania.
-            <br/>
-            <br/>
-            This website seeks to house and chronicle the history/ancestry of both families for personal use, research, and future generations. Within these archives you'll find stories of love, records of war, and a small sampling of the many photos we have accumulated over the decades.
-            <br/>
-            <br/>
-            Most of the information found here is available only thanks to the decades long research, dedication, and archival prowess of Kim Frank Richardson.
-            </p>
-          </Grid.Column>
-          <Grid.Column floated='right' width={6}>
-            <Image bordered rounded size='large' src={wedding} />
-          </Grid.Column>
-        </Grid.Row>
-
-        {/* <Grid.Row>
-          <Grid.Column textAlign='center'>
-            <Button size='huge'>Click Me</Button>
-          </Grid.Column>
-        </Grid.Row> */}
-
-      </Grid>
-    </Segment>
-
-    <Segment  style={{ padding: '0em' }} vertical>
-      <Grid celled='internally' columns='equal' stackable>
-        <Grid.Row textAlign='center'>
-          <Grid.Column  style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-          <a href='./MainPage.js'><button class ="clydeButton" /></a>
-          </Grid.Column>
-          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <button class="jonesButton" />
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-    </Segment>
-
-    <ClydeWW2/>
-
-    <Segment style={{ padding: '8em 0em' }} vertical>
-    <Grid celled='internally' columns='equal' stackable>
-      <ButtonList/>
-    </Grid>
-    </Segment>
-
-    <Segment style={{ padding: '8em 0em' }} vertical>
-      <Container text>
-        <Header as='h3' style={{ fontSize: '2em' }}>
-          Check out our image gallery
-        </Header>
-        <p style={{ fontSize: '1.33em' }}>
-          Our Image Gallery is full of pictures and documents from our entire family. Some of our photos of all the way back to the mid 19th century.
-        </p>
-        <Button as='a' size='large'>
-          Image Gallery
-        </Button>
-        
-
-        <Divider
-          as='h4'
-          className='header'
-          horizontal
-          style={{ margin: '3em 0em', textTransform: 'uppercase' }}
-        >
-          <a>Family Trees</a>
-        </Divider>
-
-        <Header as='h3' style={{ fontSize: '2em' }}>
-        Click on one to make it bigger.
-        </Header>
-        <SimpleReactLightbox>
-        <SRLWrapper>
-        <img src={zepfTree} class="familyTree" alt="This is the Zepf family tree" />
-        <img src={abbottTree} class="familyTree" alt="This is the Abbott family tree" />
-        <img src={haskellTree} class="familyTree" alt="This is the Haskell family tree" />
-        <img src={haskellReedTree} class="familyTree" alt="This is the Haskell/Reed family tree" />
-
-        </SRLWrapper>
-        </SimpleReactLightbox>
-
-        <p style={{ fontSize: '1.33em' }}>
-
-          
-        </p>
-
-      </Container>
-    </Segment>
+    <Switch>
+    <Route path='/' component={Home} />
+    </Switch>
 
 
     <Segment inverted vertical style={{ padding: '5em 0em' }}>
       <Container>
         <Grid divided inverted stackable>
           <Grid.Row>
-            <Grid.Column width={3}>
+            <Grid.Column width={4}>
               <Header inverted as='h4' content='About' />
               <List link inverted>
-                <List.Item as='a'>Sitemap</List.Item>
-                <List.Item as='a'>Contact Us</List.Item>
-                <List.Item as='a'>Religious Ceremonies</List.Item>
-                <List.Item as='a'>Gazebo Plans</List.Item>
+                <List.Item as='a'>Website designed and maintained by Kevin Abbott</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
