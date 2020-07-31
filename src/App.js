@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 import 'semantic-ui-css/semantic.min.css'
 
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -42,7 +41,8 @@ import { SRLWrapper } from "simple-react-lightbox";
 import ButtonList from './Buttonlist.js'
 
 import ClydeWW2 from './articles/ClydeWW2.js'
-import Home from './home.js'
+import Home from './Home.js'
+import ArticleSelection from './ArticleSelection.js'
 
 const getWidth = () => {
   const isSSR = typeof window === 'undefined'
@@ -127,9 +127,9 @@ class DesktopContainer extends Component {
             >
               <Container>
                 <Menu.Item as='a' active>
-                  Home
+                <Link to="/">Home</Link>
                 </Menu.Item>
-                <Menu.Item as='a'>Archives</Menu.Item>
+                <Menu.Item as='a'><Link to="/History">Archives</Link></Menu.Item>
                 <Menu.Item position='right'>
                   <Button as='a' inverted={!fixed}>
                     Log in
@@ -239,8 +239,11 @@ ResponsiveContainer.propTypes = {
 
 const HomepageLayout = () => (
   <ResponsiveContainer >
+{/* 000000000000000000000000000000000000000000000000000000000000000000000000 */}
     <Switch>
-    <Route path='/' component={Home} />
+    <Route exact path='/' component={Home} />
+    <Route path='/History' component={ArticleSelection} />
+    <Route component={Error} />
     </Switch>
 
 

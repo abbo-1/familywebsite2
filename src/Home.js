@@ -88,11 +88,11 @@ const Home = () => (
   </Grid>
   </Segment>
 
-<Segment style={{ padding: '8em 0em' }} vertical>
+{/* <Segment style={{ padding: '8em 0em' }} vertical>
 <Grid celled='internally' columns='equal' stackable>
   <ButtonList/>
 </Grid>
-</Segment>
+</Segment> */}
 
 <Segment style={{ padding: '8em 0em' }} vertical>
   <Container text>
