@@ -38,9 +38,6 @@ import logo from './images/logo.png'
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
-import ButtonList from './Buttonlist.js'
-
-import ClydeWW2 from './articles/ClydeWW2.js'
 import Home from './Home.js'
 import ArticleSelection from './ArticleSelection.js'
 

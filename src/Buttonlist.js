@@ -1,9 +1,22 @@
 import React from 'react'
 import { Button, Divider, Segment, Header, Grid } from 'semantic-ui-react'
 
+// import {
+//     Switch,
+//     Route,
+//     Link
+//   } from "react-router-dom";
+
+import ClydeWW2 from './articles/ClydeWW2.js'
+
 const ButtonExampleGroupBasic = () => (
 <React.Fragment>
-{/* <Divider /> */}
+{/* <Switch>
+    {/* <Route exact path='/' component={Home} /> */}
+    {/* <Route path='/ClydeWW2' component={ClydeWW2} />
+    <Route component={Error} />
+</Switch> */} */}
+<Divider />
 <Segment  style={{ padding: '0em 0em' }} vertical>
 <Grid celled='internally' columns='equal' stackable>
 <Grid.Row textAlign='center'>
