@@ -39,8 +39,6 @@ import logo from './images/logo.png'
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
-import ButtonList from './Buttonlist.js'
-
 const Home = () => (
     <div>
 <Segment style={{ padding: '8em 0em' }} vertical>
@@ -87,12 +85,6 @@ const Home = () => (
     </Grid.Row>
   </Grid>
   </Segment>
-
-{/* <Segment style={{ padding: '8em 0em' }} vertical>
-<Grid celled='internally' columns='equal' stackable>
-  <ButtonList/>
-</Grid>
-</Segment> */}
 
 <Segment style={{ padding: '8em 0em' }} vertical>
   <Container text>
