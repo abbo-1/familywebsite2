@@ -51,10 +51,15 @@ code {
   height: auto;
 }
 
-  .ui.inverted.vertical.center.aligned.segment {
+.ui.inverted.vertical.center.aligned.segment {
     background: #000000; 
     background-image: url('./images/backsplashWithLogo.png');
     background-repeat: no-repeat;
     background-size: 100%;
     width:100%;
-  }
+}
+
+.articleButtons.hover {
+    cursor: pointer;
+    border-color: black;
+ }

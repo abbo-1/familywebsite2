@@ -239,7 +239,7 @@ const HomepageLayout = () => (
 {/* 000000000000000000000000000000000000000000000000000000000000000000000000 */}
     <Switch>
     <Route exact path='/' component={Home} />
-    <Route path='/History' component={ArticleSelection} />
+    <Route path='/history' component={ArticleSelection} />
     <Route component={Error} />
     </Switch>
 
