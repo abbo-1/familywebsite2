@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 
 import {
@@ -11,29 +10,29 @@ import {
   import 'semantic-ui-css/semantic.min.css'
   import {
     Button,
-    Container,
     Divider,
     Grid,
     Header,
-    Icon,
-    Image,
-    List,
-    Menu,
-    Responsive,
     Segment,
-    Sidebar,
-    Visibility,
   } from 'semantic-ui-react'
 
-  function ArticleSelection() {
+  function ArticleSelection({ visible, children }) {
+    const [isVisible, setVisibility] = useState(null);
 
-    function loadIt(){
-      console.log("Beeps")
+    function makeVisible () {
+      setVisibility = useState(true)
     }
 
+    useEffect(() => {
+      setVisibility(visible); // update the state
+  }, [visible]); // hook is only triggered when value changes
+
+    // function loadIt(){
+    //   console.log("brownsound")
+    // }
+
     return (
-
-
+      
 
 
 //   export const ArticleSelection = ({ visible, children }) => {
@@ -108,7 +107,7 @@ import {
         Richardson:
     </Header>
     <Button.Group basic vertical>
-        <Button onClick={loadIt} class="articleButtons">Clyde Richardson's WWII Service</Button>
+        <Button onClick={makeVisible} class="makeVisible">Clyde Richardson's WWII Service</Button>
         <Button>Clyde and Edna: From War to Marriage</Button>
         <Button>Kim Richardson: Four Years in the US Navy</Button>
         <Button>Kim and Carol: A Perfect Match</Button>
