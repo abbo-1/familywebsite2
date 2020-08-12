@@ -16,16 +16,25 @@ import {
     Segment,
   } from 'semantic-ui-react'
 
-  function ArticleSelection({ visible, children }) {
-    const [isVisible, setVisibility] = useState(null);
+  import ClydeWWII from './articles/ClydeWW2.js'
 
-    function makeVisible () {
-      setVisibility = useState(true)
+  function ArticleSelection() {
+    const [visible, setVisible] = useState(true);
+
+    function makeVisible() {
+      setVisible(!visible);
     }
 
-    useEffect(() => {
-      setVisibility(visible); // update the state
-  }, [visible]); // hook is only triggered when value changes
+
+  //   const [isVisible, setVisibility] = useState(null);
+
+  //   function makeVisible () {
+  //     setVisibility = useState(true)
+  //   }
+
+  //   useEffect(() => {
+  //     setVisibility(visible); // update the state
+  // }, [visible]); // hook is only triggered when value changes
 
     // function loadIt(){
     //   console.log("brownsound")
@@ -90,7 +99,9 @@ import {
 <Grid.Row textAlign='center'>
 <Grid.Column  style={{ paddingBottom: '5em', paddingTop: '5em' }}>
 
-<span>test</span>
+{/* <span>test</span> */}
+{/* {visible && ClydeWWII } */}
+{visible && "Bride and Phillips" }
 
 </Grid.Column>
 </Grid.Row>
