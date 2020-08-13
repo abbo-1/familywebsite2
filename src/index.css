@@ -59,7 +59,11 @@ code {
     width:100%;
 }
 
-.articleButtons.hover {
+.articleButtons:hover {
     cursor: pointer;
-    border-color: black;
+    border: 1px solid black;
  }
+
+ .articleButtons:active {
+  background-color: yellow;
+}

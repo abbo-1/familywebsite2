@@ -151,7 +151,7 @@ const ClydeWW2 = () => (
             </Grid.Column>
         </Grid.Row>
 
-        <Grid.Row textAlign='center'>
+        <Grid.Row textAlign='left'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
                 <Header as='h3' style={{ fontSize: '1.5em' }}>September 13, 1942 </Header>
             </Grid.Column>
@@ -162,23 +162,33 @@ const ClydeWW2 = () => (
                     <br/>
                     The Sea was calm and the sky was overcast.  The SS Oliver Ellsworth, a 7,191-ton liberty ship that was not yet three months old.  She sailed with convoy PQ-18 and was just west of the Southern Cape of Spitsbergen, headed for Murmansk.  Each sailor knew the disaster that happened to the previous convoy, PQ-17.  The Convoy had been at sea since September 2, when it departed Loch Ewe in Northwest Scotland.  Yesterday, after several alarms, definite contact was made with a German patrol plane.  Now 40 merchant ships, 24 destroyers, an escort carrier and several smaller vessels were waiting for the inevitable attack.
                     <br/>
+                    <br/>
 	                On the starboard side of the convoy, the SS Oliver Ellsworth, a freighter, kept station.  It was just a little before 8:00 A.M. and the crew was just finishing up breakfast.  Petty Officer Third Class Clyde Richardson and a young merchant sailor emerged on deck from the Mess Decks.  General Quarters was to be called soon.
+                    <br/>
                     <br/>
 	                While standing by the rail, amidships, they both spotted a periscope about 200 yards away.  As they watched, it slipped under the waves.  A short time later a torpedo slammed into the stern.  The ship bucked and then began to settle by the stern.
                     <br/>
+                    <br/>
 	                Petty Officer Richardson ran for his General Quarters station and strapped himself to his 20-millimeter anti-aircraft gun.  Richardson soon realized that the ship was going to sink.    He unstrapped himself and began to make his way aft to his berthing area to get his life jacket.  After seeing water beginning to come over the stern, he changed direction to his abandon ship station.
+                     <br/>
                      <br/>
 	                The Ellsworth had four lifeboats.  Petty Officer Richardson’s station was the second boat on the port side.  By the time he arrived, the first boat was being lowered.  The man handling the forward line let it go to soon and the boat hit the water bow first and capsized.  The second boat made it.
                     <br/>
+                    <br/>
 	                There, being no ladder, Richardson jumped down the eight feet from the deck to the boat.  He and the three other sailors tried to hold the boat next to the ship so others could board it.  As the momentum of the ship carried the ship forward and the waves pushed the boat back, the men lost in their effort to keep the boat along side the Ellsworth.
+                    <br/>
                     <br/>
 	                They began to search and pick up other crewmembers that had jumped overboard. One crewman that made it was Charles R. Cronk.   In less than an hour the British armed trawler HMS St. Kenan picked them up and continued looking for survivors.  Later the St. Kenan sunk the Ellsworth with gunfire.
                     <br/>
+                    <br/>
 	                Later in the day the crew was transferred to a British light Cruiser.  30 to 40 Junkers 88s and Heinkel 111s began their attack on the convoy.  The Ellsworth gun crews were assigned to help the British gunners, as they attempted to knock down German Planes that flew overhead.  They just got brief glimpses of them through the low clouds and were unable to score any hits as the Cruiser left the convoy to return to Scapa Flow.
+                    <br/>
                     <br/>
 	                The following notation was entered in Clyde Richardson’s service record-“Performed meritorious service as a member of the Armed Guard Crew of a merchant vessel during attack and subsequent sinking of vessel by an enemy submarine on 13 September 1942.”
                     <br/>
+                    <br/>
 	                A couple of days later they arrived at Scapa Flow.  Only one of the Ellsworth crew was lost.  Of the 40 merchantmen that started with the convoy, 13 were lost.  The U-Boat that sunk the Ellsworth was the U-589.  Later that day the U-589 picked up four German Airmen from the water.  The very next day the HMS Onslow sunk the U-589 with Captain Hans-Joachim Horrer and all hands. 
+                    <br/>
                     <br/>
 	                The following notation was entered in Petty Officer Richardson’s service record-“Performed meritorious service as a member of the Armed Guard Crew of a merchant vessel during attack and subsequent sinking of vessel by an enemy submarine on 13 September 1942.”
                 </p>

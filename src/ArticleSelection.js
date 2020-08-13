@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './index.css';
 
 import {
     BrowserRouter as Router,
@@ -17,13 +18,15 @@ import {
   } from 'semantic-ui-react'
 
   import ClydeWWII from './articles/ClydeWW2.js'
+  import ClydeAndEdna from './articles/ClydeAndEdna.js'
 
   function ArticleSelection() {
-    const [visible, setVisible] = useState(true);
+    const [visible, setVisible] = useState(false);
 
     function makeVisible() {
       setVisible(!visible);
     }
+
 
 
   //   const [isVisible, setVisibility] = useState(null);
@@ -94,20 +97,6 @@ import {
 // const ArticleSelection = () => (
 <React.Fragment>
 
-<Segment  style={{ padding: '0em 0em' }} vertical>
-<Grid celled='internally' columns='equal' stackable>
-<Grid.Row textAlign='center'>
-<Grid.Column  style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-
-{/* <span>test</span> */}
-{/* {visible && ClydeWWII } */}
-{visible && "Bride and Phillips" }
-
-</Grid.Column>
-</Grid.Row>
-</Grid>
-</Segment>
-
  <Divider /> 
 
 <Segment  style={{ padding: '0em 0em' }} vertical>
@@ -118,8 +107,9 @@ import {
         Richardson:
     </Header>
     <Button.Group basic vertical>
-        <Button onClick={makeVisible} class="makeVisible">Clyde Richardson's WWII Service</Button>
+        <Button onClick={makeVisible} class="articleButtons">Clyde Richardson's WWII Service</Button>
         <Button>Clyde and Edna: From War to Marriage</Button>
+        <Button>Clyde's Memories of Sanibel Island 1911- 1926</Button>
         <Button>Kim Richardson: Four Years in the US Navy</Button>
         <Button>Kim and Carol: A Perfect Match</Button>
         <Button>Richardson's in Ft. Myers 1924- 1938</Button>
@@ -184,6 +174,21 @@ import {
         <Button>Conrad Zulick: A Biography 1838 - 1926</Button>
     </Button.Group>
     </Grid.Column>
+
+    <Segment  style={{ padding: '0em 0em' }} vertical>
+<Grid celled='internally' columns='equal' stackable>
+<Grid.Row textAlign='center'>
+<Grid.Column  style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+
+{/* <span>test</span> */}
+{visible && <ClydeWWII/> }
+{/* {visible && "boxhall" } */}
+<ClydeAndEdna/>
+
+</Grid.Column>
+</Grid.Row>
+</Grid>
+</Segment>
 
 </Grid.Row>
 </Grid>
