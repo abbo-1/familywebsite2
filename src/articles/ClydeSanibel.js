@@ -19,7 +19,7 @@ const ClydeSanibel = () => (
         </Grid.Row>
 
         <Grid.Row textAlign='left'>
-            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '.5em' }} >
+            <Grid.Column  width={6} style={{ paddingBottom: '1em', paddingTop: '.5em', paddingLeft: '6em', paddingRight: '6em'}} >
                 <p style={{ fontSize: '1.33em' }}>
                 <br/>
                 Lucy Reed came to Sanibel with her father, Captain William Reed and her brother Will Reed and laid claim to 160 acres of land along San Carlos Bay in 1887.  Captain Reed had seen Sanibel Island when he served in the United States Navy during the Civil War.
