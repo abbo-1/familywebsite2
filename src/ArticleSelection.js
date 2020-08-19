@@ -20,6 +20,8 @@ import {
   import ClydeWWII from './articles/ClydeWW2.js'
   import ClydeAndEdna from './articles/ClydeAndEdna.js'
   import RichardsonFtMyer from './articles/RichardsonFtMyer.js'
+  import RichardsonGainesville from './articles/RichardsonGainesville.js'
+
 
   function ArticleSelection() {
     const [visible, setVisible] = useState(false);
@@ -185,7 +187,8 @@ import {
 {visible && <ClydeWWII/> }
 {/* {visible && "boxhall" } */}
 {/* <ClydeAndEdna/> */}
-<RichardsonFtMyer/>
+{/* <RichardsonFtMyer/> */}
+<RichardsonGainesville/>
 
 </Grid.Column>
 </Grid.Row>

@@ -12,7 +12,7 @@ const ClydeAndEdna = () => (
     <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
-                <Header as='h3' style={{ fontSize: '2em' }}>Clyde Richardson <br/> Memories of Sanibel Island </Header>
+                <Header as='h3' style={{ fontSize: '2em' }}>Clyde and Edna <br/> From War to Marriage </Header>
                 <br/>
 
             </Grid.Column>
@@ -22,40 +22,30 @@ const ClydeAndEdna = () => (
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '.5em' }} >
                 <p style={{ fontSize: '1.33em' }}>
                 <br/>
-                Lucy Reed came to Sanibel with her father, Captain William Reed and her brother Will Reed and laid claim to 160 acres of land along San Carlos Bay in 1887.  Captain Reed had seen Sanibel Island when he served in the United States Navy during the Civil War.
+                March 1, 1945 - Brought a letter from Clyde to Edna with a money order to buy an Engagement Ring. On Saturday, March 18, Edna bought an Engagement ring for $220.00.
                 <br/>
                 <br/>
-	            Lucy married John Daniels in 1896.  They had three children, Bertha, JB, and Hack (Haskell).  John Daniels was killed by a drunken farmhand in 1907.  Lucy used the money she got from a good crop of peppers with some money her father loaned her to buy the Hughes Floating Hotel.  They heaved it ashore and renamed it the Sanibel House.  
+	            March 20, 1945 - Edna picked up her ring. She won’t put it on until her birthday.
                 <br/>
                 <br/>
-	            In 1910 she married a local farmer, Oliver Richardson.  They had two sons, Clyde in 1911 and Frank in 1913.  Oliver dabbled in real estate and farmed.
+                March 25, 1945 - Edna’s father placed Edna’s ring on her finger and the Engagement became official. He insisted that it should be a man that put the ring on her.
                 <br/>
                 <br/>
-                Clyde Richardson's Recollection:
-                The Sanibel House was where he and his brothers and sister lived.  There was a pier in front.  Beside it was Grandpa’s house and next to that was Uncle Will’s house.
-                They bought their food at Bailey’s Store or by boat from Fort Myers.  They also fished a lot, hunted rabbits and clams.  The rest of what they ate was grown by Oliver.
+                May 8, 1945 - Edna and two friends from the Y went into Manhattan to watch the lights being turned on at Times Square for the first time since being turned off for the war. She had been feeling down because Clyde had received orders to the USS Cohocton AO-101 with no leave. That meant they couldn’t get married until after the war.
                 <br/>
                 <br/>
-                They attended a one room school house.  All grades were held there. Some grades had as little as two or three kids in them.  They would sit in different areas.  Grade by grade would go up front; the teacher would instruct them on their lesson and would go back to their space to do their lessons as the other grades took their turn.
+                May 9, 1945 - Edna’s grandmother Caroline Zepf became deathly ill. The family took turns staying up with her all night. On May 11, 1945 at 1:25 AM she passed away. Clyde called Edna long distance.
                 <br/>
                 <br/>
-                They had to walk to school on roads that flooded during high tide.  A small bridge consisting of two 2X12’s were constructed so they could pass at high tide.
+                June 24, 1945 - Edna returned from a weekend hostel trip to find out that her Cousin Edmund Zepf had been electrocuted on Tinnian. He had touched something in a washing machine and yelled. They immediately cut the power, but he died four hours later. They had been close as children and the upset Edna very much. That night she wrote a short letter to Clyde saying she couldn’t write a letter that night.
                 <br/>
                 <br/>
-                During non school days they spent a lot of time swimming.  They also used large whiskey bottle as boats.  On one occasion Clyde and Frank were playing cops and robbers.  Clyde picked up a gun on the porch and shot the bottom of Frank’s shoes off.  He hadn’t realized it was loaded.
+                asd
                 <br/>
                 <br/>
-                The only time Clyde remembered getting whipped by his Father was when his Father was when his Father was going away for a while and told Clyde that he was to feed the mule.  He forgot and received a whipping.  Clyde said he never forgot again.
+                asd
                 <br/>
                 <br/>
-                Clyde remembers riding in the back of a wagon drawn by a mule.  His Father had loaded some poison oats in the wagon.  A second mule was tethered to the back.  The tethered mule came up and started eating the oats.  Clyde, not having been told the oats were poison let him; His dad (Oliver) jammed lard up the mule’s rear in ordered to save it.  Though Clyde was not sure why his father did this, the mule did live.
-                <br/>
-                <br/>
-                Clyde remembers a hurricane flooding the hotel and leaving water marks on the walls and furniture.
-                The mosquitoes were very populous.  The Richardson’s kept a smoke pot at the front door to keep them away.  You could put your hand on the screen, leave it there and when you pulled it away there would be your handprint on the screen in mosquitoes.
-                <br/>
-                <br/>
-                Clyde learned to drive at a young age and was allowed to drive to Bailey’s Store, which was about a mile away.  Once he drove on the beach and got the truck stuck in the sand.  They had to wait until the tide went out and use mules to pull it out.
                 </p>
             </Grid.Column>
         </Grid.Row>

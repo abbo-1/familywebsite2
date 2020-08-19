@@ -5,11 +5,13 @@ import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
 import oliver1932 from '../images/articlePictures/oliver1932.png'
-import clyde from '../images/articlePictures/clydeService.png'
-import clyde from '../images/articlePictures/clydeService.png'
-import clyde from '../images/articlePictures/clydeService.png'
-import clyde from '../images/articlePictures/clydeService.png'
-import clyde from '../images/articlePictures/clydeService.png'
+import ftMyerFootball from '../images/articlePictures/ftMyerFootball.png'
+import ftMyerBasketball from '../images/articlePictures/ftMyerBasketball.png'
+import footballPromo from '../images/articlePictures/footballPromo.png'
+import frank1932 from '../images/articlePictures/frank1932.png'
+import clyde1932 from '../images/articlePictures/clyde1932.png'
+import clydeNatGuard from '../images/articlePictures/clydeNatGuard.png'
+import heitmanSt from '../images/articlePictures/heitmanSt.png'
 
 const RichardsonFtMyer = () => (
 
@@ -53,21 +55,21 @@ const RichardsonFtMyer = () => (
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={olliverEllsworth} class="familyTree" alt="1932 – Oliver on the left" />
+                    <img src={ftMyerFootball} class="familyTree" alt="1931 Football Team – Clyde is on middle row left end and Ben (Frank) is on the middle row right, second from end" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={olliverEllsworth} class="familyTree" alt="1932 – Oliver on the left" />
+                    <img src={footballPromo} class="familyTree" alt="1930 - Football Lettermen – Clyde is bottom right" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={olliverEllsworth} class="familyTree" alt="1932 – Oliver on the left" />
+                    <img src={ftMyerBasketball} class="familyTree" alt="1932 – Basketball Team – Clyde on left and Frank on right" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
@@ -92,14 +94,14 @@ const RichardsonFtMyer = () => (
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={olliverEllsworth} class="familyTree" alt="1932 – Oliver on the left" />
+                    <img src={frank1932} class="familyTree" alt="1932 – Frank" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={olliverEllsworth} class="familyTree" alt="1932 – Oliver on the left" />
+                    <img src={clyde1932} class="familyTree" alt="1932 – Clyde" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
@@ -110,7 +112,7 @@ const RichardsonFtMyer = () => (
                 <br/>
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={olliverEllsworth} class="familyTree" alt="1932 – Oliver on the left" />
+                    <img src={clydeNatGuard} class="familyTree" alt="1938 – Clyde on the left" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>
@@ -120,7 +122,7 @@ const RichardsonFtMyer = () => (
                 In 1932 or 1933, the Richardson’s rented a two bedroom house on Heitman Street, close to downtown.
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={olliverEllsworth} class="familyTree" alt="1932 – Oliver on the left" />
+                    <img src={heitmanSt} class="familyTree" alt="1424 Heitman, Fort Myers" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>
