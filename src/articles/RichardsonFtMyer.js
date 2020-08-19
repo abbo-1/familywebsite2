@@ -4,7 +4,12 @@ import { Button, Divider, Segment, Header, Grid } from 'semantic-ui-react'
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
-import olliverEllsworth from '../images/articlePictures/oliverEllsworth.png'
+import oliver1932 from '../images/articlePictures/oliver1932.png'
+import clyde from '../images/articlePictures/clydeService.png'
+import clyde from '../images/articlePictures/clydeService.png'
+import clyde from '../images/articlePictures/clydeService.png'
+import clyde from '../images/articlePictures/clydeService.png'
+import clyde from '../images/articlePictures/clydeService.png'
 
 const RichardsonFtMyer = () => (
 
@@ -31,7 +36,7 @@ const RichardsonFtMyer = () => (
                 <br/>
 	            <SimpleReactLightbox>
                     <SRLWrapper>
-                        <img src={olliverEllsworth} class="familyTree" alt="1932 – Oliver on the left" />
+                        <img src={oliver1932} class="familyTree" alt="1932 – Oliver on the left" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>
