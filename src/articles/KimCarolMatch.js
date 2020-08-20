@@ -4,14 +4,16 @@ import { Button, Divider, Segment, Header, Grid } from 'semantic-ui-react'
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
-import oliver1932 from '../images/articlePictures/oliver1932.png'
-import ftMyerFootball from '../images/articlePictures/ftMyerFootball.png'
-import ftMyerBasketball from '../images/articlePictures/ftMyerBasketball.png'
-import footballPromo from '../images/articlePictures/footballPromo.png'
-import frank1932 from '../images/articlePictures/frank1932.png'
-import clyde1932 from '../images/articlePictures/clyde1932.png'
-import clydeNatGuard from '../images/articlePictures/clydeNatGuard.png'
-import heitmanSt from '../images/articlePictures/heitmanSt.png'
+import carol80 from '../images/articlePictures/carol80.png'
+import ceremony81 from '../images/articlePictures/ceremony81.png'
+import carolparentswedding81 from '../images/articlePictures/carolparentswedding81.png'
+import wedding81 from '../images/articlePictures/wedding81.png'
+import weddingparty81 from '../images/articlePictures/weddingparty81.png'
+import scott84 from '../images/articlePictures/scott84.png'
+import scott85 from '../images/articlePictures/scott85.png'
+import kevin88 from '../images/articlePictures/kevin88.png'
+import kevin89 from '../images/articlePictures/kevin89.png'
+
 
 const KimCarolMatch = () => (
 
@@ -35,9 +37,7 @@ const KimCarolMatch = () => (
                  <br/>
                  <SimpleReactLightbox>
                     <SRLWrapper>
-                        <img src={oliver1932} class="familyTree" alt="1980 - Carol" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
+                        <img src={carol80} class="familyTree" alt="1980 - Carol" />
                 <br/>
                 <br/>
                 For the next 401 days, they saw each other 228 of those days.  They went to the Windmill Dinner Theater three times, Astros games, Rocket games, Ferrante and Teicher, movies, and more.  On November 26, 1980, they drove to Gainesville, Florida to meet Kim’s family and to watch the Gators play Miami and also went to Disney World.  On May 21, 1981, they drove to St. Louis to visit Carol’s sister, Kathy and her then husband Steve.   Also during this time Carol taught her first graders, and Kim worked at Central Freight lines during the day and Sears at night.  One weekend a month and two weeks during the year he served with the Naval Reserve.
@@ -48,31 +48,17 @@ const KimCarolMatch = () => (
                 <br/>
                 <div class="ui four column grid">
                 <div class="column">
-                <SimpleReactLightbox>
-                    <SRLWrapper>
-                    <img src={ftMyerFootball} class="familyTree" alt="July 11, 1981 - The Ceremony" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
+                    <img src={ceremony81} class="familyTree" alt="July 11, 1981 - The Ceremony" />
                 </div>
                 <div class="column">
-                <SimpleReactLightbox>
-                    <SRLWrapper>
-                    <img src={footballPromo} class="familyTree" alt="Carol and her parents, Gloria &amp; Joe" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
+                    <img src={carolparentswedding81} class="familyTree" alt="Carol and her parents, Gloria &amp; Joe" />
                 </div>
                 <div class="column">
-                <SimpleReactLightbox>
-                    <SRLWrapper>
-                    <img src={ftMyerBasketball} class="familyTree" alt="July 11, 1981 - Carol &amp; Kim" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
-                <SimpleReactLightbox>
-                    <SRLWrapper>
-                    <img src={ftMyerBasketball} class="familyTree" alt="The Richardsons. From right to left: Gail, Karen, Jay, Carol, Kim, Edna, &amp; Clyde" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
+                    <img src={wedding81} class="familyTree" alt="July 11, 1981 - Carol &amp; Kim" />
                 </div>
+                <dic class="column">
+                <img src={weddingparty81} class="familyTree" alt="The Richardsons. From right to left: Gail, Karen, Jay, Carol, Kim, Edna, &amp; Clyde" />
+                </dic>
                 </div>
                 The reception was held at Steak &amp; Ale.  Everyone seemed to have a good time.  Steve made the toast.  Jay, Carol’s Mom, Cindy and Sharon handled cutting the cake and serving.
                 <br/>
@@ -82,18 +68,10 @@ const KimCarolMatch = () => (
                 <br/>
                 <div class="ui two column grid">
                 <div class="column">
-                <SimpleReactLightbox>
-                    <SRLWrapper>
-                    <img src={ftMyerFootball} class="familyTree" alt="1984 - Scott" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
+                    <img src={scott84} class="familyTree" alt="1984 - Scott" />
                 </div>
                 <div class="column">
-                <SimpleReactLightbox>
-                    <SRLWrapper>
-                    <img src={footballPromo} class="familyTree" alt="1985 - Scott" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
+                    <img src={scott85} class="familyTree" alt="1985 - Scott" />
                 </div>
                 </div>
                 <br/>
@@ -103,20 +81,14 @@ const KimCarolMatch = () => (
                 <br/>
                 <div class="ui two column grid">
                 <div class="column">
-                <SimpleReactLightbox>
-                    <SRLWrapper>
-                    <img src={ftMyerFootball} class="familyTree" alt="1988 - Kevin" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
+                    <img src={kevin88} class="familyTree" alt="1988 - Kevin" />
                 </div>
                 <div class="column">
-                <SimpleReactLightbox>
-                    <SRLWrapper>
-                    <img src={footballPromo} class="familyTree" alt="1989 - Kevin" />
-                    </SRLWrapper>
+                    <img src={kevin89} class="familyTree" alt="1989 - Kevin" />
+                </div>
+                </div>
+                </SRLWrapper>
                 </SimpleReactLightbox>
-                </div>
-                </div>
                 <br/>
                 <br/>
 
