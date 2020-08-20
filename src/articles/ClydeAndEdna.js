@@ -6,6 +6,21 @@ import { SRLWrapper } from "simple-react-lightbox";
 
 import clydeEdnaWedding from '../images/articlePictures/clydeEdnaWedding.png'
 
+const options = {
+    thumbnails: {
+        showThumbnails: false
+    // buttons: {
+    //   backgroundColor: "#1b5245",
+    //   iconColor: "rgba(126, 172, 139, 0.8)",
+    // },
+    // caption: {
+    //   captionColor: "#a6cfa5",
+    //   captionFontFamily: "Raleway, sans-serif",
+    //   captionFontWeight: "300",
+    //   captionTextTransform: "uppercase",
+    }
+  };
+
 const ClydeAndEdna = () => (
 
 <React.Fragment>
@@ -172,7 +187,7 @@ const ClydeAndEdna = () => (
                 <br/>
                 Clyde took the Silver Meteor to New York and arrived on the 22nd. They were married on Saturday, January 26, 1946. They spent their wedding night at the Pennsylvania Hotel. The next day they left for Gainesville, Florida.
                 <SimpleReactLightbox>
-                    <SRLWrapper>
+                    <SRLWrapper options={options}>
                     <img src={clydeEdnaWedding} class="familyTree" alt="Edna and Clyde Richardson - January 26, 1946" />
                     </SRLWrapper>
                 </SimpleReactLightbox>

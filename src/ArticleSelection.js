@@ -22,6 +22,7 @@ import {
   import RichardsonFtMyer from './articles/RichardsonFtMyer.js'
   import RichardsonGainesville from './articles/RichardsonGainesville.js'
   import KimFourYearsNavy from './articles/KimFourYearsNavy.js'
+  import KimCarolMatch from './articles/KimCarolMatch.js'
 
   function ArticleSelection() {
     const [visible, setVisible] = useState(false);
@@ -189,7 +190,8 @@ import {
 {/* <ClydeAndEdna/> */}
 {/* <RichardsonFtMyer/> */}
 {/* <RichardsonGainesville/> */}
-<KimFourYearsNavy/>
+{/* <KimFourYearsNavy/> */}
+<KimCarolMatch/>
 
 </Grid.Column>
 </Grid.Row>
