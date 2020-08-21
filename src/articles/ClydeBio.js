@@ -4,7 +4,17 @@ import { Button, Divider, Segment, Header, Grid } from 'semantic-ui-react'
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
-import clydeEdnaWedding from '../images/articlePictures/clydeEdnaWedding.png'
+
+import ftMyerBasketball from '../images/articlePictures/ftMyerBasketball.png'
+import clydeNatGuard from '../images/articlePictures/clydeNatGuard.png'
+import clyde1941 from '../images/articlePictures/clyde1941.png'
+import clyde1945 from '../images/articlePictures/clyde1945.png'
+import clyekim47 from '../images/articlePictures/clyekim47.png'
+import gail58 from '../images/articlePictures/gail58.png'
+import clydeKimScooter51 from '../images/articlePictures/clydeKimScooter55.png'
+import ednaclyde00 from '../images/articlePictures/ednaclyde00.png'
+
+
 
 const options = {
     thumbnails: {
@@ -38,157 +48,205 @@ const ClydeBio = () => (
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '.5em' }} >
                 <p style={{ fontSize: '1.33em' }}>
                 <br/>
-                March 1, 1945 - Brought a letter from Clyde to Edna with a money order to buy an Engagement Ring. On Saturday, March 18, Edna bought an Engagement ring for $220.00.
+                Clyde was born on Sanibel Island on June 27, 1911 to Lucy and Oliver Richardson.  The family lived in the Sanibel House, a hotel that Lucy created out of the Hughes Floating Hotel.  The Sanibel House stood on the beach next to Grandpa’s house and Uncle Will’s house.  Lucy ran the hotel while Oliver farmed and dabbled in real estate.  Lucy had three children from a previous marriage to John Daniels, Bertha, Haskell and JB.
                 <br/>
                 <br/>
-	            March 20, 1945 - Edna picked up her ring. She won’t put it on until her birthday.
+                His brother Frank was born two years later.  They attended school in a one-room schoolhouse.  All grades were together.  Some of the grades had as little as two or three kids in them.  The schoolteacher’s name was Miss Lettie Nutt.  They would sit in different areas and grade-by-grade they would go up front and the teacher would instruct them on their lesson.
                 <br/>
                 <br/>
-                March 25, 1945 - Edna’s father placed Edna’s ring on her finger and the Engagement became official. He insisted that it should be a man that put the ring on her.
+                When Clyde was eight or nine, he was driving the family car.  Lucy or Oliver would ask him to drive to Bailey’s store to pick up something.  There were very few vehicles on the Island at the time.  So he encountered no traffic.
                 <br/>
                 <br/>
-                May 8, 1945 - Edna and two friends from the Y went into Manhattan to watch the lights being turned on at Times Square for the first time since being turned off for the war. She had been feeling down because Clyde had received orders to the USS Cohocton AO-101 with no leave. That meant they couldn’t get married until after the war.
+                During non school days they spent a lot of time swimming.  The boys usually wore only shorts with no shirts or shoes.  If they decided to go swimming they would just jump in.  If no one were around, they would take off their shorts and swim in the nude.   They also used large whiskey bottles as boats.  On one occasion Clyde and Frank were playing cops and robbers and Clyde picked up a gun on the porch and shot the bottom of Frank’s shoe off.  He hadn’t realized it was loaded.
                 <br/>
                 <br/>
-                May 9, 1945 - Edna’s grandmother Caroline Zepf became deathly ill. The family took turns staying up with her all night. On May 11, 1945 at 1:25 AM she passed away. Clyde called Edna long distance.
+                Oliver only whipped Clyde once.  He was told to feed the mules and he forgot.  When Oliver came home, he tore into him with a severe whipping.  After that Clyde always did what he was told.
                 <br/>
                 <br/>
-                June 24, 1945 - Edna returned from a weekend hostel trip to find out that her Cousin Edmund Zepf had been electrocuted on Tinnian. He had touched something in a washing machine and yelled. They immediately cut the power, but he died four hours later. They had been close as children and the upset Edna very much. That night she wrote a short letter to Clyde saying she couldn’t write a letter that night.
+                In 1926 another hurricane hit Sanibel.  This storm pretty much wiped out farming on the island.  The Richardson’s moved to Ft. Myers.  Oliver made a deal with the owner of some farmland south of town. 
                 <br/>
                 <br/>
-                August 6, 1945 - Edna wrote Clyde that she heard on the radio that Major Richard Bong was killed on a test flight. She also mentioned the Atomic bomb and was worried that another country could make one like Russia and bomb New York.
+                Clyde and Ben (Frank) went to school and worked what odd jobs they could find.  They also helped with the food by hunting and fishing.
                 <br/>
+                <br/> 
+                In December of 1929, Clyde went to Cuba for a visit with the Boy Scouts.  The Cuban Boy Scouts acted as their hosts and they all had a good time.
                 <br/>
-                August 7, 1945 - Edna wrote that news about the Atomic Bomb was on every radio and newspaper.
                 <br/>
+                In 1929 the Richardson’s lived at 1921 Lee Street in Fort Myers.
                 <br/>
-                August 8, 1945 - Edna wrote that everyone was happy that Russia was coming into the war with Japan. Edna felt that was not a great thing. She felt that now Russia would want to have a great deal of say in the surrender terms.
                 <br/>
+                Occasionally, Oliver and Lucy would drive the boys to Arcadia to see Oliver’s family or go to Tampa to see his brothers, Hack and JB.
                 <br/>
-                August 11, 1945 - Edna arrived at Green Lake for her vacation.
                 <br/>
+                As the boys got older, they would stay out until two or three o’clock in the morning.  Lucy would wait until they came and then she went to bed.
                 <br/>
-                August 14, 1945 - while writing to Clyde, she heard an announcement that the Japanese Ambassador in Switzerland has just handed over a reply to the American demand for surrender.
                 <br/>
+                In High School, Clyde and Frank were on the Football, Basketball and Baseball team. 
                 <br/>
-                August 15, 1945 -  Edna got the word that the war was over. She was disappointed that she wasn’t in New York. Everything around Green Lake closed including mail delivery.
                 <br/>
-                <br/>
-                September 2, 1845 - Edna went to church. She went because it was VJ-Day.
-                <br/>
-                <br/>
-                September 3, 1945, Labor Day - Harry (Joe Richards) took everyone to the cemetery and then to Alley Pond Park. They got hungry there and the refreshment stand was closed, so they came back to Forest Park. There they had Merry-go-round so Edna took Mickey on it.
-                <br/>
-                <br/>
-                September 5, 1945 - The Cohocton AO-101 departed for the Eniwetok Atoll.
-                <br/>
-                <br/>
-                September 7, 1945 - Edna got a letter from Clyde saying he was now at sea.
-                <br/>
-                <br/>
-                September 21, 1945 - Edna and the immediate family went over to Maizie’s to celebrate their fifth wedding anniversary. The three kids, Mickey, Gary and Judy had a great time with an abundance of energy. At work, Edna was having a feud with Bess Murphy. She was always looking for reasons to pick on Edna.
-                <br/>
-                <br/>
-                September 22, 1945 - Edna went looking for Bridal Gowns. Edna was feeling a little down because she hadn’t a letter from Clyde since September 7. She knew Clyde was at sea, but she missed his letters.
-                <br/>
-                <br/>
-                September 24, 1945 - Edna came home to eleven letters. Clyde told her he was being transferred back to the States for discharge.
-                <br/>
-                <br/>
-                September 28, 1945 - Edna and the family went to Gus and Dot’s to celebrate Bunny’s 3rd birthday.
-                <br/>
-                <br/>
-                October 16, 1945 - Clyde wrote that he was at Midway on the tanker “SS Tampico” He went ashore to look around and thought the place looked great. They had three movie theaters and he went to a movie before going back to the ship. The ship was sailing in the morning.
-                <br/>
-                <br/>
-                October 30, 1945 - Clyde’s Mom (Lucy) wrote to Edna that she received a letter from Clyde saying he was on his way back by tanker, via Balboa and the Panama Canal. Dave Kite said that he was anxious to have Clyde back. He was lining up a contract to deliver freight for Sears and Seaboard Coast Lines.
-                <br/>
-                <br/>
-                November 8, 1945 - Clyde arrived in Galveston, Texas. Edna received a letter on November 13th, telling her he was in Texas.
-                <br/>
-                <br/>
-                November 15, 1945 - Clyde departed Galveston, Texas for Jacksonville.
-                <br/>
-                <br/>
-                November 17, 1945 - Clyde arrived in Jacksonville, Florida, from Galveston, Texas early in the morning. He was sent immediately to the Separation Center for discharge. He was discharged on Monday, the 19th. That night Clyde stayed in a hotel in Jacksonville. He went to a movie his first night out of the Navy. From Jacksonville, Clyde went to Gainesville to meet with his brother-in-law David Kite. David and Clyde decided to run a trucking business together. They would use Dave’s equipment and contracts and Clyde would have to use all the money he had saved in the Navy and buy another truck. Then he traveled down to Fort Myers to see his Mother.
-                <br/>
-                <br/>
-                November 21, 1945 - While in Fort Myers, Clyde wrote to Edna that they could still get married on the 26th of January. He would catch a train and arrive on the 22nd. After the ceremony they would have to come right back. He told her that he would find a nice apartment for them.
-                <br/>
-                <br/>
-                November 22, 1945 -  Clyde with his brother Jay and nephew Benny went fishing at Pine Island. Later, Clyde wrote Edna that Dave and Bert said they could rent one of their houses. It was a small two bedroom house built in 1938.
-                <br/>
-                <br/>
-                November 24, 1945 - Clyde and Jay went hunting. Clyde forgot his jacket and caught a cold.
-                <br/>
-                <br/>
-                November 27, 1945 - Clyde sent a basket of oranges to Edna by train. Clyde also spent time looking for clothes. He need work clothes and a suit for the wedding. Due to war shortages he had little luck.
-                <br/>
-                <br/>
-                December 1, 1945 - Clyde left Fort Myers and went to Tampa to visit Hack and Addie. They went to a movie together, the next day he left Tampa at 4:30 and drove to Gainesville. Dave told Clyde that he would rent him the house for $60.00 per month and it was furnished.
-                <br/>
-                <br/>
-                December 4, 1945 - Clyde and Dave spent the day getting the truck ready for hauling freight.
-                <br/>
-                <br/>
-                December 6, 1945 - Edna wrote that she wanted to get a hotel reservation at the Hotel Pennsylvania for their wedding night. It only cost $6.60 per night. She wanted to stay two nights and leave for Florida on Monday the 28th of January.
-                <br/>
-                <br/>
-                December 8, 1945 - Clyde wrote that now they would have a larger house to live in. This house had two stoves, one gas and one a wood burner. He said that the yard was big, but since she liked to exercise she could mow it. Dave wanted to make sure Clyde had a house to live in, but had problems making sure one was empty.
-                <br/>
-                <br/>
-                December 9, 1945 - Clyde and Dave continued building a truck van on the back of the new truck. Clyde went all around Gainesville looking for a bracelet for Edna for Christmas.
-                <br/>
-                <br/>
-                December 10, 1945 - Clyde spent most of the day painting his truck. Clyde had talked to the freight agent and was told that he would get some jobs hauling freight after the first of the year. So he kept working on getting the truck ready.
-                <br/>
-                <br/>
-                December 11, 1945 - Clyde wrote Edna that they could only stay one night in New York after the Wedding. Dave’s coal and wood business needed his help to get out the winter orders and Dave could not do it alone.
-                <br/>
-                <br/>
-                December 12, 1945 - Edna wrote that she had been busy working and helping her Mom clean. She was thinking of taking a night off and going to Radio City Music Hall and watching “Bell of St Mary.” She had heard it was very good.
-                <br/>
-                <br/>
-                December 17, 1945 - Edna wrote that when she got to Florida, she would sit on the Sun Porch and watch him mow the yard.
-                <br/>
-                <br/>
-                December 24, 1945 - Clyde went to the Atlantic Coast Line train station and inquired about tickets to New York and back. He was told he couldn’t get them until fourteen days before travel.
-                <br/>
-                <br/>
-                December 25, 1945 - Clyde wrote to Edna to thank her for his Christmas gift. He also told her to see if Gus (Edna’s brother) would be his best man.
-                <br/>
-                <br/>
-                December 27, 1945 - Edna received a money order for a $100.00 from Clyde. She told Clyde that she would order the flowers. She also wrote and asked what size the Dining Room table was. People were asking what she wanted for a wedding gift.
-                <br/>
-                <br/>
-                Over the next couple days Clyde was still looking for a suit and Edna was looking for shoes and stockings. The war shortages were still in effect.
-                <br/>
-                <br/>
-                December 30, 1945 - Edna wrote that she and Helen went out to try to rent a hall for the reception. Since all the halls are connected to bars, they got cold feet. They were worried about the men that drank there. They told Gus he had to go make the reservations as best man. Also she wrote Clyde that Alfred (Edna’s brother-in-law) was home from the Pacific for good.
-                <br/>
-                <br/>
-                January 3, 1946 - Edna wrote that they had found a hall and put a deposit on it. It was not quite what they wanted, but it was all they could afford. She still hasn’t found a band. She also said that she was calling hotels and it looks like that they will stay at the St. Georges in Brooklyn. She also asked if soap was available in Florida. There was a shortage of it. She also asked Clyde what his salary was.
-                <br/>
-                <br/>
-                January 6, 1946 - Edna wrote that she had bought a gown and headpiece to go with Jo’s veil. She had gotten an appointed with a photographer and also hired a band for the reception. They had a small family party for Alfred last night.
-                <br/>
-                <br/>
-                January 10, 1946 - Edna wrote that Gus couldn’t be the best man. Her father was too nervous, so Gus had to be the one to give her away. She asked Harry (Joe Richards) to be the best man. She received the announcements. Helen told her she would write them out as she had better handwriting than Edna.
-                <br/>
-                <br/>
-                January 11, 1945 - Edna wrote that the blood test could be done when he arrived there. He even could get it done in Florida as long as it was examined by the State Board of Health. She said that he needed to be in New York by the 22nd. Usually people get their marriage license a week before the ceremony. It was law that you had to get it at least 72 hours before the ceremony.
-                <br/>
-                <br/>
-                January 15, 1946 - Edna wrote to Clyde that his Mom (Lucy) was giving them $100.00 for a wedding present. She said that her parents were also giving them $100.00. She wanted to use that money to buy a Singer Sewing Machine. She said that she could make her own clothes, curtains, etc.
-                <br/>
-                <br/>
-                January 20, 1946 - Edna again wrote that Clyde had to be there on the 22nd.
-                <br/>
-                <br/>
-                Clyde took the Silver Meteor to New York and arrived on the 22nd. They were married on Saturday, January 26, 1946. They spent their wedding night at the Pennsylvania Hotel. The next day they left for Gainesville, Florida.
                 <SimpleReactLightbox>
-                    <SRLWrapper options={options}>
-                    <img src={clydeEdnaWedding} class="familyTree" alt="Edna and Clyde Richardson - January 26, 1946" />
+                    <SRLWrapper>
+                    <div class="column">
+                    {/* <SRLWrapper options={options}> */}
+                    <img src={ftMyerBasketball} class="familyTree" alt="1932 Fort Myers High School Basketball Team. Clyde is on the far left and his brother Frank is on far right" />
+                    </div>
+                <br/>
+                <br/>
+                In 1930, Clyde joined the National Guard.  Guard members were encouraged to ride the horses.  He spent many hours riding with friends through the fields and woods around Fort Myers.
+                <br/>
+                <br/>
+                Clyde graduated from Fort Myers High School in June of 1932.
+                <br/>
+                <br/>
+                Clyde was promoted to Corporal in the National Guard on July 26, 1932.
+                <br/>
+                <br/>
+                <div class="column">
+                    {/* <SRLWrapper options={options}> */}
+                    <img src={clydeNatGuard} class="familyTree" alt="1938 - Clyde on the left" />
+                </div>
+                <br/>
+                <br/>
+                Clyde and his family moved to a small two bedroom on Heitman Street, close to downtown in 1932.
+                <br/>
+                <br/>
+                During the Depression Clyde and Ben grabbed what jobs they could find.  He had a paper route for several years.  He worked at the A&amp;P and the Sunshine Market.  For a week Clyde worked for Thomas Edison’s laboratory pulling leaves off branches
+                <br/>
+                <br/>
+                In 1934, Ben was working for the Sunshine Market as a delivery boy.  His car struck a parked car and the steering wheel caused fatal internal injuries.
+                <br/>
+                <br/>
+                Clyde’s first car was a second hand Oakland.  He paid $15.00.  It was stripped down to four wheels, an engine and a seat.  At that time there were no driver’s license or car tags to contend with.  Clyde got a job at the city pool as pool cleaner and lifeguard.
+                <br/>
+                <br/>
+                In July of 1938, Clyde moved to Gainesville to work for his brother-in-law, David Kite.
+                <br/>
+                <br/>
+                <div class="column">
+                    {/* <SRLWrapper options={options}> */}
+                    <img src={clyde1941} class="familyTree" alt="1941 - Clyde" />
+                </div>
+                At first he lived with his sister Bert and Dave.  After a short while he rented a room with a friend close by on what was to be N.W. 2nd Avenue.  He dated a girl named Dorothy Cooper.  She also worked for Dave.
+                <br/>
+                <br/>
+                On Sunday, December 7, 1941, Clyde was walking his dog when he stopped at a service station located on University Avenue and Sixth Street.  The radio was on and Clyde heard the first reports of the Japanese attacking Pearl Harbor.  The next day, Clyde went down to join the Navy.  Even though he was thirty years old, he was told he needed his parent’s signature.  He went outside and signed his parent’s names, went back in and was promptly accepted.
+                <br/>
+                <br/>
+                His first assignment was as a member of a gun crew on the SS Geminy.  The ship lost a screw in the middle of the Northern Atlantic and the Captain told him to shoot at anything he saw.  When a whale surfaced, he popped off a few rounds of twenty millimeter at it.  He missed the whale but caught a mouthful from his Captain.
+                <br/>
+                <br/>
+                As a gun crewmember on the SS Oliver Ellsworth, they were assigned to a Murmansk Convoy PQ-18.  The Ellsworth was torpedoed all hands had to abandon ship.
+                <br/>
+                <br/>
+                On December 6, 1942, at the YMCA in Brooklyn, Clyde met Edna Frank over a checkerboard.  He escorted her home and asked her out on a date.  They wrote while Clyde was away and he visited her whenever he could. 
+                <br/>
+                <br/>
+                In August of 1943, Clyde was transferred to the USS Marshall.  One of the Marshall’s first assignments was to join the USS Iowa and help with the destroyer screen.  The Iowa was bringing back President Roosevelt from a summit with Churchill and Stalin.
+                <br/>
+                <br/>
+                The Marshall then went to the Pacific, where she took part in the Battle of the Philippine Sea and the battle of Leyte Gulf.
+                <br/>
+                <br/>
+                Just before Christmas in 1944, Clyde sent a telegram to Edna.  It said to pack her bags, because she was going to Florida.  He sent her the money for a train ticket.  She took the train alone to Florida and when she arrived in Jacksonville, Clyde, and his sister Bert and her husband David met her.  They drove to Gainesville and spent the night.  Then they drove to Tampa and finally Fort Myers where she met the rest of the family.
+                <br/>
+                <br/>
+                <div class="column">
+                    {/* <SRLWrapper options={options}> */}
+                    <img src={clyde1945} class="familyTree" alt="1945 - Bert Kite, Clyde, Edna, &amp; Lucy Richardson" />
+                </div>
+                On December 19, 1945, Clyde was discharged from the Navy in Jacksonville, Florida.  On January 26, 1946, he married Edna in Brooklyn.  Dad’s Nephew Buddy Kite came up from Washington where he was stationed to attend the wedding.
+                <br/>
+                <br/>
+                 Together they moved to Gainesville, Florida.  For six months they lived in a furnished house on West Court Street and paid David Kite, his brother in law, $35.00 per month rent.  Then they moved two houses down to a two-bedroom house at the corner (650 West Court Street).  This was unfurnished and they paid $20.00 per month.
+                <br/>
+                <br/>
+                During the war, Clyde had sent money to David Kite to deposit for him in the bank.  David talked him into using the five hundred dollars that had accumulated, to buy a truck.  David had a small trucking business and he contracted to deliver freight.  One of his biggest customers was Sears.  After a short period of time, David decided to retire.  Clyde hired a man by the name of Louis for $20.00 a week and together they continued to deliver freight for Sears and whatever job came their way. 
+                <br/>
+                <br/>
+                In 1947, Clyde and Edna had their first son, Kim Frank.
+                <div class="column">
+                    {/* <SRLWrapper options={options}> */}
+                    <img src={clyekim47} class="familyTree" alt="1947 - Clyde &amp; Kim" />
+                </div>
+                In 1949, they had their second child Tara who died two days later.
+                <br/>
+                <br/>
+                In 1950 they bought a 1939 Chevy Truck from David Kite.
+                <br/>
+                <br/>
+                In 1951, a friend borrowed Clyde’s work truck and threw a rod.  The truck wasn’t worth fixing.  Clyde used the wood on the truck to build Kim a playhouse. 
+                <br/>
+                <br/>
+                Clyde talked Sears into hiring him full time.  The store manager hired him for $50.00 per week.  Also that year they got rid of the truck and bought a gray 1949 Ford.
+                <br/>
+                <br/>
+                On October 7, 1954 they had their third child, Gail Dorothy.
+                <br/>
+                <br/>
+                <div class="column">
+                    {/* <SRLWrapper options={options}> */}
+                    <img src={gail58} class="familyTree" alt="1958 - Gail" />
+                </div>
+                <br/>
+                <br/>
+                In 1955, Clyde bought a Cushman Scooter.  He rode it to work into the mid sixties.
+                <br/>
+                <br/>
+                On January 1, 1956, Clyde and Edna moved to 549 NE 12th Court.  They paid $10,600 on a 25-year mortgage.
+                <br/>
+                <br/>
+                On March 16, 1958, they had their fourth child, Jay Clyde.
+                <br/>
+                <br/>
+                On November 5, 1959, they had their fifth child, Karen Lucy.
+                <br/>
+                <br/>
+                On July 11, 1960, Clyde’s Mother, Lucy died.  Clyde took his family to Fort Myers for the funeral.  Hack, Addy, Bertha, Dave, JB, Rita and their kids were there.   After the service, Clyde kissed his mother goodbye for the last time.
+                <br/>
+                <br/>
+                Clyde retired from Sears in 1976.  He then worked for a couple of years at the Howard Johnson Motel on 13th Street.  He took care of the grounds.  After that, he worked at the First Methodist Church for a few years taking care of the grounds and doing maintenance work.
+                <br/>
+                <br/>
+                In March of 1989, Clyde, Edna and Karen traveled to Houston for their grandson’s (Kevin) first birthday and to see their granddaughter, Megan, for the first time. 
+                <br/>
+                <br/>
+                On September 17, 1994, Clyde and Edna moved to 2718 NW 48th Terrace.
+                <br/>
+                <br/>
+                On June 19, 1995, Clyde and Edna went to New Orleans and the Mississippi Gulf Coast for a reunion with their children and their families.  The family rode the Cajun Queen down the Mississippi River and went to the Aquarium of the Americans.  The next day they all drove to Biloxi.  The whole family visited Beauvoir (The Jefferson Davis home).
+                <br/>
+                <br/>
+                On January 27, 1996 a big party was held to celebrate Clyde and Edna’s 50th Wedding Anniversary.  Friends and family from as far away as New York, Pennsylvania and Fort Myers joined in the celebration.
+                <br/>
+                <br/>
+                In September of 1996, Clyde, Edna and Karen drove to Houston for a visit
+                <br/>
+                <br/>
+                On June 25, 1998, Clyde made his last visit to his birthplace, Sanibel Island.  He went with Edna, Kim, Gail, Karen, Tiffany, Carol, Scott and Kevin.  Clyde pointed out the area where the Sanibel House stood.  They also went to the Sanibel Museum where they had Uncle Will’s post office building.
+                <br/>
+                <br/>
+                <div class="column">
+                    {/* <SRLWrapper options={options}> */}
+                    <img src={ednaclyde00} class="familyTree" alt="2000 - Edna &amp; Clyde" />
+                </div>
+                <br/>
+                <br/>
+                On July 6, 2000, Clyde and Edna moved to Ocala.
+                <br/>
+                <br/>
+                On March 16, 2002, Clyde fell and broke his hip.
+                <br/>
+                <br/>
+                On March 30, 2002, Clyde was transferred to Marion House.  His Parkinson’s and his broken hip had confined him to bed.
+                <br/>
+                <br/>
+                On June 15th Clyde was released from Marion House and he and Edna moved in with Gail and Donnie.
+                <br/>
+                <br/>
+                On August 2, 2002, Jay and his family arrived in Ocala for a visit.  On Monday, August 5, Jay took his family and his Mother, Edna to MGM at Disney World.  That morning Clyde asked Gail where everyone was.  She told him and he said, that was good.  Then he told her to call Donnie and tell him he was team leader.  She said she would and when she didn’t go directly to the phone, he said to do it now.  She went to call Donnie and then did some other chores.  Soon the lady from Hospice arrived and Gail told her that Dad was asleep.  She went in and took one look and told Gail that Dad was dead.
+                <br/>
+                <br/>
+                The funeral was held on Friday, August 9, 2002.  His wife Edna, and his children Kim, Gail, Jay and Karen, attended the funeral.  Also seven of his grandchildren were there.
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </p>

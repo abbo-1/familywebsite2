@@ -40,7 +40,7 @@ import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
 const Home = () => (
-    <div>
+    <div class = "mazeBackground">
 <Segment style={{ padding: '8em 0em' }} vertical>
 {/* <div class ="homePageBackground"> */}
   <Grid container stackable verticalAlign='middle'>

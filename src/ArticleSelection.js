@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import 'semantic-ui-css/semantic.min.css'
 import './index.css';
 
 import {
@@ -23,6 +24,7 @@ import {
   import RichardsonGainesville from './articles/RichardsonGainesville.js'
   import KimFourYearsNavy from './articles/KimFourYearsNavy.js'
   import KimCarolMatch from './articles/KimCarolMatch.js'
+  import ClydeBio from './articles/ClydeBio.js'
 
   function ArticleSelection() {
     const [visible, setVisible] = useState(false);
@@ -48,6 +50,7 @@ import {
     // }
 
     return (
+   
       
 
 
@@ -100,6 +103,7 @@ import {
 // kifggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
 // const ArticleSelection = () => (
 <React.Fragment>
+<div class = "mazeBackground">
 
  <Divider /> 
 
@@ -111,10 +115,10 @@ import {
         Richardson:
     </Header>
     <Button.Group basic vertical>
-        <Button>Clyde Richardson: Biography</Button>
-        <Button onClick={makeVisible} class="articleButtons">Clyde Richardson's WWII Service</Button>
-        <Button>Clyde and Edna: From War to Marriage</Button>
-        <Button>Clyde's Memories of Sanibel Island 1911- 1926</Button>
+        <Button  id="buttonList">Clyde Richardson: Biography</Button>
+        <Button onClick={makeVisible}>Clyde Richardson's WWII Service</Button>
+        <Button >Clyde and Edna: From War to Marriage</Button>
+        <Button  class="articleButtons">Clyde's Memories of Sanibel Island 1911- 1926</Button>
         <Button>Kim Richardson: Four Years in the US Navy</Button>
         <Button>Kim and Carol: A Perfect Match</Button>
         <Button>Richardson's in Ft. Myers 1924- 1938</Button>
@@ -192,7 +196,8 @@ import {
 {/* <RichardsonFtMyer/> */}
 {/* <RichardsonGainesville/> */}
 {/* <KimFourYearsNavy/> */}
-<KimCarolMatch/>
+{/* <KimCarolMatch/> */}
+<ClydeBio/>
 
 </Grid.Column>
 </Grid.Row>
@@ -203,7 +208,9 @@ import {
 </Grid>
 </Segment>
 
+</div>
 </React.Fragment>
 )
+
 }
 export default ArticleSelection

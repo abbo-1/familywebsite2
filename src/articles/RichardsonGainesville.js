@@ -6,7 +6,7 @@ import { SRLWrapper } from "simple-react-lightbox";
 
 import clyde1941 from '../images/articlePictures/clyde1941.png'
 import clydeEdnaMeet42 from '../images/articlePictures/clydeEdnaMeet42.png'
-import clydeKimScooter51 from '../images/articlePictures/clydeKimScooter51.png'
+import clydeKimScooter51 from '../images/articlePictures/clydeKimScooter55.png'
 import clydeEdnaBabyKim from '../images/articlePictures/clydeEdnaBabyKim.png'
 import familyAndBill55 from '../images/articlePictures/familyAndBill55.png'
 import sixFiftyCourt from '../images/articlePictures/sixFiftyCourt.png'
