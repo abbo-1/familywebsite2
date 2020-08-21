@@ -111,6 +111,7 @@ import {
         Richardson:
     </Header>
     <Button.Group basic vertical>
+        <Button>Clyde Richardson: Biography</Button>
         <Button onClick={makeVisible} class="articleButtons">Clyde Richardson's WWII Service</Button>
         <Button>Clyde and Edna: From War to Marriage</Button>
         <Button>Clyde's Memories of Sanibel Island 1911- 1926</Button>

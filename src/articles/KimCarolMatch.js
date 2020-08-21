@@ -14,6 +14,16 @@ import scott85 from '../images/articlePictures/scott85.png'
 import kevin88 from '../images/articlePictures/kevin88.png'
 import kevin89 from '../images/articlePictures/kevin89.png'
 
+import scottkevin88 from '../images/articlePictures/scottkevin88.png'
+import familyPortrait91 from '../images/articlePictures/familyPortrait91.png'
+import scottkimcarol93 from '../images/articlePictures/scottkimcarol93.png'
+import columbia95 from '../images/articlePictures/columbia95.png'
+import disney96 from '../images/articlePictures/disney96.png'
+import scottkevin97 from '../images/articlePictures/scottkevin97.png'
+import kimkevinlondo03 from '../images/articlePictures/kimkevinlondo03.png'
+import cruise06 from '../images/articlePictures/cruise06.png'
+import kimandboys88 from '../images/articlePictures/kimandboys88.png'
+import kimkevin19 from '../images/articlePictures/kimkevin19.png'
 
 const KimCarolMatch = () => (
 
@@ -56,9 +66,9 @@ const KimCarolMatch = () => (
                 <div class="column">
                     <img src={wedding81} class="familyTree" alt="July 11, 1981 - Carol &amp; Kim" />
                 </div>
-                <dic class="column">
+                <div class="column">
                 <img src={weddingparty81} class="familyTree" alt="The Richardsons. From right to left: Gail, Karen, Jay, Carol, Kim, Edna, &amp; Clyde" />
-                </dic>
+                </div>
                 </div>
                 The reception was held at Steak &amp; Ale.  Everyone seemed to have a good time.  Steve made the toast.  Jay, Carol’s Mom, Cindy and Sharon handled cutting the cake and serving.
                 <br/>
@@ -87,14 +97,47 @@ const KimCarolMatch = () => (
                     <img src={kevin89} class="familyTree" alt="1989 - Kevin" />
                 </div>
                 </div>
+                Over the years, our family had many adventures and made lots of memories. Below are some photos of a few of them.
+                <br/>
+                <br/>
+                <div class="ui five column grid">
+                <div class="column">
+                    <img src={scottkevin88} class="familyTree" alt="1988 - Scott &amp; Kevin" />
+                </div>
+                <div class="column">
+                <img src={kimandboys88} class="familyTree" alt="1988 - Kim and his sons" />
+                </div>
+                <div class="column">
+                    <img src={familyPortrait91} class="familyTree" alt="1991 - The Richardsons" />
+                </div>
+                <div class="column">
+                    <img src={scottkimcarol93} class="familyTree" alt="1993 - Scott, Kim, &amp; Carol at the Grand Canyon" />
+                </div>
+                <div class="column">
+                <img src={columbia95} class="familyTree" alt="April 1995 - Scott &amp; Kevin pose in front of the Space Shuttle Columbia" />
+                </div>
+                </div>
+                <br/>
+                <br/>
+                <div class="ui five column grid">
+                <div class="column">
+                <img src={disney96} class="familyTree" alt="1996 - Carol, Kim, Kevin, &amp; Scott at Disneyworld in front of 'Ariels Grotto', the former site of the infamous 20,000 Leagues Under the Sea: Submarine Voyage ride." />
+                </div>
+                <div class="column">
+                    <img src={scottkevin97} class="familyTree" alt="1997 - Scott &amp; Kevin" />
+                </div>
+                <div class="column">
+                    <img src={kimkevinlondo03} class="familyTree" alt="2003 - Kim &amp; Kevin on the London Eye" />
+                </div>
+                <div class="column">
+                    <img src={cruise06} class="familyTree" alt="2006 - Carol, Kevin, Kim, &amp; Scott during a cruise" />
+                </div>
+                <div class="column">
+                <img src={kimkevin19} class="familyTree" alt="2019 - Kim &amp; Kevin" />
+                </div>
+                </div>
                 </SRLWrapper>
                 </SimpleReactLightbox>
-                <br/>
-                <br/>
-
-                <br/>
-                <br/>
-
                 </p>
             </Grid.Column>
         </Grid.Row>
