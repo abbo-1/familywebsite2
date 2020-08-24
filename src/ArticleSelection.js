@@ -115,7 +115,7 @@ import {
         Richardson:
     </Header>
     <Button.Group basic vertical>
-        <Button  id="buttonList">Clyde Richardson: Biography</Button>
+        <Button  id="buttonList">Clyde Frank Richardson: Biography</Button>
         <Button onClick={makeVisible}>Clyde Richardson's WWII Service</Button>
         <Button >Clyde and Edna: From War to Marriage</Button>
         <Button  class="articleButtons">Clyde's Memories of Sanibel Island 1911- 1926</Button>
@@ -155,7 +155,7 @@ import {
         Jones:
     </Header>
     <Button.Group basic vertical>
-        <Button>John Robert Jones: A Biography 1878 - 1963</Button>
+        <Button>John Robert Jones: Biography</Button>
     </Button.Group>
     </Grid.Column>
     

@@ -70,6 +70,12 @@ code {
   background-color: white !important;
 }
 
+.ui button.ui button {
+  border: 1.5px solid black !important; 
+  color: black !important;
+  background-color: red !important;
+}
+
 #buttonList.hover {
   background-color: yellow !important;
 }
