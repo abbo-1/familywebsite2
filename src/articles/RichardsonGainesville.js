@@ -31,7 +31,7 @@ const RichardsonGainesville = () => (
 
         <Grid.Row textAlign='left'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '.5em' }} >
-                <p style={{ fontSize: '1.33em' }}>
+                <p class="sidePadding" style={{ fontSize: '1.33em' }}>
                 <br/>
                 The Richardson family had its start in Gainesville during July of 1938.  Clyde moved there from Fort Myers to work for David Kite, his brother-in-law.  He moved in with his sister Bert and Dave in a small house in the 500 block of 2nd Avenue near downtown.  Clyde drove a truck for Kite Transfer.
                 <br/>

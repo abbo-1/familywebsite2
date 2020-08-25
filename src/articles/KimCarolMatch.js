@@ -40,7 +40,7 @@ const KimCarolMatch = () => (
 
         <Grid.Row textAlign='left'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '.5em' }} >
-                <p style={{ fontSize: '1.33em' }}>
+                <p class="sidePadding" style={{ fontSize: '1.33em' }}>
                 <br/>
                 On Wednesday, June 5, 1980, Kim and Carol were introduced to each other at a Tee-Ball game by Cindy Roberts.  Cindy worked with Kim and had a son in Carol’s First Grade class.  At the game, a first date was set up for three days later, to go to an Astros Game.
                  <br/>

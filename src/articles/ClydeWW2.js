@@ -18,11 +18,13 @@ import clyde from '../images/articlePictures/clydeService.png'
 const ClydeWW2 = () => (
 <React.Fragment>
 <Segment  style={{ padding: '0em 0em' }} vertical>
+<SimpleReactLightbox>
+    <SRLWrapper>
     <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
                 <Header as='h3' style={{ fontSize: '2em' }}>Clyde Richardson <br/> World War 2 Service </Header>
-                <img src={clyde}  alt="Clyde Richardson" />
+                <img src={clyde} class="articlePhoto"  alt="Clyde Richardson" />
                 <br/><br/><br/>
 
             </Grid.Column>
@@ -151,11 +153,11 @@ const ClydeWW2 = () => (
             </Grid.Column>
         </Grid.Row>
 
-        <Grid.Row textAlign='left'>
+        <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
                 <Header as='h3' style={{ fontSize: '1.5em' }}>September 13, 1942 </Header>
             </Grid.Column>
-            <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
+            <Grid.Column textAlign='left' style={{ paddingBottom: '1em', paddingTop: '1em' }}>
                 <p style={{ fontSize: '1em' }}>
                     SS Oliver Ellsworth torpedoed and sunk by the U-408 during Murmansk Convoy PQ-18.
                     <br/>
@@ -192,11 +194,7 @@ const ClydeWW2 = () => (
                     <br/>
 	                The following notation was entered in Petty Officer Richardson’s service record-“Performed meritorious service as a member of the Armed Guard Crew of a merchant vessel during attack and subsequent sinking of vessel by an enemy submarine on 13 September 1942.”
                 </p>
-            <SimpleReactLightbox>
-                <SRLWrapper>
                     <img src={olliverEllsworth} class="articlePhoto" alt="SS Oliver Ellsworth in 1942" />
-                </SRLWrapper>
-            </SimpleReactLightbox>
             </Grid.Column>
         </Grid.Row>
 
@@ -351,11 +349,7 @@ const ClydeWW2 = () => (
                 <p style={{ fontSize: '1em' }}>
                 Reported on board the U.S.S. Marshall (DD-676)—Assigned port side forward 40-millimeter AA gun.
                 </p>
-            <SimpleReactLightbox>
-                <SRLWrapper>
                 <img src={marshall} class="articlePhoto" alt="USS Marshall (DD-676) in 1943" />
-                </SRLWrapper>
-            </SimpleReactLightbox>
             </Grid.Column>
         </Grid.Row>
 
@@ -378,11 +372,7 @@ const ClydeWW2 = () => (
                 <p style={{ fontSize: '1em' }}>
                 The Marshall departed New York for Pearl Harbor via Panama Canal.
                 </p>
-                <SimpleReactLightbox>
-                <SRLWrapper>
                 <img src={marshallPanama} class="articlePhoto" alt="The USS Marshall in the background in the Panama Canal" />
-                </SRLWrapper>
-            </SimpleReactLightbox>
             </Grid.Column>
         </Grid.Row>
 
@@ -1288,11 +1278,7 @@ const ClydeWW2 = () => (
                 <p style={{ fontSize: '1em' }}>
                 0840 - Commenced maneuvering on various courses and at various speeds to investigate small boat bearing 320 degrees at 15 miles from Task Group 38.2.  <br/>0858 - Captured and picked up 44 Japanese survivors from the Cruiser Natori, sunk 18 August by Hardhead (SS-365).  Boat was sunk by gunfire: 350 rounds of 40 mm and 240 rounds of 20 mm expended.   <br/>1100-Arrived alongside USS New Jersey (BB-62) (Com3rdFlt).   <br/>1115 - Transferred all documents and gear along with 2 of the most intelligent looking prisoners.   <br/>1118-All lines clear.  <br/> 1150 - received mail from USS Sullivans (DD-537).  <br/>1653 - Alongside Bunker Hill. (CV-17) and commenced transfer of prisoners.
                 </p>
-                <SimpleReactLightbox>
-                <SRLWrapper>
                 <img src={japaneseSurvivors} class="articlePhoto" alt="Japanese survivors from the Cruiser Natori" />
-                </SRLWrapper>
-            </SimpleReactLightbox>
             </Grid.Column>
         </Grid.Row>
 
@@ -1634,11 +1620,7 @@ const ClydeWW2 = () => (
                 <p style={{ fontSize: '1em' }}>
                 Reported aboard USS Cohocton (AO-101).
                 </p>
-                <SimpleReactLightbox>
-                <SRLWrapper>
                     <img src={cohocton} class="articlePhoto" alt="USS Cohocton (AO-101) in 1945" />
-                </SRLWrapper>
-            </SimpleReactLightbox>
             </Grid.Column>
         </Grid.Row>
 
@@ -1700,7 +1682,7 @@ const ClydeWW2 = () => (
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
             <img src={bars} class="articlePhoto"  alt="Clyde Richardson's Military Ribbons" />
-                <p style={{ fontSize: '1em' }}>
+                <p class="sidePadding" style={{ fontSize: '1em' }}>
                 1. American Campaign Ribbon: For service during World War II within the American Theater of Operations. <br/> <br/>
                 2. Asiatic–Pacific Campaign Ribbon: Awarded to any member of the United States Armed Forces who served in the Asiatic-Pacific Theater from 1941 to 1945. (1 star for participation in each war patrol) <br/> <br/>
                 3. European–African–Middle Eastern Campaign Ribbon: Awarded to recognize those military service members who had performed military duty in the European Theater (to include North Africa and the Middle East) during the years of the Second World War.  <br/> <br/>
@@ -1709,12 +1691,13 @@ const ClydeWW2 = () => (
                 6. World War II Victory Ribbon: Awarded for service between 7 December 1941 and 31 December 1946. <br/>
 
                 </p>
+                
             </Grid.Column>
         </Grid.Row>
-
-        <br/>
-    </Grid>
-</Segment>
+        </Grid>
+        </SRLWrapper>
+</SimpleReactLightbox>
+    </Segment>
 </React.Fragment>
 
 )

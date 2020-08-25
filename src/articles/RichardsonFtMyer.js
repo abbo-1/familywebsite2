@@ -28,7 +28,7 @@ const RichardsonFtMyer = () => (
 
         <Grid.Row textAlign='left'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '.5em' }} >
-                <p style={{ fontSize: '1.33em' }}>
+                <p class="sidePadding" style={{ fontSize: '1.33em' }}>
                 <br/>
                 When Oliver and Lucy Richardson moved to Fort Myers in or around 1921, it was a small town on the Caloosahatchie River. Oliver made a deal with the owner of some farm land south of town. He worked the land and he shared the profits with the owner. It was hard making a go of it as the land was low and flooded often.
                 <br/>
@@ -39,8 +39,6 @@ const RichardsonFtMyer = () => (
 	            <SimpleReactLightbox>
                     <SRLWrapper>
                         <img src={oliver1932} class="articlePhoto" alt="1932 – Oliver on the left" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
                 <br/>
                 Lucy got a job a Flossie Hills, a dry goods store, and worked there until she retired on June 30, 1957.
                 <br/>
@@ -53,25 +51,13 @@ const RichardsonFtMyer = () => (
                 <br/>
                 <div class="ui three column grid">
                 <div class="column">
-                <SimpleReactLightbox>
-                    <SRLWrapper>
                     <img src={ftMyerFootball} class="articlePhoto" alt="1931 Football Team – Clyde is on middle row left end and Ben (Frank) is on the middle row right, second from end" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
                 </div>
                 <div class="column">
-                <SimpleReactLightbox>
-                    <SRLWrapper>
                     <img src={footballPromo} class="articlePhoto" alt="1930 - Football Lettermen – Clyde is bottom right" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
                 </div>
                 <div class="column">
-                <SimpleReactLightbox>
-                    <SRLWrapper>
                     <img src={ftMyerBasketball} class="articlePhoto" alt="1932 – Basketball Team – Clyde on left and Frank on right" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
                 </div>
                 </div>
                 <br/>
@@ -92,36 +78,22 @@ const RichardsonFtMyer = () => (
                 <br/>
                 <div class="ui two column grid">
                 <div class="column">
-                <SimpleReactLightbox>
-                    <SRLWrapper>
-                    <img src={frank1932}class="articlePhoto" alt="1932 – Frank" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
+                    <img src={frank1932} class="articlePhoto" alt="1932 – Frank" />
                 </div>
                 <div class="column">
-                <SimpleReactLightbox>
-                    <SRLWrapper>
                     <img src={clyde1932} class="articlePhoto" alt="1932 – Clyde" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
                 </div>
                 </div>
                 <br/>
                 On June 30, 1930, Clyde joined the National Guard.  Guard members were encouraged to ride the Guard Horses.  That provided another recreational activity.  Clyde spent many hours with friends riding through the fields and woods around Fort Myers.  In the summers Clyde would travel to South Carolina with his Guard unit for his two weeks of active duty. In 1938 when he resigned he was a Sergeant.
                 <br/>
                 <br/>
-                <SimpleReactLightbox>
-                    <SRLWrapper>
                     <img src={clydeNatGuard} class="articlePhoto" alt="1938 – Clyde on the left" />
-                    </SRLWrapper>
-                </SimpleReactLightbox>
                 <br/>
                 Once Clyde borrowed Hack’s car to go to a Guard meeting.  Not being real familiar with it, when the meeting was over, he got in the wrong car and drove it home.  In those days most people didn’t bother using the key and unless you locked it, it started without one.  That night the Sergeant showed up at the door inquiring about his car.  Needless to say it was an embarrassing moment for Clyde.
                 <br/>
                 <br/>
                 In 1932 or 1933, the Richardson’s rented a two bedroom house on Heitman Street, close to downtown.
-                <SimpleReactLightbox>
-                    <SRLWrapper>
                     <img src={heitmanSt} class="articlePhoto" alt="1424 Heitman, Fort Myers" />
                     </SRLWrapper>
                 </SimpleReactLightbox>

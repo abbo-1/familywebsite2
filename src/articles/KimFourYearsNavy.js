@@ -33,7 +33,7 @@ const KimFourYearsNavy = () => (
 
         <Grid.Row textAlign='left'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '.5em' }} >
-                <p style={{ fontSize: '1.33em' }}>
+                <p class="sidePadding" style={{ fontSize: '1.33em' }}>
                 <br/>
                  It was about nine PM, October 6, 1965, when I arrived at the Great Lakes Training Facility.  I carried one small bag with no uniforms as the Navy Recruiter back home had told me.  I fell in line with a group of new recruits. And we walked to the processing center.  Sailors hung out barrack windows and yelled, "You'll be sorry."  Since I had been to Boot Camp four months before, I knew that they would be the ones to be sorry when I walked out of there the next day.  I was only there to take an audition for the Naval School of Music.
                  <br/>

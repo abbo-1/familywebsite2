@@ -46,7 +46,7 @@ const ClydeBio = () => (
 
         <Grid.Row textAlign='left'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '.5em' }} >
-                <p style={{ fontSize: '1.33em' }}>
+                <p class="sidePadding" style={{ fontSize: '1.33em' }}>
                 <br/>
                 Clyde was born on Sanibel Island on June 27, 1911 to Lucy and Oliver Richardson.  The family lived in the Sanibel House, a hotel that Lucy created out of the Hughes Floating Hotel.  The Sanibel House stood on the beach next to Grandpa’s house and Uncle Will’s house.  Lucy ran the hotel while Oliver farmed and dabbled in real estate.  Lucy had three children from a previous marriage to John Daniels, Bertha, Haskell and JB.
                 <br/>

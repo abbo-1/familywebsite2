@@ -8,8 +8,7 @@ import { SRLWrapper } from "simple-react-lightbox";
 import johnJones05 from '../images/articlePictures/johnJones05.png'
 import johnMarion16 from '../images/articlePictures/johnMarion16.png'
 import johnJones23 from '../images/articlePictures/johnJones23.png'
-// import robertGloriaWedding47 from '../images/articlePictures/robertGloriaWedding47.png'
-// import robertKathyCarol56 from '../images/articlePictures/robertKathyCarol56.png'
+import johnJones13 from '../images/articlePictures/johnJones13.png'
 
 
 const options = {
@@ -41,7 +40,7 @@ const JohnJonesBio = () => (
 
         <Grid.Row textAlign='left'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '.5em' }} >
-                <p style={{ fontSize: '1.33em' }}>
+                <p class="sidePadding" style={{ fontSize: '1.33em' }}>
                 <SimpleReactLightbox>
                     <SRLWrapper>
                     <div class="column">
@@ -49,10 +48,28 @@ const JohnJonesBio = () => (
                     <img src={johnJones05} class="articlePhoto" alt="1905 - John Robert Jones" />
                     </div>
                 <br/>
-                John Robert Jones was born on April 4, 1878. Very little is known about his life or his family. He was a brilliant man who graduated from the University of Pennsylvania and law school. He was a politician of some sort in the Pennsylvania state capital of Harrisburg at some point and eventually became a municipal court judge in Philadelphia.
+                John Robert Jones was born on April 4, 1878. Very little is known about his life or his family. He was a brilliant man who graduated from the University of Pennsylvania and law school in 1902. In 1911 he was elected as a republican to the Pennsylvania House of Representatives and was re-elected in 1913.
                 <br/>
                 <br/>
-                John married Marion Erskine Abbott on September 8, 1915 and they had one son, Robert (Bobbie) Erskine, born on January 18, 1922. John was well respected in his work life but many said he was not a very personable man. He reportedly did not treat his mother well, and apparently this was also true of his wife since she left him when Bobbie was young. He refused to grant her a divorce and supported her for the rest of her life.
+                One newspaper in 1913 described John as having "...two hobbies- progressive legislation and the constitution". It went on to describe as an active and fierce reformer who would go to great lengths to protect the state's constitution. That same article remarked "the House has grown to consider John Robert as a part of the constitution and when he reaches in his desk and pulls out the document they do not wait for him to cite a few dozen cases, but accept his position."
+                <br/>
+                <br/>
+                <div class="column">
+                    {/* <SRLWrapper options={options}> */}
+                    <img src={johnJones13} class="articlePhoto" alt="1913 - John Robert Jones as pictured in the Harrisberg Telegraph" />
+                </div>
+                <br/>
+                <br/>
+                In 1914, for unknown reasons he left the Republican party, running for a third term under both the Prohibition and Washington ticket - under which he lost by 600 votes.
+                <br/>
+                <br/>
+                John married Marion Erskine Abbott on September 8, 1915. In 1922 they had one son, Robert (Bobbie) Erskine, born on January 18.
+                <br/>
+                <br/>
+                He held a variety of local and state-wide government positions over the next several years. Including being appointed the Deputy Attorney General for the Pennyslvania's Attorney General's office from 1923 to 1925, and later a municipal court judge from 1939 to 1959.
+                <br/>
+                <br/>
+                John was well respected in his work life but many said he was not a very personable man. He reportedly did not treat his mother well, and apparently this was also true of his wife since she left him when Bobbie was young. He refused to grant her a divorce and supported her for the rest of her life.
                 <br/>
                 <br/>
                 <div class="column">

@@ -36,7 +36,7 @@ const ClydeAndEdna = () => (
 
         <Grid.Row textAlign='left'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '.5em' }} >
-                <p style={{ fontSize: '1.33em' }}>
+                <p class="sidePadding" style={{ fontSize: '1.33em' }}>
                 <br/>
                 March 1, 1945 - Brought a letter from Clyde to Edna with a money order to buy an Engagement Ring. On Saturday, March 18, Edna bought an Engagement ring for $220.00.
                 <br/>

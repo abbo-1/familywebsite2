@@ -27,6 +27,8 @@ import {
   import ClydeBio from './articles/ClydeBio.js'
   import RobertJonesBio from './articles/RobertJonesBio.js'
   import JohnJonesBio from './articles/JohnJonesBio.js'
+  import LucyRichardsonBio from './articles/LucyBio.js'
+
 
   function ArticleSelection() {
     const [visible, setVisible] = useState(false);
@@ -196,15 +198,16 @@ import {
 {/* {visible && <ClydeWWII/> } */}
 {/* {visible && "boxhall" } */}
 
-{/* <ClydeWWII/>
+<ClydeWWII/>
 <ClydeAndEdna/>
 <RichardsonFtMyer/>
 <RichardsonGainesville/>
 <KimFourYearsNavy/>
 <KimCarolMatch/>
-<ClydeBio/> */}
-{/* <RobertJonesBio/> */}
+<ClydeBio/>
+<RobertJonesBio/>
 <JohnJonesBio/>
+<LucyRichardsonBio/>
 
 </Grid.Column>
 </Grid.Row>

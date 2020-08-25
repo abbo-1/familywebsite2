@@ -41,7 +41,7 @@ const RobertJonesBio = () => (
 
         <Grid.Row textAlign='left'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '.5em' }} >
-                <p style={{ fontSize: '1.33em' }}>
+                <p class="sidePadding" style={{ fontSize: '1.33em' }}>
                 <SimpleReactLightbox>
                     <SRLWrapper>
                     <div class="column">

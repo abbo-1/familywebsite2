@@ -54,7 +54,7 @@ code {
 .articlePhoto {
   display: table;
   margin: 0 auto;
-  width: 350px;
+  width: 300px;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -68,7 +68,7 @@ code {
 .articlePhotoRow {
   display: table;
   margin: 0 auto;
-  width: 250px;
+  width: 200px;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -82,6 +82,11 @@ code {
 .handWritten {
   font-family: "Pristina";
   font-size: x-large;
+}
+
+.sidePadding {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .ui.inverted.vertical.center.aligned.segment {
