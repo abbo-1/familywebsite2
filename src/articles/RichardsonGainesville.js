@@ -38,7 +38,7 @@ const RichardsonGainesville = () => (
                 <br/>
 	            <SimpleReactLightbox>
                     <SRLWrapper>
-                        <img src={clyde1941} class="familyTree" alt="1941 – Clyde Richardson" />
+                        <img src={clyde1941} class="articlePhoto" alt="1941 – Clyde Richardson" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>
@@ -50,7 +50,7 @@ const RichardsonGainesville = () => (
                 <br/>
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={clydeEdnaMeet42} class="familyTree" alt="1942 - Clyde Richardson  &amp; Edna Frank" />
+                    <img src={clydeEdnaMeet42} class="articlePhoto" alt="1942 - Clyde Richardson  &amp; Edna Frank" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>
@@ -59,7 +59,7 @@ const RichardsonGainesville = () => (
                 <br/>
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={sixFiftyCourt} class="familyTree" alt="650 Court Street" />
+                    <img src={sixFiftyCourt} class="articlePhoto" alt="650 Court Street" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>
@@ -72,7 +72,7 @@ const RichardsonGainesville = () => (
                 <br/>
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={clydeEdnaBabyKim} class="familyTree" alt="1947 – Edna, Clyde &amp; Kim" />
+                    <img src={clydeEdnaBabyKim} class="articlePhoto" alt="1947 – Edna, Clyde &amp; Kim" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>
@@ -88,7 +88,7 @@ const RichardsonGainesville = () => (
                 <br/>
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={clydeKimScooter51} class="familyTree" alt="1955 – Clyde &amp; Kim" />
+                    <img src={clydeKimScooter51} class="articlePhoto" alt="1955 – Clyde &amp; Kim" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>
@@ -97,7 +97,7 @@ const RichardsonGainesville = () => (
                 <br/>
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={familyAndBill55} class="familyTree" alt="1955 - Clyde, Edna, Gail &amp; Kim (far right)" />
+                    <img src={familyAndBill55} class="articlePhoto" alt="1955 - Clyde, Edna, Gail &amp; Kim (far right)" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>
@@ -107,7 +107,7 @@ const RichardsonGainesville = () => (
                 <br/>
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={twealthCourt56} class="familyTree" alt="549 NE 12th Court" />
+                    <img src={twealthCourt56} class="articlePhoto" alt="549 NE 12th Court" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>
@@ -119,14 +119,14 @@ const RichardsonGainesville = () => (
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={jay58} class="familyTree" alt="1958 – Jay" />
+                    <img src={jay58} class="articlePhoto" alt="1958 – Jay" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={gailKaren60} class="familyTree" alt="1960 – Gail &amp; Karen" />
+                    <img src={gailKaren60} class="articlePhoto" alt="1960 – Gail &amp; Karen" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
@@ -149,14 +149,14 @@ const RichardsonGainesville = () => (
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={familyPortrait79} class="familyTree" alt="1979 –  Family Portrait" />
+                    <img src={familyPortrait79} class="articlePhoto" alt="1979 –  Family Portrait" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={familyPortrait91} class="familyTree" alt="1991 – Family Portrait" />
+                    <img src={familyPortrait91} class="articlePhoto" alt="1991 – Family Portrait" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>

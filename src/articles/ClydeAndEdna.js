@@ -188,7 +188,7 @@ const ClydeAndEdna = () => (
                 Clyde took the Silver Meteor to New York and arrived on the 22nd. They were married on Saturday, January 26, 1946. They spent their wedding night at the Pennsylvania Hotel. The next day they left for Gainesville, Florida.
                 <SimpleReactLightbox>
                     <SRLWrapper options={options}>
-                    <img src={clydeEdnaWedding} class="familyTree" alt="Edna and Clyde Richardson - January 26, 1946" />
+                    <img src={clydeEdnaWedding} class="articlePhoto" alt="Edna and Clyde Richardson - January 26, 1946" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </p>

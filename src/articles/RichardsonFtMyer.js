@@ -38,7 +38,7 @@ const RichardsonFtMyer = () => (
                 <br/>
 	            <SimpleReactLightbox>
                     <SRLWrapper>
-                        <img src={oliver1932} class="familyTree" alt="1932 – Oliver on the left" />
+                        <img src={oliver1932} class="articlePhoto" alt="1932 – Oliver on the left" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>
@@ -55,21 +55,21 @@ const RichardsonFtMyer = () => (
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={ftMyerFootball} class="familyTree" alt="1931 Football Team – Clyde is on middle row left end and Ben (Frank) is on the middle row right, second from end" />
+                    <img src={ftMyerFootball} class="articlePhoto" alt="1931 Football Team – Clyde is on middle row left end and Ben (Frank) is on the middle row right, second from end" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={footballPromo} class="familyTree" alt="1930 - Football Lettermen – Clyde is bottom right" />
+                    <img src={footballPromo} class="articlePhoto" alt="1930 - Football Lettermen – Clyde is bottom right" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={ftMyerBasketball} class="familyTree" alt="1932 – Basketball Team – Clyde on left and Frank on right" />
+                    <img src={ftMyerBasketball} class="articlePhoto" alt="1932 – Basketball Team – Clyde on left and Frank on right" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
@@ -94,14 +94,14 @@ const RichardsonFtMyer = () => (
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={frank1932} class="familyTree" alt="1932 – Frank" />
+                    <img src={frank1932}class="articlePhoto" alt="1932 – Frank" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
                 <div class="column">
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={clyde1932} class="familyTree" alt="1932 – Clyde" />
+                    <img src={clyde1932} class="articlePhoto" alt="1932 – Clyde" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 </div>
@@ -112,7 +112,7 @@ const RichardsonFtMyer = () => (
                 <br/>
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={clydeNatGuard} class="familyTree" alt="1938 – Clyde on the left" />
+                    <img src={clydeNatGuard} class="articlePhoto" alt="1938 – Clyde on the left" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>
@@ -122,7 +122,7 @@ const RichardsonFtMyer = () => (
                 In 1932 or 1933, the Richardson’s rented a two bedroom house on Heitman Street, close to downtown.
                 <SimpleReactLightbox>
                     <SRLWrapper>
-                    <img src={heitmanSt} class="familyTree" alt="1424 Heitman, Fort Myers" />
+                    <img src={heitmanSt} class="articlePhoto" alt="1424 Heitman, Fort Myers" />
                     </SRLWrapper>
                 </SimpleReactLightbox>
                 <br/>

@@ -194,7 +194,7 @@ const ClydeWW2 = () => (
                 </p>
             <SimpleReactLightbox>
                 <SRLWrapper>
-                    <img src={olliverEllsworth} class="familyTree" alt="SS Oliver Ellsworth in 1942" />
+                    <img src={olliverEllsworth} class="articlePhoto" alt="SS Oliver Ellsworth in 1942" />
                 </SRLWrapper>
             </SimpleReactLightbox>
             </Grid.Column>
@@ -353,7 +353,7 @@ const ClydeWW2 = () => (
                 </p>
             <SimpleReactLightbox>
                 <SRLWrapper>
-                <img src={marshall} class="familyTree" alt="USS Marshall (DD-676) in 1943" />
+                <img src={marshall} class="articlePhoto" alt="USS Marshall (DD-676) in 1943" />
                 </SRLWrapper>
             </SimpleReactLightbox>
             </Grid.Column>
@@ -380,7 +380,7 @@ const ClydeWW2 = () => (
                 </p>
                 <SimpleReactLightbox>
                 <SRLWrapper>
-                <img src={marshallPanama} class="familyTree" alt="The USS Marshall in the background in the Panama Canal" />
+                <img src={marshallPanama} class="articlePhoto" alt="The USS Marshall in the background in the Panama Canal" />
                 </SRLWrapper>
             </SimpleReactLightbox>
             </Grid.Column>
@@ -1290,7 +1290,7 @@ const ClydeWW2 = () => (
                 </p>
                 <SimpleReactLightbox>
                 <SRLWrapper>
-                <img src={japaneseSurvivors} class="familyTree" alt="Japanese survivors from the Cruiser Natori" />
+                <img src={japaneseSurvivors} class="articlePhoto" alt="Japanese survivors from the Cruiser Natori" />
                 </SRLWrapper>
             </SimpleReactLightbox>
             </Grid.Column>
@@ -1636,7 +1636,7 @@ const ClydeWW2 = () => (
                 </p>
                 <SimpleReactLightbox>
                 <SRLWrapper>
-                    <img src={cohocton} class="familyTree" alt="USS Cohocton (AO-101) in 1945" />
+                    <img src={cohocton} class="articlePhoto" alt="USS Cohocton (AO-101) in 1945" />
                 </SRLWrapper>
             </SimpleReactLightbox>
             </Grid.Column>
@@ -1699,7 +1699,7 @@ const ClydeWW2 = () => (
 
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
-            <img src={bars}  alt="Clyde Richardson's Military Ribbons" />
+            <img src={bars} class="articlePhoto"  alt="Clyde Richardson's Military Ribbons" />
                 <p style={{ fontSize: '1em' }}>
                 1. American Campaign Ribbon: For service during World War II within the American Theater of Operations. <br/> <br/>
                 2. Asiatic–Pacific Campaign Ribbon: Awarded to any member of the United States Armed Forces who served in the Asiatic-Pacific Theater from 1941 to 1945. (1 star for participation in each war patrol) <br/> <br/>

@@ -51,6 +51,39 @@ code {
   height: auto;
 }
 
+.articlePhoto {
+  display: table;
+  margin: 0 auto;
+  width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.articlePhoto:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.articlePhotoRow {
+  display: table;
+  margin: 0 auto;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.articlePhotoRow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.handWritten {
+  font-family: "Pristina";
+  font-size: x-large;
+}
+
 .ui.inverted.vertical.center.aligned.segment {
     background: #000000; 
     background-image: url('./images/backsplashWithLogo.png');

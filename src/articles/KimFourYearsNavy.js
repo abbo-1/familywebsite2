@@ -76,7 +76,7 @@ const KimFourYearsNavy = () => (
                 <br/>
 	            <SimpleReactLightbox>
                     <SRLWrapper>
-                        <img src={cargobattalaionone} class="familyTree" alt="U.S. Naval Cargo Handling Battalion One" />
+                        <img src={cargobattalaionone} class="articlePhoto" alt="U.S. Naval Cargo Handling Battalion One" />
                 <br/>
                 <br/>
                 Cheatham Annex was a large land area base filled with many warehouses.  Inside these warehouses were food and equipment for the Armed Forces.  Supplies came in by truck and train and the warehouses were maintained by Sandcrabs (Government civilian employees), There was a long pier that reached out into the James River and Cargo ships came in for supplies for Military bases in Europe.
@@ -184,7 +184,7 @@ const KimFourYearsNavy = () => (
                 Also in 1966 I found I was assigned to a draft of men to go the USS Great Sitkin, an ammunition ship.  She was going to the yards and they needed help removing all the munitions from her holds.  We soon found ourselves in Bayonne, New Jersey.  We arrived on the ship after taps and they put us anywhere there was an empty bunk.
                 <br/>
                 <br/>
-                        <img src={kimgreatsitkin} class="familyTree" data-attribute="fourYears" alt="USS Great Sitkin  AE-17" />
+                        <img src={kimgreatsitkin} class="articlePhoto" data-attribute="fourYears" alt="USS Great Sitkin  AE-17" />
                 <br/>
                 <br/>
                 When I awoke the next morning over half our guys were gone.  The ship's company sailors had come in off leave and liberty and bumped our men elsewhere.  I couldn't believe they were so unorganized.  The next night a friend of mine and I decided we didn't want to be ejected from bed in the middle of the night.  For the remainder of the two weeks we were on the ship, he and I slept outside under the three-inch guns.
@@ -301,7 +301,7 @@ const KimFourYearsNavy = () => (
                 The main things I used to do in Naples, was to go to the USO and next door to the EM (enlisted mans) club where they had a restaurant that you could buy a great steak dinner for two dollars.  We also used to catch a bus to the Navy Exchange.  After a five-day stay in Naples we went to sea for two weeks.  We spent most of the time in the Eastern Med as there was political trouble in Greece.  Then it was back to Naples for a short visit at the end of April.
                 <br/>
                 <br/>
-                        <img src={dk3kim} class="familyTree" data-attribute="fourYears" alt="The day I was promoted to Petty Officer Third Class" />
+                        <img src={dk3kim} class="articlePhoto" data-attribute="fourYears" alt="The day I was promoted to Petty Officer Third Class" />
                 <br/>
                 <br/>
                 On April 16, 1967, I was promoted to Petty Officer Third Class.
@@ -334,7 +334,7 @@ const KimFourYearsNavy = () => (
                 In August we pulled into Rapallo, Italy.  It’s on the Italian Riveria and it was beautiful.  We visited Genoa and a beautiful little town of Portofino.  We rented two-man three wheel bicycles and rode all around.  Waiting for the boat back to the ship my friend and I met three girls.  We talked and had my picture taken with them.  Two of them were great looking and one was rather large.  One of the two good-looking ones seemed to like me so I concentrated on her.  However the boat came and we went back to the ship.  The next day I had duty so I couldn't go ashore.
                 <br/>
                 <br/>
-                        <img src={italianriveria} class="familyTree" data-attribute="fourYears" alt="Liberty on the Italian Riviera" />
+                        <img src={italianriveria} class="articlePhoto" data-attribute="fourYears" alt="Liberty on the Italian Riviera" />
                 <br/>
                 <br/>
                 It was our last day there so the Captain had an open house and hired a band.  We had a dance on the flight deck.  The three girls showed up and though I couldn't spend any time with them she did manage to talk me out of my hat.
@@ -388,7 +388,7 @@ const KimFourYearsNavy = () => (
                 Our next time in Naples, six of us, including Pat and Don Ranahan, decided to go to Rome for the weekend.  On November 6, 1967, a Friday afternoon, our train pulled out of Naples.  We arrived in the early evening.
                 <br/>
                 <br/>
-                        <img src={danpatkim68} class="familyTree" alt="Don, Pat Ranahan, &amp; Kim" />
+                        <img src={danpatkim68} class="articlePhoto" alt="Don, Pat Ranahan, &amp; Kim" />
                 <br/>
                 <br/>
                 I was dying to see the Coliseum.  With the aid of a map, we finally approached a main road and to our left was the coliseum all lit up.  I was really excited, here was something I had seen in pictures all my life and now there it was.
@@ -433,7 +433,7 @@ const KimFourYearsNavy = () => (
                 In Palma we rented a car and went all around the Island.  We sideswiped a donkey cart and put a scratch on the car.  When we returned it we parked it so the scratch wouldn't show.
                 <br/>
                 <br/>
-                        <img src={kimdoncharliecar} class="familyTree" alt="Our car in Palma" />
+                        <img src={kimdoncharliecar} class="articlePhoto" alt="Our car in Palma" />
                 <br/>
                 <br/>
                 One day I heard through the door to the office, Humphrey, joke as he was looking at the pay list, that he wasn't getting enough.  I opened the door and asked him if he wanted me to check it.  I was going to jack it up again, but he said no it was all right.
@@ -463,7 +463,7 @@ const KimFourYearsNavy = () => (
                 Just before the Mississinewa pulled into Rota, she stopped just up the coast at Gibraltar.  On March 15, 1968, we stopped for two days.  It was great.  We took a tour of the Rock.  We saw the natural caves and tunnels that are believed to travel under the straits to Africa.  We saw the Rock Apes and heard that they are never known to die of natural causes on Gibraltar.  It is thought that when their time is near that they travel through the tunnels to Africa to die.  It was a real interesting liberty.
                 <br/>
                 <br/>
-                        <img src={neosho} class="familyTree" alt="USS Neosho  Ao-143" />
+                        <img src={neosho} class="articlePhoto" alt="USS Neosho  Ao-143" />
                 <br/>
                 <br/>
                 I was looking forward to the USS Neosho AO-143.  After two Starks, I felt there was no way there could be a third.  There wasn't, but DK1 VanAusdale was worse.  He was a "by the book sailor."  He took no short cuts and would tolerate none.  The NavCompt Manual was his bible.  He even once went head to head with Captain Chetlin.  He may have been right, but Chetlin was a Captain.  VanAusdale lost.
@@ -496,7 +496,7 @@ const KimFourYearsNavy = () => (
                 Upon leaving Civitavecchia the next day, we went to Livorno.  John Harris, Dan and Pat Ranahan and I wanted to go across the boot to Venice.  We requested weekend liberty and permission to go to Venice.  The request chits came back disapproved because Venice was too far.  We resubmitted them asking them for permission to spend the weekend in Florence.  They approved them, so the next day we were off to Venice.
                 <br/>
                 <br/>
-                        <img src={kimdonpat68} class="familyTree" alt="Kim Richardson, Pat Ranahan, John Harris, &amp; Don Ranahan" />
+                        <img src={kimdonpat68} class="articlePhoto" alt="Kim Richardson, Pat Ranahan, John Harris, &amp; Don Ranahan" />
                 <br/>
                 <br/>
                 We first took a bus to Pisa and saw the Leaning Tower.  We all climbed to the top, then walked around and took pictures.  Next we took the train to Florence where we caught another train to Venice.  We arrived in Venice about nine o’clock at night.  We got ourselves a room and walked around for about an hour.  Tired from all of the traveling we slept until almost noon.  We had to catch a train back in just two hours.  We took a waterbus to St. Marks.  I was so excited I left a bag that belonged to someone else on the boat.  It was filled with four cartons of cigarettes.  It was worth sixteen dollars on the black market, which was a lot back then.
@@ -505,7 +505,7 @@ const KimFourYearsNavy = () => (
                 We took some pictures, looked around and then headed back for the train station.  It cost us a lot of time and money for two hours in Venice, but none of us would have traded it for anything.
                 <br/>
                 <br/>
-                        <img src={donkimpat68} class="familyTree" alt="Don Ranahan, Kim Richardson, &amp; Pat Ranahan" />
+                        <img src={donkimpat68} class="articlePhoto" alt="Don Ranahan, Kim Richardson, &amp; Pat Ranahan" />
                 <br/>
                 <br/>
                 In the middle of June a group of got a chance to go see the Harlem Globetrotters.  We enjoyed them very much.  It was strange to watch them in Italy, as most of the people in the audience didn't understand English and couldn't follow some of the jokes.  However they seemed to enjoy it.  After the game a few of us went into their bus before they left and got autographs.
@@ -595,7 +595,7 @@ const KimFourYearsNavy = () => (
                 After a week in transit I got my orders.  I was transferred to the USS Truckee AO-147 as the ship's disbursing clerk.  It was not staff, but at least my seabag was there and the Truckee would be in the Med for another five months.
                 <br/>
                 <br/>
-                        <img src={truckee} class="familyTree" alt="USS Truckee AO-147 in Malta" />
+                        <img src={truckee} class="articlePhoto" alt="USS Truckee AO-147 in Malta" />
                 <br/>
                 <br/>
                 I was thrilled to be back.  I already knew a lot of the ship's company from their last cruise.  The first thing I checked on was to see if I could get the new staff DK that took my place transferred to the ship's company so I could have my job back.  It was a no go.  The new DK had brought a wife with him so it would cost too much to transfer her back to the states. 
@@ -604,7 +604,7 @@ const KimFourYearsNavy = () => (
                 As a member of the ship's company I was in a port and starboard duty section.  Every other day I had duty.  On the bright side, the petty officer that was responsible for the watch bill didn't realize I was now ship's company and left me off the watch bill for six weeks.  I still had duty but I didn't have to stand any watches.
                 <br/>
                 <br/>
-                        <img src={kimtina} class="familyTree" alt="Kim &amp; Tina" />
+                        <img src={kimtina} class="articlePhoto" alt="Kim &amp; Tina" />
                 <br/>
                 <br/>
                 I went ashore the first chance I got to see Tina.  She seemed happy to see me.  We went out a couple of times.  Sometimes it was hard to keep a date.  Once I received permission for early liberty.  We were moored to the seawall.  The Captain decided to have a birthday party for the Truckee (she was 13 years old that day) and delayed liberty.  The liberty boats were secured.  I found out there was a boat leaving for the Tidewater, a destroyer tender, and caught it.  I then took the Tidewater's liberty boat to shore.
@@ -646,7 +646,7 @@ const KimFourYearsNavy = () => (
                 We stopped in Palma for a few days and then Gibraltar.  Then to Rota to off load part of the Staff.  Next we went up the coast to Lisbon.  I took the tour and went to Fatima.  It was a great liberty.
                 <br/>
                 <br/>
-                        <img src={cargilbrta86} class="familyTree" alt="John Harris &amp; Kim in Gibralta" />
+                        <img src={cargilbrta86} class="articlePhoto" alt="John Harris &amp; Kim in Gibralta" />
                 Next it was back to Rota where the Mississinewa took the remainder of the Staff.
                 <br/>
                 <br/>
@@ -729,7 +729,7 @@ const KimFourYearsNavy = () => (
                 <br/>
                 <br/>
                 It was a great adventure.
-                        <img src={usstruckee} class="familyTree" alt="
+                        <img src={usstruckee} class="articlePhoto" alt="
                          USS Truckee AO-147 Refueling USS America CVA-66 and USS Harry E Yarnell ELT-17" />
                     </SRLWrapper>
                 </SimpleReactLightbox>

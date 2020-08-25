@@ -88,7 +88,7 @@ const ClydeBio = () => (
                     <SRLWrapper>
                     <div class="column">
                     {/* <SRLWrapper options={options}> */}
-                    <img src={ftMyerBasketball} class="familyTree" alt="1932 Fort Myers High School Basketball Team. Clyde is on the far left and his brother Frank is on far right" />
+                    <img src={ftMyerBasketball} class="articlePhoto" alt="1932 Fort Myers High School Basketball Team. Clyde is on the far left and his brother Frank is on far right" />
                     </div>
                 <br/>
                 <br/>
@@ -103,7 +103,7 @@ const ClydeBio = () => (
                 <br/>
                 <div class="column">
                     {/* <SRLWrapper options={options}> */}
-                    <img src={clydeNatGuard} class="familyTree" alt="1938 - Clyde on the left" />
+                    <img src={clydeNatGuard} class="articlePhoto" alt="1938 - Clyde on the left" />
                 </div>
                 <br/>
                 <br/>
@@ -124,7 +124,7 @@ const ClydeBio = () => (
                 <br/>
                 <div class="column">
                     {/* <SRLWrapper options={options}> */}
-                    <img src={clyde1941} class="familyTree" alt="1941 - Clyde" />
+                    <img src={clyde1941} class="articlePhoto" alt="1941 - Clyde" />
                 </div>
                 At first he lived with his sister Bert and Dave.  After a short while he rented a room with a friend close by on what was to be N.W. 2nd Avenue.  He dated a girl named Dorothy Cooper.  She also worked for Dave.
                 <br/>
@@ -152,7 +152,7 @@ const ClydeBio = () => (
                 <br/>
                 <div class="column">
                     {/* <SRLWrapper options={options}> */}
-                    <img src={clyde1945} class="familyTree" alt="1945 - Bert Kite, Clyde, Edna, &amp; Lucy Richardson" />
+                    <img src={clyde1945} class="articlePhoto" alt="1945 - Bert Kite, Clyde, Edna, &amp; Lucy Richardson" />
                 </div>
                 On December 19, 1945, Clyde was discharged from the Navy in Jacksonville, Florida.  On January 26, 1946, he married Edna in Brooklyn.  Dad’s Nephew Buddy Kite came up from Washington where he was stationed to attend the wedding.
                 <br/>
@@ -166,7 +166,7 @@ const ClydeBio = () => (
                 In 1947, Clyde and Edna had their first son, Kim Frank.
                 <div class="column">
                     {/* <SRLWrapper options={options}> */}
-                    <img src={clyekim47} class="familyTree" alt="1947 - Clyde &amp; Kim" />
+                    <img src={clyekim47} class="articlePhoto" alt="1947 - Clyde &amp; Kim" />
                 </div>
                 In 1949, they had their second child Tara who died two days later.
                 <br/>
@@ -185,7 +185,7 @@ const ClydeBio = () => (
                 <br/>
                 <div class="column">
                     {/* <SRLWrapper options={options}> */}
-                    <img src={gail58} class="familyTree" alt="1958 - Gail" />
+                    <img src={gail58} class="articlePhoto" alt="1958 - Gail" />
                 </div>
                 <br/>
                 <br/>
@@ -227,7 +227,7 @@ const ClydeBio = () => (
                 <br/>
                 <div class="column">
                     {/* <SRLWrapper options={options}> */}
-                    <img src={ednaclyde00} class="familyTree" alt="2000 - Edna &amp; Clyde" />
+                    <img src={ednaclyde00} class="articlePhoto" alt="2000 - Edna &amp; Clyde" />
                 </div>
                 <br/>
                 <br/>

@@ -25,6 +25,8 @@ import {
   import KimFourYearsNavy from './articles/KimFourYearsNavy.js'
   import KimCarolMatch from './articles/KimCarolMatch.js'
   import ClydeBio from './articles/ClydeBio.js'
+  import RobertJonesBio from './articles/RobertJonesBio.js'
+  import JohnJonesBio from './articles/JohnJonesBio.js'
 
   function ArticleSelection() {
     const [visible, setVisible] = useState(false);
@@ -155,7 +157,8 @@ import {
         Jones:
     </Header>
     <Button.Group basic vertical>
-        <Button>John Robert Jones: Biography</Button>
+        <Button>John Erskine Jones: Biography</Button>
+        <Button>John Robert Jones: A Biography 1878 - 1963</Button>
     </Button.Group>
     </Grid.Column>
     
@@ -190,14 +193,18 @@ import {
 <Grid.Column  style={{ paddingBottom: '5em', paddingTop: '5em' }}>
 
 {/* <span>test</span> */}
-{visible && <ClydeWWII/> }
+{/* {visible && <ClydeWWII/> } */}
 {/* {visible && "boxhall" } */}
-{/* <ClydeAndEdna/> */}
-{/* <RichardsonFtMyer/> */}
-{/* <RichardsonGainesville/> */}
-{/* <KimFourYearsNavy/> */}
-{/* <KimCarolMatch/> */}
-<ClydeBio/>
+
+{/* <ClydeWWII/>
+<ClydeAndEdna/>
+<RichardsonFtMyer/>
+<RichardsonGainesville/>
+<KimFourYearsNavy/>
+<KimCarolMatch/>
+<ClydeBio/> */}
+{/* <RobertJonesBio/> */}
+<JohnJonesBio/>
 
 </Grid.Column>
 </Grid.Row>
