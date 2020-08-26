@@ -5,11 +5,12 @@ import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
 
-import johnJones05 from '../images/articlePictures/johnJones05.png'
+import lucy1901 from '../images/articlePictures/lucy1901.png'
 import frank1932 from '../images/articlePictures/frank1932.png'
 import clyde1932 from '../images/articlePictures/clyde1932.png'
-import johnJones13 from '../images/articlePictures/johnJones13.png'
-// import robertKathyCarol56 from '../images/articlePictures/robertKathyCarol56.png'
+import lucy45 from '../images/articlePictures/lucy45.png'
+import sanibel1909 from '../images/articlePictures/sanibel1909.png'
+import dec1306 from '../images/articlePictures/dec1306.png'
 
 
 const options = {
@@ -63,25 +64,34 @@ const LucyRichardsonBio = () => (
                 Lucy married John B. Daniels on April 6, 1897 and lived in a two-story house on the corner of Bailey road and Periwinkle Way.  She gave birth to Bertha on November 10, 1898 and William Haskell on January 18, 1901.
                 <br/>
                 <br/>
+                <div class="column">
+                    {/* <SRLWrapper options={options}> */}
+                    <img src={lucy1901} class="articlePhoto" alt="1901 - Lucy &amp; John Daniels with Bertha &amp; Haskell" />
+                </div>
+                <br/>
+                <br/>
                 In 1902 Lucy and John moved to Tampa so John could work as a streetcar conductor.  Soon after their third child, J.B. was born on November 2, 1903, they moved back to Sanibel.
+                <br/>
+                <br/>
+                In December 1906, John invited a man named A.J. Chansey to dinner. The men had words over an unknown matter by which Chansey had held a grudge. Both men were drinking or drunk prior to the meeting. When it came time to serve dinner, Chansey walked out. John chased him out into the road, insisting he stay and eat. Chansey raised a gun and shot John. When Lucy, in shock and terror, ran to her husband, Chancy threatened to shoot her too. Frank Bailey, justice of the peace, arrested Chancy and he was sent to prison for life.
                 <br/>
                 <br/>
                 <div class="column">
                     {/* <SRLWrapper options={options}> */}
-                    <img src={johnJones13} class="articlePhoto" alt="1901 - Lucy &amp; John Daniels with Bertha &amp; Haskell" />
+                    <img src={dec1306} class="articlePhoto" alt="1906 - An article about the murder dated December 13 from the Miami Weekly Tribune" />
                 </div>
-                <br/>
-                <br/>
-                In the fall of 1907, Lucy was serving up their noonday meal when a farmhand named Chancy, came to the door.  John invited him to eat, but Chancy looked "a little Queer," so John asked him to step outside.
-                <br/>
-                <br/>
-                Chancy, rolling drunk, raised his rifle and shot John.  When Lucy, in shock and terror, ran to her husband, Chancy threatened to shoot her too. Frank Bailey, justice of the peace, arrested Chancy and he was sent to prison for life.
                 <br/>
                 <br/>
                 The Daniels farm produced a fine crop of peppers that year and Lucy was able to sell them for a good price.  Along with that money and some she borrowed from her father, she bought the Hughes Floating Hotel.  It was a huge houseboat with decks spacious enough for dancing, 21 rooms, two baths, and a dining room. kitchen, office and wine rooms.
                 <br/>
                 <br/>
                 Somehow it was heaved ashore and put up on blocks next to the Captain's house.  Lucy renamed the hotel, "Sanibel House."
+                <br/>
+                <br/>
+                <div class="column">
+                    {/* <SRLWrapper options={options}> */}
+                    <img src={sanibel1909} class="articlePhoto" alt="1909 - Sanibel House" />
+                </div>
                 <br/>
                 <br/>
                 Lucy married Oliver Richardson on May 9, 1910.  Oliver bought the Mackie homestead and put in the Richardson subdivision, but he mainly farmed the land.
@@ -142,6 +152,12 @@ const LucyRichardsonBio = () => (
                 <br/>
                 <br/>
                 Oliver's health began to deteriorate.  On August 13 1942, Oliver had a stroke, while he was working in a field, farming.  He refused to go to the doctor.  Two days later he died, he was able to hold Lucy's hand.  Lucy wrote to Clyde, who was over seas at the time, informing him of his father's death.
+                <br/>
+                <br/>
+                <div class="column">
+                    {/* <SRLWrapper options={options}> */}
+                    <img src={lucy45} class="articlePhoto" alt="1945 - Lucy" />
+                </div>
                 <br/>
                 <br/>
                 Lucy lived the rest of her life on Heitman Street.  JB and his wife Rita lived in Fort Myers also.  They raised four children, Dorothy Nell, Benny, Johnny and Billy.  Tragedy struck in August, 1949, when Dorothy Nell died at the age of fourteen.
