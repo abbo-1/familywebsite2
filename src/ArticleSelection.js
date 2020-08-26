@@ -30,6 +30,17 @@ import {
   import LucyRichardsonBio from './articles/LucyBio.js'
   import WilliamReedBio from './articles/WilliamReedBio.js'
   import MarieZepfBio from './articles/MarieZepfBio.js'
+  import MichaelFrankBio from  './articles/MichaelFrankBio.js'
+  import EdnaBio from "./articles/EdnaBio";
+  import EdnaOwnWords from "./articles/EdnaOwnWords";
+  import MarionAbbottBio from "./articles/MarionAbbottBio";
+  import WilliamAbbottBio from "./articles/WilliamAbbottBio";
+  import CharlesCassidyBio from "./articles/CharlesCassidyBio";
+  import GloriaCassidyBio from "./articles/GloriaCassidyBio";
+  import MarionCassidyBio from "./articles/MarionCassidyBio";
+
+
+
   
 
   function ArticleSelection() {
@@ -211,7 +222,17 @@ import {
 {/* <JohnJonesBio/> */}
 {/* <LucyRichardsonBio/> */}
 {/* <WilliamReedBio/> */}
-<MarieZepfBio/>
+{/* <MarieZepfBio/> */}
+{/* <MichaelFrankBio/> */}
+{/* <EdnaBio/> */}
+{/* <EdnaOwnWords/> */}
+{/* <MarionAbbottBio/> */}
+{/* <WilliamAbbottBio/> */}
+<CharlesCassidyBio/>
+<GloriaCassidyBio/>
+<MarionCassidyBio/>
+
+
 
 </Grid.Column>
 </Grid.Row>

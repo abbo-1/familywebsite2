@@ -4,10 +4,7 @@ import { Button, Divider, Segment, Header, Grid } from 'semantic-ui-react'
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
-
-import marieZepf00 from '../images/articlePictures/marieZepf00.png'
-
-
+import michaelFrank21 from '../images/articlePictures/michaelFrank21.png'
 
 const options = {
     thumbnails: {
@@ -44,7 +41,7 @@ const MichaelFrankBio = () => (
                 <br/>
                 <div class="column">
                     {/* <SRLWrapper options={options}> */}
-                    <img src={marieZepf00} class="articlePhoto" alt="1900 - Marie (Mamie) Zepf" />
+                    <img src={michaelFrank21} class="articlePhoto" alt="1921 - Michael (Bill) Frank" />
                 </div>
                 <br/>
                 <br/>
