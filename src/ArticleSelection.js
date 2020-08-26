@@ -228,9 +228,9 @@ import {
 {/* <EdnaOwnWords/> */}
 {/* <MarionAbbottBio/> */}
 {/* <WilliamAbbottBio/> */}
-<CharlesCassidyBio/>
-<GloriaCassidyBio/>
-<MarionCassidyBio/>
+{/* <CharlesCassidyBio/> */}
+{/* <GloriaCassidyBio/>
+<MarionCassidyBio/> */}
 
 
 

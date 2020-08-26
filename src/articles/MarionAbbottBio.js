@@ -8,7 +8,7 @@ import { SRLWrapper } from "simple-react-lightbox";
 import marionBetty00 from '../images/articlePictures/marionBetty00.png'
 import marion13 from '../images/articlePictures/marion13.png'
 import marion15 from '../images/articlePictures/marion15.png'
-import marion70 from '../images/articlePictures/marion15.png'
+import marionAbbott58 from '../images/articlePictures/marionAbbott58.png'
 
 const options = {
     thumbnails: {
@@ -106,7 +106,7 @@ const MarionAbbottBio = () => (
                     <br/>
                     <div class="column">
                         {/* <SRLWrapper options={options}> */}
-                        <img src={marion70} class="articlePhoto" alt="1970 - Marion" />
+                        <img src={marionAbbott58} class="articlePhoto" alt="1958 - Marion" />
                     </div>
                         </SRLWrapper>
                     </SimpleReactLightbox>
