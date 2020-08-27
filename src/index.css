@@ -49,6 +49,14 @@ code {
 .familyTree {
   width: 200px;
   height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.familyTree:hover  {
+  cursor: pointer;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 .articlePhoto {
@@ -93,32 +101,43 @@ code {
     background: transparent; 
     background-image: url('./images/backsplashWithLogo.png');
     background-repeat: no-repeat;
-    /* height: 507px !important; */
     background-size: 100%;
-    width:100%;
     min-height: 535px !important;
 }
 
-.mazeBackground.articleButtons {
-  background-color: red !important;
-}
-
-#buttonList {
-  /* background-color: chartreuse !important; */
+#buttonSegment .ui.basic.buttons .button {
+  color: black !important;
+  background: white !important;
   border: 1px solid black !important; 
-  color: black !important;
-  background-color: white !important;
 }
 
-.ui button.ui button {
-  border: 1.5px solid black !important; 
-  color: black !important;
-  background-color: red !important;
+#buttonSegment .ui.basic.buttons .button:hover {
+  background: #1b1c1d !important;
+  color: white !important;
 }
 
-#buttonList.hover {
+#buttonSegment .ui.basic.buttons .button:active {
+  background: #1b1c1d !important;
+  color: white !important;
+}
+
+
+#buttonSegment .articleButtons {
   background-color: yellow !important;
+  color:  rgb(139, 139, 127) !important;
 }
+
+.farSideAd {
+  width: 750px;
+  height: 90px;
+  background-image: url('./images/ad2.png');
+}
+
+.farSideAd:hover {
+  cursor: pointer;
+}
+
+
 /* 
 .articleButtons:hover {
     cursor: pointer;

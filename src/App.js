@@ -113,7 +113,7 @@ class DesktopContainer extends Component {
           <Segment
             inverted
             textAlign='center'
-            style={{ minHeight: 700, padding: '1em 0em' }}
+            style={{ minHeight: 535, padding: '1em 0em' }}
             vertical
           >
             <Menu
@@ -127,21 +127,22 @@ class DesktopContainer extends Component {
                 <Menu.Item as='a' active>
                 <Link to="/">Home</Link>
                 </Menu.Item>
-                <Menu.Item as='a'><Link to="/History">Archives</Link></Menu.Item>
+                <Menu.Item as='a'>
+                  <Link to="/History">Archives</Link>
+                </Menu.Item>
                 <Menu.Item position='right'>
-                  <Button as='a' inverted={!fixed}>
+                  {/* <Button as='a' inverted={!fixed}>
                     Log in
                   </Button>
                   <Button as='a' inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>
                     Sign Up
-                  </Button>
+                  </Button> */}
                 </Menu.Item>
               </Container>
             </Menu>
             <HomepageHeading />
           </Segment>
         </Visibility>
-
         {children}
       </Responsive>
     )
@@ -201,12 +202,12 @@ class MobileContainer extends Component {
                   <Icon name='sidebar' />
                 </Menu.Item>
                 <Menu.Item position='right'>
-                  <Button as='a' inverted>
+                  {/* <Button as='a' inverted>
                     Log in
                   </Button>
                   <Button as='a' inverted style={{ marginLeft: '0.5em' }}>
                     Sign Up
-                  </Button>
+                  </Button> */}
                 </Menu.Item>
               </Menu>
             </Container>
@@ -256,7 +257,9 @@ const HomepageLayout = () => (
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
-              <div class="ui leaderboard test ad" data-text="The Far Side of Silence"></div>
+            <a href="https://www.amazon.com/Far-Side-Silence-Robert-Marcus-ebook/dp/B00ENOVQSY/https://www.amazon.com/Far-Side-Silence-Robert-Marcus-ebook/dp/B00ENOVQSY/" target="_blank">
+              <div class="farSideAd" />
+              </a>
             </Grid.Column>
           </Grid.Row>
         </Grid>

@@ -32,17 +32,19 @@ import zepfTree from './images/familyTrees/zepf.png'
 import abbottTree from './images/familyTrees/abbott.png'
 import haskellReedTree from './images/familyTrees/haskellReed.png'
 import haskellTree from './images/familyTrees/haskell.png'
+import cassidyTree from './images/familyTrees/cassidy.png'
+import kernTree from './images/familyTrees/kern.png'
+import wherheimTree from './images/familyTrees/wherheim.png'
+
 
 import wedding from './images/wedding.jpg'
-import logo from './images/logo.png'
 
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
 const Home = () => (
-    <div class = "mazeBackground">
+<div class = "mazeBackground">
 <Segment style={{ padding: '8em 0em' }} vertical>
-{/* <div class ="homePageBackground"> */}
   <Grid container stackable verticalAlign='middle'>
     <Grid.Row>
       <Grid.Column width={8}>
@@ -113,10 +115,13 @@ const Home = () => (
     </Header>
     <SimpleReactLightbox>
     <SRLWrapper>
-    <img src={zepfTree} class="familyTree" alt="This is the Zepf family tree" />
-    <img src={abbottTree} class="familyTree" alt="This is the Abbott family tree" />
-    <img src={haskellTree} class="familyTree" alt="This is the Haskell family tree" />
-    <img src={haskellReedTree} class="familyTree" alt="This is the Haskell/Reed family tree" />
+    <img src={zepfTree} class="familyTree" alt="Zepf family tree" />
+    <img src={abbottTree} class="familyTree" alt="Abbott family tree" />
+    <img src={haskellTree} class="familyTree" alt="Haskell family tree" />
+    <img src={haskellReedTree} class="familyTree" alt="Haskell/Reed family tree" />
+    <img src={cassidyTree} class="familyTree" alt="Cassidy family tree" />
+    <img src={kernTree} class="familyTree" alt="Kern family tree" />
+    <img src={wherheimTree} class="familyTree" alt="Wherheim family tree" />
 
     </SRLWrapper>
     </SimpleReactLightbox>

@@ -66,10 +66,6 @@ import {
     // }
 
     return (
-   
-      
-
-
 //   export const ArticleSelection = ({ visible, children }) => {
 
 //     const [isVisible, setVisibility] = useState(null);
@@ -123,7 +119,7 @@ import {
 
  <Divider /> 
 
-<Segment  style={{ padding: '0em 0em' }} vertical>
+<Segment id="buttonSegment"  style={{ padding: '0em 0em' }} vertical>
 <Grid celled='internally' columns='equal' stackable>
 <Grid.Row textAlign='center'>
 <Grid.Column  style={{ paddingBottom: '5em', paddingTop: '5em' }}>
@@ -133,9 +129,9 @@ import {
     <Button.Group basic vertical>
         <Button  id="buttonList">Clyde Frank Richardson: Biography</Button>
         <Button onClick={makeVisible}>Clyde Richardson's WWII Service</Button>
-        <Button >Clyde and Edna: From War to Marriage</Button>
+        <Button class="articleButtons">Clyde and Edna: From War to Marriage</Button>
         <Button  class="articleButtons">Clyde's Memories of Sanibel Island 1911- 1926</Button>
-        <Button>Kim Richardson: Four Years in the US Navy</Button>
+        <Button class="ui button">Kim Richardson: Four Years in the US Navy</Button>
         <Button>Kim and Carol: A Perfect Match</Button>
         <Button>Richardson's in Ft. Myers 1924- 1938</Button>
         <Button>Richardson's in Gainsville, Florida 1939 - 1979</Button>
