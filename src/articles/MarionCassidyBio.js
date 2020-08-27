@@ -5,7 +5,9 @@ import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
 
-import williamAbbott25 from '../images/articlePictures/williamAbbott25.png'
+import sandyBairds65 from '../images/articlePictures/sandyBairds65.png'
+import sandy07 from '../images/articlePictures/sandy07.png'
+
 
 const options = {
     thumbnails: {
@@ -84,9 +86,10 @@ const MarionCassidyBio = () => (
                     <br/>
                     In January of 1965 Sandy made a one month trip to England to spend some time with Sandy Baird and meet his parents. A beautiful wedding took place in Philadelphia on May 29th of that year and after a honeymoon trip to Washington DC and New York City the happy couple sailed to England on the S.S. France.
                     <br/>
+                    <br/>
                     <div class="column">
                         {/* <SRLWrapper options={options}> */}
-                        <img src={williamAbbott25} class="articlePhoto" alt="1965 - Sandy &amp; Sandy Baird" />
+                        <img src={sandyBairds65} class="articlePhoto" alt="1965 - Sandy &amp; Sandy Baird" />
                     </div>
                     <br/>
                     "The Sandys", as they called themselves, lived in Banstead for many years, then moved to a home in Epsom Downs and finally to Haywards Heath, all near London. They adopted a son, Jamie Douglas Baird, who was born on December 14, 1972. Both Sandys are very talented in art, Sandy Cassidy with watercolors, and her husband with pastels. After retiring, Sandy Baird busied himself with charity work, golf, and his painting. Sadly, he passed away in November 15, 2006 after a battle with lung cancer.
@@ -94,9 +97,10 @@ const MarionCassidyBio = () => (
                     <br/>
                     At the time of this writing (2007), Sandy Cassidy still lives in their home in Haywards Heath but is planning a move to a retirement community nearby. She still loves to travel and no doubt will continue to do so as long as she is physically able. Her son, Jamie, eventually went on to University to study engineering and currently works in the nuclear engineering field. He is single and owns a home in the town of Chester which sadly he rarely occupies since his job requires a great deal of travel. He tries to visit his mother whenever he can.
                     <br/>
+                    <br/>
                     <div class="column">
                         {/* <SRLWrapper options={options}> */}
-                        <img src={williamAbbott25} class="articlePhoto" alt="2007 - Sandy Baird sitting center. Behind her Kathy Jones &amp; Jamie Baird" />
+                        <img src={sandy07} class="articlePhoto" alt="2007 - Sandy Baird sitting center. Behind her Kathy Jones &amp; Jamie Baird" />
                     </div>
                     <br/>
                         </SRLWrapper>

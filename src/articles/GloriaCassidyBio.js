@@ -10,9 +10,7 @@ import gloria48 from '../images/articlePictures/gloria48.png'
 import gloriaJoe70 from '../images/articlePictures/gloriaJoe70.png'
 import gloria77 from '../images/articlePictures/gloria77.png'
 import carolGloriaKathy63 from '../images/articlePictures/carolGloriaKathy63.png'
-// import carolGloriaKathy63 from '../images/articlePictures/carolGloriaKathy63.png'
-
-
+import gloriaJoe90 from '../images/articlePictures/gloriaJoe90.png'
 
 
 const options = {
@@ -132,7 +130,7 @@ const CharlesCassidyBio = () => (
                     <br/>
                     <div class="column">
                         {/* <SRLWrapper options={options}> */}
-                        <img src={gloriaRobertWedding47} class="articlePhoto" alt="1988 - Jeanette, Gloria, Kathy, Marion, &amp; Carol" />
+                        <img src={gloriaJoe90} class="articlePhoto" alt="1990 - Gloria &amp; Joe" />
                     </div>
                     <br/>
                         </SRLWrapper>

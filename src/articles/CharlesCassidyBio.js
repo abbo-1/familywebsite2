@@ -4,10 +4,11 @@ import { Button, Divider, Segment, Header, Grid } from 'semantic-ui-react'
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
-
-import williamAbbott25 from '../images/articlePictures/williamAbbott25.png'
+import charlesPilot19 from '../images/articlePictures/charlesPilot19.png'
+import charles32 from '../images/articlePictures/charles32.png'
+import charlesMarion19 from '../images/articlePictures/charlesMarion19.png'
 import charlesCassidyEnrollment from '../images/articlePictures/charlesCassidyEnrollment.png'
-
+import charles82 from '../images/articlePictures/charles82.png'
 
 const options = {
     thumbnails: {
@@ -63,7 +64,7 @@ const CharlesCassidyBio = () => (
                 </div>
                 <div class="column">
                         {/* <SRLWrapper options={options}> */}
-                        <img src={williamAbbott25} class="articlePhoto" alt="1919 - Charlie in a flying boat" />
+                        <img src={charlesPilot19} class="articlePhoto" alt="1919 - Charlie in a flying boat" />
                 </div>
                 </div>
                     <br/>
@@ -71,13 +72,20 @@ const CharlesCassidyBio = () => (
                     <br/>
                     <div class="column">
                         {/* <SRLWrapper options={options}> */}
-                        <img src={williamAbbott25} class="articlePhoto" alt="1919 - Charlie &amp; Marion" />
+                        <img src={charlesMarion19} class="articlePhoto" alt="1919 - Charlie &amp; Marion" />
                     </div>
                     <br/>
-                    The details of their married life can be found in Marion's biography. However, there are some interesting stories about Charlie that are worth telling. Charlie loved to enter contests and at some point he started entering a recipe contest every month. He would write a jingle to go with the recipe and his daughter Gloria, a talented artist, designed a brochure. They evidently won frequently and enjoyed such prizes as a stove, refrigerator and even a car! (This was before rules that prohibited the same person from winning a contest more than once.)
+                    The details of their married life can be found in Marion's biography. However, there are some interesting stories about Charlie that are worth telling. Charlie loved to enter contests and at some point he started entering a recipe contest every month. He would write a jingle to go with the recipe and his daughter Gloria, a talented artist, designed a brochure. They evidently won frequently and enjoyed such prizes as a stove, refrigerator and even a car! (This was before rules that prohibited the same person from winning a contest more than once).
                     <br/>
                     <br/>
-                    In their younger days, Marion and Charlie both smoked cigarettes, as did most of their generation. Their daughter, Sandy, remembers that her older sister, Gloria, and her mother both rolled their own cigarettes and her father bought different colored cigarettes when he was in New York City. The photo of Charlie in a regular tie above is a rare one as he was particularly fond of bowties.
+                    In their younger days, Marion and Charlie both smoked cigarettes, as did most of their generation. Their daughter, Sandy, remembers that her older sister, Gloria, and her mother both rolled their own cigarettes and her father bought different colored cigarettes when he was in New York City. 
+                    <br/>
+                    <div class="column">
+                        {/* <SRLWrapper options={options}> */}
+                        <img src={charles32} class="articlePhoto" alt="1932 - Charles" />
+                    </div>
+                    <br/>
+                    The photo of Charlie in a regular tie above is a rare one as he was particularly fond of bowties.
                     <br/>
                     <br/>
                     Charlie's grandchilden, Kathy and Carol Jones, remember that their grandparents were frequent visitors to their home in Valley Forge, about a half hour drive up the Schulkill Expressway. When the girls were in elementary school, their parents purchased a complete set of the World Book Encyclopedias which were kept on a shelf in their "rec" room (short for recreation room, now we'd say family room). When Charlie disappeared, which he did regularly, the girls were not surprised to find their grandfather all alone in the rec room pouring over one of the volumes.
@@ -87,7 +95,7 @@ const CharlesCassidyBio = () => (
                     <br/>
                     <div class="column">
                         {/* <SRLWrapper options={options}> */}
-                        <img src={williamAbbott25} class="articlePhoto" alt="1982 - Charlie &amp; Marion with the Bairds and Carol Jones Richardson" />
+                        <img src={charles82} class="articlePhoto" alt="1982 - Charlie (dead center in trademark bowtie) &amp; Marion with the Bairds and Carol Jones Richardson" />
                     </div>
                     <br/>
                         </SRLWrapper>

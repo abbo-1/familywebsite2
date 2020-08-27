@@ -90,11 +90,13 @@ code {
 }
 
 .ui.inverted.vertical.center.aligned.segment {
-    background: #000000; 
+    background: transparent; 
     background-image: url('./images/backsplashWithLogo.png');
     background-repeat: no-repeat;
+    /* height: 507px !important; */
     background-size: 100%;
     width:100%;
+    min-height: 535px !important;
 }
 
 .mazeBackground.articleButtons {

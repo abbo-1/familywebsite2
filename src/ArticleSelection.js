@@ -38,10 +38,9 @@ import {
   import CharlesCassidyBio from "./articles/CharlesCassidyBio";
   import GloriaCassidyBio from "./articles/GloriaCassidyBio";
   import MarionCassidyBio from "./articles/MarionCassidyBio";
+  import MarionOwnWords from "./articles/MarionOwnWords";
+  import ConradZulickBio from "./articles/ConradZulickBio";
 
-
-
-  
 
   function ArticleSelection() {
     const [visible, setVisible] = useState(false);
@@ -229,10 +228,10 @@ import {
 {/* <MarionAbbottBio/> */}
 {/* <WilliamAbbottBio/> */}
 {/* <CharlesCassidyBio/> */}
-{/* <GloriaCassidyBio/>
-<MarionCassidyBio/> */}
-
-
+{/* <GloriaCassidyBio/> */}
+{/* <MarionCassidyBio/> */}
+{/* <MarionOwnWords/> */}
+<ConradZulickBio/>
 
 </Grid.Column>
 </Grid.Row>
