@@ -49,7 +49,27 @@ import {
       setVisible(!visible);
     }
 
+  //   this one works shittily
 
+  // const Form =(props)=>{
+  //   const [isArticleShown, setArticleShown] = useState(false);
+
+  //   handleArticle=(e)=>{
+  //       e.preventDefault();
+
+  //       setPreviewShown(true); // Here we change state
+  //   }
+
+    // return(
+    //     <input name="email" type="text"/>
+    //     <button type="submit" onClick={props.handleSubmit}>Submit</button><br/>
+    //     {props.render&& 
+    //         <button type="submit" onClick={handleArticle}>Preview</button>
+    //     }
+    //     {isPreviewShown && <Preview/>}
+
+    // )
+// }
 
   //   const [isVisible, setVisibility] = useState(null);
 
@@ -113,11 +133,11 @@ import {
 // }
 // }
 // kifggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
-// const ArticleSelection = () => (
+
 <React.Fragment>
 <div class = "mazeBackground">
 
- <Divider /> 
+ {/* <Divider />  */}
 
 <Segment id="buttonSegment"  style={{ padding: '0em 0em' }} vertical>
 <Grid celled='internally' columns='equal' stackable>
@@ -128,7 +148,8 @@ import {
     </Header>
     <Button.Group basic vertical>
         <Button  id="buttonList">Clyde Frank Richardson: Biography</Button>
-        <Button onClick={makeVisible}>Clyde Richardson's WWII Service</Button>
+        <Button>Clyde Richardson's WWII Service</Button>
+        {/* <Button onClick={handleArticle}>Clyde Richardson's WWII Service</Button> */}
         <Button class="articleButtons">Clyde and Edna: From War to Marriage</Button>
         <Button  class="articleButtons">Clyde's Memories of Sanibel Island 1911- 1926</Button>
         <Button class="ui button">Kim Richardson: Four Years in the US Navy</Button>
@@ -201,6 +222,9 @@ import {
 <Grid celled='internally' columns='equal' stackable>
 <Grid.Row textAlign='center'>
 <Grid.Column  style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+<Divider />
+
+{/* {isArticleShown && ClydeWWII && ClydeAndEdna} */}
 
 {/* <span>test</span> */}
 {/* {visible && <ClydeWWII/> } */}
@@ -241,6 +265,6 @@ import {
 </div>
 </React.Fragment>
 )
-
 }
+
 export default ArticleSelection
