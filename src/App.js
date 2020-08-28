@@ -253,7 +253,7 @@ const HomepageLayout = () => (
             <Grid.Column width={4}>
               <Header inverted as='h4' content='About' />
               <List link inverted>
-                <List.Item as='a'>Website designed and maintained by Kevin Abbott</List.Item>
+                <List.Item as='a'> <a href="https://www.kevinjabbott.com" target="_blank">Website designed and maintained by Kevin Abbott</a></List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={7}>

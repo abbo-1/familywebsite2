@@ -20,6 +20,7 @@ import {
 
   import ClydeWWII from './articles/ClydeWW2.js'
   import ClydeAndEdna from './articles/ClydeAndEdna.js'
+  import ClydeSanibel from './articles/ClydeSanibel.js'
   import RichardsonFtMyer from './articles/RichardsonFtMyer.js'
   import RichardsonGainesville from './articles/RichardsonGainesville.js'
   import KimFourYearsNavy from './articles/KimFourYearsNavy.js'
@@ -43,13 +44,22 @@ import {
 
 
   function ArticleSelection() {
-    const [visible, setVisible] = useState(false);
+    // const [visible, setVisible] = useState(false);
 
-    function makeVisible() {
-      setVisible(!visible);
-    }
+    // function makeVisible() {
+    //   setVisible(!visible);
+    // }
 
   //   this one works shittily
+
+    // const component = {componentFromButton}
+
+    const [displayComponent, setDisplayComponent] = useState(null);
+
+    // function sendComponent() {
+    //   setDisplayComponent(<ClydeAndEdna/>)
+    // }
+
 
   // const Form =(props)=>{
   //   const [isArticleShown, setArticleShown] = useState(false);
@@ -138,6 +148,11 @@ import {
 <div class = "mazeBackground">
 
  {/* <Divider />  */}
+{/* 
+ set the correct id to state as string and it will then display child component accordingly. */}
+ {/* <ClydeWWII id='ClydeWWII' display={displayComponent === 'ClydeWWII'} />
+<ClydeAndEdna id='ClydeAndEdna' display={displayComponent === 'ClydeAndEdna'} />
+<RichardsonFtMyer id='RichardsonFtMyer' display={displayComponent === 'RichardsonFtMyer'}  /> */}
 
 <Segment id="buttonSegment"  style={{ padding: '0em 0em' }} vertical>
 <Grid celled='internally' columns='equal' stackable>
@@ -147,15 +162,14 @@ import {
         Richardson:
     </Header>
     <Button.Group basic vertical>
-        <Button  id="buttonList">Clyde Frank Richardson: Biography</Button>
-        <Button>Clyde Richardson's WWII Service</Button>
-        {/* <Button onClick={handleArticle}>Clyde Richardson's WWII Service</Button> */}
-        <Button class="articleButtons">Clyde and Edna: From War to Marriage</Button>
-        <Button  class="articleButtons">Clyde's Memories of Sanibel Island 1911- 1926</Button>
-        <Button class="ui button">Kim Richardson: Four Years in the US Navy</Button>
-        <Button>Kim and Carol: A Perfect Match</Button>
-        <Button>Richardson's in Ft. Myers 1924- 1938</Button>
-        <Button>Richardson's in Gainsville, Florida 1939 - 1979</Button>
+        <Button  onClick={() => setDisplayComponent(<ClydeBio/>)}>Clyde Frank Richardson: Biography</Button>
+        <Button onClick={() => setDisplayComponent(<ClydeWWII/>)}>Clyde Richardson's WWII Service</Button>
+        <Button  onClick={() => setDisplayComponent(<ClydeAndEdna/>)}>Clyde and Edna: From War to Marriage</Button>
+        <Button onClick={() => setDisplayComponent(<ClydeSanibel/>)} >Clyde on Sanibel Island 1911- 1926</Button>
+        <Button onClick={() => setDisplayComponent(<KimFourYearsNavy/>)}>Kim Richardson: Four Years in the US Navy</Button>
+        <Button onClick={() => setDisplayComponent(<KimCarolMatch/>)}>Kim and Carol: A Perfect Match</Button>
+        <Button onClick={() => setDisplayComponent(<RichardsonFtMyer/>)}>Richardson's in Ft. Myers 1924- 1938</Button>
+        <Button onClick={() => setDisplayComponent(<RichardsonGainesville/>)}>Richardson's in Gainsville, Florida 1939 - 1979</Button>
     </Button.Group>
     </Grid.Column>
 
@@ -164,22 +178,22 @@ import {
         Reed:
     </Header>
     <Button.Group basic vertical>
-        <Button>Lucy Richardson: A Biography 1877 - 1960</Button>
-        <Button>William Reed: A Biography 1831 - 1921</Button>
+        <Button onClick={() => setDisplayComponent(<LucyRichardsonBio/>)}>Lucy Richardson: A Biography 1877 - 1960</Button>
+        <Button onClick={() => setDisplayComponent(<WilliamReedBio/>)}>William Reed: A Biography 1831 - 1921</Button>
     </Button.Group>
     <Header as='h3' style={{ fontSize: '1.5em' }}>
         Zepf:
     </Header>
     <Button.Group basic vertical>
-        <Button>Marie Zepf: A Biography 1886 - 1981</Button>
+        <Button onClick={() => setDisplayComponent(<MarieZepfBio/>)}>Marie Zepf: A Biography 1886 - 1981</Button>
     </Button.Group>
     <Header as='h3' style={{ fontSize: '1.5em' }}>
         Frank:
     </Header>
     <Button.Group basic vertical>
-        <Button>Michael Frank: A Biography 1882 - 1950</Button>
-        <Button>Edna Frank: A Biography 1923 - 2008</Button>
-        <Button>Edna Frank: Memories of Brooklyn</Button>
+        <Button onClick={() => setDisplayComponent(<MichaelFrankBio/>)}>Michael Frank: A Biography 1882 - 1950</Button>
+        <Button onClick={() => setDisplayComponent(<EdnaBio/>)}>Edna Frank: A Biography 1923 - 2008</Button>
+        <Button onClick={() => setDisplayComponent(<EdnaOwnWords/>)}>Edna Frank: Memories of Brooklyn</Button>
     </Button.Group>
     </Grid.Column>
 
@@ -188,8 +202,8 @@ import {
         Jones:
     </Header>
     <Button.Group basic vertical>
-        <Button>John Erskine Jones: Biography</Button>
-        <Button>John Robert Jones: A Biography 1878 - 1963</Button>
+        <Button onClick={() => setDisplayComponent(<JohnJonesBio/>)}>John Erskine Jones: Biography</Button>
+        <Button onClick={() => setDisplayComponent(<RobertJonesBio/>)}>John Robert Jones: A Biography 1878 - 1963</Button>
     </Button.Group>
     </Grid.Column>
     
@@ -198,23 +212,23 @@ import {
         Abbott:
     </Header>
     <Button.Group basic vertical>
-        <Button>Marion Abbott: A Biography 1891 - 1974</Button>
-        <Button>William Abbott: A Biography 1866 - 1933</Button>
+        <Button onClick={() => setDisplayComponent(<MarionAbbottBio/>)}>Marion Abbott: A Biography 1891 - 1974</Button>
+        <Button onClick={() => setDisplayComponent(<WilliamAbbottBio/>)}>William Abbott: A Biography 1866 - 1933</Button>
     </Button.Group>
     <Header as='h3' style={{ fontSize: '1.5em' }}>
         Cassidy:
     </Header>
     <Button.Group basic vertical>
-        <Button>Charles Cassidy: A Biography 1893 - 1983</Button>
-        <Button>Gloria Cassidy: A Biography 1924 - 1997</Button>
-        <Button>Marion Sandra Cassidy: A Biography 1935 - Present</Button>
-        <Button>Marion Knell Cassidy: My Life</Button>
+        <Button onClick={() => setDisplayComponent(<CharlesCassidyBio/>)}>Charles Cassidy: A Biography 1893 - 1983</Button>
+        <Button onClick={() => setDisplayComponent(<GloriaCassidyBio/>)}>Gloria Cassidy: A Biography 1924 - 1997</Button>
+        <Button onClick={() => setDisplayComponent(<MarionCassidyBio/>)}>Marion Sandra Cassidy: A Biography 1935 - Present</Button>
+        <Button onClick={() => setDisplayComponent(<MarionOwnWords/>)}>Marion Knell Cassidy: My Life</Button>
     </Button.Group>
     <Header as='h3' style={{ fontSize: '1.5em' }}>
         Zulick:
     </Header>
     <Button.Group basic vertical>
-        <Button>Conrad Zulick: A Biography 1838 - 1926</Button>
+        <Button onClick={() => setDisplayComponent(<ConradZulickBio/>)}>Conrad Zulick: A Biography 1838 - 1926</Button>
     </Button.Group>
     </Grid.Column>
 
@@ -224,34 +238,38 @@ import {
 <Grid.Column  style={{ paddingBottom: '5em', paddingTop: '5em' }}>
 <Divider />
 
+{displayComponent}
+
 {/* {isArticleShown && ClydeWWII && ClydeAndEdna} */}
 
 {/* <span>test</span> */}
 {/* {visible && <ClydeWWII/> } */}
 {/* {visible && "boxhall" } */}
 
-{/* <ClydeWWII/> */}
-{/* <ClydeAndEdna/> */}
-{/* <RichardsonFtMyer/> */}
-{/* <RichardsonGainesville/> */}
-{/* <KimFourYearsNavy/> */}
-{/* <KimCarolMatch/> */}
-{/* <ClydeBio/> */}
-{/* <RobertJonesBio/> */}
-{/* <JohnJonesBio/> */}
-{/* <LucyRichardsonBio/> */}
-{/* <WilliamReedBio/> */}
-{/* <MarieZepfBio/> */}
-{/* <MichaelFrankBio/> */}
-{/* <EdnaBio/> */}
-{/* <EdnaOwnWords/> */}
-{/* <MarionAbbottBio/> */}
-{/* <WilliamAbbottBio/> */}
-{/* <CharlesCassidyBio/> */}
-{/* <GloriaCassidyBio/> */}
-{/* <MarionCassidyBio/> */}
-{/* <MarionOwnWords/> */}
-<ConradZulickBio/>
+{/* <Comp1 id='comp-1' display={childToDisplay === 'comp-1'} /> */}
+
+{/* <ClydeWWII id='ClydeWWII' display={displayComponent === 'ClydeWWII'} />
+<ClydeAndEdna id='ClydeAndEdna' display={displayComponent === 'ClydeAndEdna'} />
+<RichardsonFtMyer id='RichardsonFtMyer' display={displayComponent === 'RichardsonFtMyer'}  />
+<RichardsonGainesville/>
+<KimFourYearsNavy/>
+<KimCarolMatch/>
+<ClydeBio/>
+<RobertJonesBio/>
+<JohnJonesBio/>
+<LucyRichardsonBio/>
+<WilliamReedBio/>
+<MarieZepfBio/>
+<MichaelFrankBio/>
+<EdnaBio/>
+<EdnaOwnWords/>
+<MarionAbbottBio/>
+<WilliamAbbottBio/>
+<CharlesCassidyBio/>
+<GloriaCassidyBio/>
+<MarionCassidyBio/>
+<MarionOwnWords/>
+<ConradZulickBio/> */}
 
 </Grid.Column>
 </Grid.Row>
