@@ -28,7 +28,7 @@ code {
   background-image: url('./images/backsplashWithLogo.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  min-height: 535px !important;
+  height: 535px !important;
 }
 
 /* CLYDE AND ROBERT BUTTONS ON FRONT PAGE */

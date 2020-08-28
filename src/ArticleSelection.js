@@ -44,115 +44,15 @@ import {
 
 
   function ArticleSelection() {
-    // const [visible, setVisible] = useState(false);
-
-    // function makeVisible() {
-    //   setVisible(!visible);
-    // }
-
-  //   this one works shittily
-
-    // const component = {componentFromButton}
 
     const [displayComponent, setDisplayComponent] = useState(null);
 
-    // function sendComponent() {
-    //   setDisplayComponent(<ClydeAndEdna/>)
-    // }
-
-
-  // const Form =(props)=>{
-  //   const [isArticleShown, setArticleShown] = useState(false);
-
-  //   handleArticle=(e)=>{
-  //       e.preventDefault();
-
-  //       setPreviewShown(true); // Here we change state
-  //   }
-
-    // return(
-    //     <input name="email" type="text"/>
-    //     <button type="submit" onClick={props.handleSubmit}>Submit</button><br/>
-    //     {props.render&& 
-    //         <button type="submit" onClick={handleArticle}>Preview</button>
-    //     }
-    //     {isPreviewShown && <Preview/>}
-
-    // )
-// }
-
-  //   const [isVisible, setVisibility] = useState(null);
-
-  //   function makeVisible () {
-  //     setVisibility = useState(true)
-  //   }
-
-  //   useEffect(() => {
-  //     setVisibility(visible); // update the state
-  // }, [visible]); // hook is only triggered when value changes
-
-    // function loadIt(){
-    //   console.log("brownsound")
-    // }
 
     return (
-//   export const ArticleSelection = ({ visible, children }) => {
-
-//     const [isVisible, setVisibility] = useState(null);
-
-//     useEffect(() => {
-//       setVisibility(visible); // update the state
-//   }, [visible]);
-
-//     return children;
-// };
-// afffffffffffffffffff
-// afffffffffffffffffff
-// afffffffffffffffffff
-// afffffffffffffffffff
-// afffffffffffffffffff
-// class ArticleSelection extends Component {
-//   render() {
-//     state = {
-//       isActive:false
-//    }
-
-   
-//   handleShow = ()=>{
-//     this.setState({
-//         isActive: true
-//     })
-// }
-
-// handleHide = () =>{
-//     this.setState({
-//         isActive: false
-//     })
-// }
- 
-// return(
-//   <div>
-//   {this.state.isActive && <h1>Hello react</h1>}
-//    {this.state.isActive ?(
-//       <HideButton onClick={this.handleHide}/>
-//    ) : (
-//      <ShowButton onClick={this.handleShow}/>
-//    )}
-// </div>
-//     )
-// }
-// }
-// kifggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
-
 <React.Fragment>
 <div class = "mazeBackground">
 
  {/* <Divider />  */}
-{/* 
- set the correct id to state as string and it will then display child component accordingly. */}
- {/* <ClydeWWII id='ClydeWWII' display={displayComponent === 'ClydeWWII'} />
-<ClydeAndEdna id='ClydeAndEdna' display={displayComponent === 'ClydeAndEdna'} />
-<RichardsonFtMyer id='RichardsonFtMyer' display={displayComponent === 'RichardsonFtMyer'}  /> */}
 
 <Segment id="buttonSegment"  style={{ padding: '0em 0em' }} vertical>
 <Grid celled='internally' columns='equal' stackable>
@@ -239,37 +139,6 @@ import {
 <Divider />
 
 {displayComponent}
-
-{/* {isArticleShown && ClydeWWII && ClydeAndEdna} */}
-
-{/* <span>test</span> */}
-{/* {visible && <ClydeWWII/> } */}
-{/* {visible && "boxhall" } */}
-
-{/* <Comp1 id='comp-1' display={childToDisplay === 'comp-1'} /> */}
-
-{/* <ClydeWWII id='ClydeWWII' display={displayComponent === 'ClydeWWII'} />
-<ClydeAndEdna id='ClydeAndEdna' display={displayComponent === 'ClydeAndEdna'} />
-<RichardsonFtMyer id='RichardsonFtMyer' display={displayComponent === 'RichardsonFtMyer'}  />
-<RichardsonGainesville/>
-<KimFourYearsNavy/>
-<KimCarolMatch/>
-<ClydeBio/>
-<RobertJonesBio/>
-<JohnJonesBio/>
-<LucyRichardsonBio/>
-<WilliamReedBio/>
-<MarieZepfBio/>
-<MichaelFrankBio/>
-<EdnaBio/>
-<EdnaOwnWords/>
-<MarionAbbottBio/>
-<WilliamAbbottBio/>
-<CharlesCassidyBio/>
-<GloriaCassidyBio/>
-<MarionCassidyBio/>
-<MarionOwnWords/>
-<ConradZulickBio/> */}
 
 </Grid.Column>
 </Grid.Row>
