@@ -23,6 +23,7 @@ const ClydeWW2 = () => (
     <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                <br/>
                 <Header as='h3' style={{ fontSize: '2em' }}>Clyde Richardson <br/> World War 2 Service </Header>
                 <img src={clyde} class="articlePhoto"  alt="Clyde Richardson" />
                 <br/><br/><br/>

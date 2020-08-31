@@ -32,6 +32,7 @@ const MarionAbbottBio = () => (
         <Grid celled='internally' columns='equal' stackable>
             <Grid.Row textAlign='center'>
                 <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                    <br/>
                     <Header as='h3' style={{ fontSize: '2em' }}>Marion Erskine Abbott Jones <br/>(1891 - 1974)  </Header>
                     <br/>
                 </Grid.Column>

@@ -62,7 +62,7 @@ import {
         Richardson:
     </Header>
     <Button.Group basic vertical>
-        <Button  onClick={() => setDisplayComponent(<ClydeBio/>)}>Clyde Frank Richardson: Biography</Button>
+        <Button onClick={() => setDisplayComponent(<ClydeBio/>)}>Clyde Frank Richardson: Biography</Button>
         <Button onClick={() => setDisplayComponent(<ClydeWWII/>)}>Clyde Richardson's WWII Service</Button>
         <Button  onClick={() => setDisplayComponent(<ClydeAndEdna/>)}>Clyde and Edna: From War to Marriage</Button>
         <Button onClick={() => setDisplayComponent(<ClydeSanibel/>)} >Clyde on Sanibel Island 1911- 1926</Button>
@@ -131,20 +131,20 @@ import {
         <Button onClick={() => setDisplayComponent(<ConradZulickBio/>)}>Conrad Zulick: A Biography 1838 - 1926</Button>
     </Button.Group>
     </Grid.Column>
-
-    <Segment  style={{ padding: '0em 0em' }} vertical>
-<Grid celled='internally' columns='equal' stackable>
-<Grid.Row textAlign='center'>
-<Grid.Column  style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-<Divider />
-
-{displayComponent}
-
-</Grid.Column>
+    
 </Grid.Row>
 </Grid>
 </Segment>
 
+
+    <Segment  style={{ padding: '0em 0em' }} vertical>
+<Grid celled='internally' columns='equal' stackable>
+<Grid.Row textAlign='center'>
+<Grid.Column  style={{ paddingBottom: '5em', paddingTop: '0em' }}>
+
+{displayComponent}
+
+</Grid.Column>
 </Grid.Row>
 </Grid>
 </Segment>

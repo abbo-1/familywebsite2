@@ -40,6 +40,7 @@ import { SRLWrapper } from "simple-react-lightbox";
 
 import Home from './Home.js'
 import ArticleSelection from './ArticleSelection.js'
+import ImageGallery from './ImageGallery.js'
 
 const getWidth = () => {
   const isSSR = typeof window === 'undefined'
@@ -124,13 +125,26 @@ class DesktopContainer extends Component {
               size='large'
             >
               <Container>
-                <Menu.Item as='a' active>
+             <Menu.Item as='a' >
+                <Link to="/">Home</Link>
+                </Menu.Item>
+                <Menu.Item as='a'>
+                  <Link to="/history">Archives</Link>
+                </Menu.Item>
+                <Menu.Item as='a'>
+                  <Link to="/images">Image Gallery</Link>
+                </Menu.Item>
+                <Menu.Item position='right'> 
+                {/* <Menu.Item as='a' active>
                 <Link to="/">Home</Link>
                 </Menu.Item>
                 <Menu.Item as='a'>
                   <Link to="/History">Archives</Link>
                 </Menu.Item>
-                <Menu.Item position='right'>
+                <Menu.Item as='a'>
+                  <Link to="/images">Image Gallery</Link>
+                </Menu.Item>
+                <Menu.Item position='right'> */}
                   {/* <Button as='a' inverted={!fixed}>
                     Log in
                   </Button>
@@ -201,14 +215,14 @@ class MobileContainer extends Component {
                 <Menu.Item onClick={this.handleToggle}>
                   <Icon name='sidebar' />
                 </Menu.Item>
-                <Menu.Item position='right'>
+                {/* <Menu.Item position='right'> */}
                   {/* <Button as='a' inverted>
                     Log in
                   </Button>
                   <Button as='a' inverted style={{ marginLeft: '0.5em' }}>
                     Sign Up
                   </Button> */}
-                </Menu.Item>
+                {/* </Menu.Item> */}
               </Menu>
             </Container>
             <HomepageHeading mobile />
@@ -242,6 +256,7 @@ const HomepageLayout = () => (
     <Switch>
     <Route exact path='/' component={Home} />
     <Route path='/history' component={ArticleSelection} />
+    <Route path='/images' component={ImageGallery} />
     <Route component={Error} />
     </Switch>
 

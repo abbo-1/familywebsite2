@@ -29,6 +29,7 @@ const MarionOwnWords = () => (
     <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                <br/>
                 <Header as='h3' style={{ fontSize: '2em' }}>Marion Knell Cassidy <br/> My Life <br/> (In Her Own Words) <br/>  Written in 1976  </Header>
                 <br/>
             </Grid.Column>

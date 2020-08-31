@@ -25,6 +25,7 @@ const KimFourYearsNavy = () => (
     <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                <br/>
                 <Header as='h3' style={{ fontSize: '2em' }}>Kim Richardson: Four Years in the United States Navy <br/> (1965 - 1969) </Header>
                 <br/>
 

@@ -35,6 +35,7 @@ const CharlesCassidyBio = () => (
         <Grid celled='internally' columns='equal' stackable>
             <Grid.Row textAlign='center'>
                 <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                    <br/>
                     <Header as='h3' style={{ fontSize: '2em' }}>Gloria Margaret Cassidy Jones Haddock <br/>(1924 - 1997)  </Header>
                     <br/>
                 </Grid.Column>

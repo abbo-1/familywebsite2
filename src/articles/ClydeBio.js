@@ -38,6 +38,7 @@ const ClydeBio = () => (
     <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                <br/>
                 <Header as='h3' style={{ fontSize: '2em' }}>Clyde James Richardson <br/> (1911 - 2002) </Header>
                 <br/>
 

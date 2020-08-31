@@ -23,6 +23,7 @@ const RichardsonGainesville = () => (
     <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                <br/>
                 <Header as='h3' style={{ fontSize: '2em' }}>The Richardson's in Gainesville, Florida  <br/> (1938-1979) </Header>
                 <br/>
 

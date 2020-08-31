@@ -36,7 +36,6 @@ import cassidyTree from './images/familyTrees/cassidy.png'
 import kernTree from './images/familyTrees/kern.png'
 import wherheimTree from './images/familyTrees/wherheim.png'
 
-
 import wedding from './images/wedding.jpg'
 
 import SimpleReactLightbox from "simple-react-lightbox";
@@ -96,9 +95,11 @@ const Home = () => (
     <p style={{ fontSize: '1.33em' }}>
       Our Image Gallery is full of pictures and documents from our entire family. Some of our photos of all the way back to the mid 19th century.
     </p>
+    <Link to="/images">
     <Button as='a' size='large'>
       Image Gallery
     </Button>
+    </Link>
     
 
     <Divider

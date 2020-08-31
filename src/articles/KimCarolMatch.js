@@ -32,6 +32,7 @@ const KimCarolMatch = () => (
     <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                <br/>
                 <Header as='h3' style={{ fontSize: '2em' }}>Kim &amp; Carol <br/> A Perfect Match </Header>
                 <br/>
 

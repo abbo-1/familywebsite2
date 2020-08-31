@@ -32,6 +32,7 @@ const CharlesCassidyBio = () => (
         <Grid celled='internally' columns='equal' stackable>
             <Grid.Row textAlign='center'>
                 <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                    <br/>
                     <Header as='h3' style={{ fontSize: '2em' }}>Charles Raymond Cassidy <br/>(1893 - 1983)  </Header>
                     <br/>
                 </Grid.Column>

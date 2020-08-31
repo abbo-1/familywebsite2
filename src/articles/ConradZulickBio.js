@@ -31,6 +31,7 @@ const ConradZulickBio = () => (
     <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                <br/>
                 <Header as='h3' style={{ fontSize: '2em' }}>Conrad Meyer Zulick <br/>  (1839 - 1926)  </Header>
                 <br/>
             </Grid.Column>

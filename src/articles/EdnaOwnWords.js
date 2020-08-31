@@ -29,6 +29,7 @@ const EdnaOwnWords = () => (
     <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                <br/>
                 <Header as='h3' style={{ fontSize: '2em' }}>Edna Caroline Frank <br/>Growing Up In Brooklyn <br/> (In Her Own Words) <br/>  Written roughly around 1990  </Header>
                 <br/>
             </Grid.Column>

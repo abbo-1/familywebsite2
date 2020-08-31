@@ -32,6 +32,7 @@ const WilliamReedBio = () => (
     <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                <br/>
                 <Header as='h3' style={{ fontSize: '2em' }}>William Haskell Reed <br/> (1831 - 1934) </Header>
                 <br/>
             </Grid.Column>

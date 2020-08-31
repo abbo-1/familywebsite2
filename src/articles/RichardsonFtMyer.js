@@ -20,6 +20,7 @@ const RichardsonFtMyer = () => (
     <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
             <Grid.Column  style={{ paddingBottom: '0em', paddingTop: '0em' }}>
+                <br/>
                 <Header as='h3' style={{ fontSize: '2em' }}>The Richardson's in Ft. Myer  <br/> (1924 - 1938) </Header>
                 <br/>
 
