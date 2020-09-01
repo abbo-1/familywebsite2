@@ -16,17 +16,9 @@ import {
   Divider,
   Grid,
   Header,
-  Icon,
   Image,
-  List,
-  Menu,
-  Responsive,
   Segment,
-  Sidebar,
-  Visibility,
 } from 'semantic-ui-react'
-
-import backgroundImage from './images/backsplashWithLogo.png'
 
 import zepfTree from './images/familyTrees/zepf.png'
 import abbottTree from './images/familyTrees/abbott.png'
@@ -43,6 +35,12 @@ import { SRLWrapper } from "simple-react-lightbox";
 
 const Home = () => (
 <div class = "mazeBackground">
+<Segment
+  inverted
+  textAlign='center'
+  style={{ padding: '1em 0em' }}
+  vertical >
+</Segment> 
 <Segment style={{ padding: '8em 0em' }} vertical>
   <Grid container stackable verticalAlign='middle'>
     <Grid.Row>

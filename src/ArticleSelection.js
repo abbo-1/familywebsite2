@@ -42,6 +42,7 @@ import {
   import MarionOwnWords from "./articles/MarionOwnWords";
   import ConradZulickBio from "./articles/ConradZulickBio";
 
+  import backgroundSmall from './images/backsplashPlain.png'
 
   function ArticleSelection() {
 
@@ -50,6 +51,9 @@ import {
 
     return (
 <React.Fragment>
+  <div class = "backgroundSmall">
+    <img src={backgroundSmall} class="backgroundImage" alt="Background" />
+    </div>
 <div class = "mazeBackground">
 
  {/* <Divider />  */}

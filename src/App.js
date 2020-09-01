@@ -25,19 +25,6 @@ import {
   Visibility,
 } from 'semantic-ui-react'
 
-import backgroundImage from './images/backsplashWithLogo.png'
-
-import zepfTree from './images/familyTrees/zepf.png'
-import abbottTree from './images/familyTrees/abbott.png'
-import haskellReedTree from './images/familyTrees/haskellReed.png'
-import haskellTree from './images/familyTrees/haskell.png'
-
-import wedding from './images/wedding.jpg'
-import logo from './images/logo.png'
-
-import SimpleReactLightbox from "simple-react-lightbox";
-import { SRLWrapper } from "simple-react-lightbox";
-
 import Home from './Home.js'
 import ArticleSelection from './ArticleSelection.js'
 import ImageGallery from './ImageGallery.js'
@@ -54,35 +41,6 @@ const getWidth = () => {
  */
 const HomepageHeading = ({ mobile }) => (
   <Container text>
-
-    {/* <img src={backgroundImage} class="background" alt="logo" /> */}
-    {/* <img src={logo} class="welcomeLogo" alt="logo" /> */}
-    {/* <Header
-      as='h1'
-      
-      content='12'
-      inverted
-      style={{
-        fontSize: mobile ? '2em' : '4em',
-        fontWeight: 'normal',
-        marginBottom: 0,
-        marginTop: mobile ? '1.5em' : '3em',
-      }}
-    /> */}
-    {/* <Header
-      as='h2'
-      content='Robert Jones'
-      inverted
-      style={{
-        fontSize: mobile ? '1.5em' : '1.7em',
-        fontWeight: 'normal',
-        marginTop: mobile ? '0.5em' : '1.5em',
-      }} */}
-    {/* /> */}
-    {/* <Button primary size='huge'>
-      Get Started
-      <Icon name='right arrow' />
-    </Button> */}
   </Container>
 )
 
@@ -111,14 +69,16 @@ class DesktopContainer extends Component {
           onBottomPassed={this.showFixedMenu}
           onBottomPassedReverse={this.hideFixedMenu}
         >
-          <Segment
+          {/* 00000000000000 NAV BAR AND BACKGROUND PHOTO 000000000000000000000 */}
+          {/* <Segment
             inverted
             textAlign='center'
             style={{ padding: '1em 0em' }}
             vertical
-          >
+          > */}
+        <div class="ui inverted menu">
             <Menu
-              fixed={fixed ? 'top' : null}
+              fixed={fixed ? 'bottom' : null}
               inverted={!fixed}
               pointing={!fixed}
               secondary={!fixed}
@@ -126,36 +86,23 @@ class DesktopContainer extends Component {
             >
               <Container>
              <Menu.Item as='a' >
+             <Icon name='home' />
                 <Link to="/">Home</Link>
                 </Menu.Item>
                 <Menu.Item as='a'>
+                <Icon name='archive' />
                   <Link to="/history">Archives</Link>
                 </Menu.Item>
                 <Menu.Item as='a'>
+                <Icon name='image' />
                   <Link to="/images">Image Gallery</Link>
-                </Menu.Item>
-                <Menu.Item position='right'> 
-                {/* <Menu.Item as='a' active>
-                <Link to="/">Home</Link>
-                </Menu.Item>
-                <Menu.Item as='a'>
-                  <Link to="/History">Archives</Link>
-                </Menu.Item>
-                <Menu.Item as='a'>
-                  <Link to="/images">Image Gallery</Link>
-                </Menu.Item>
-                <Menu.Item position='right'> */}
-                  {/* <Button as='a' inverted={!fixed}>
-                    Log in
-                  </Button>
-                  <Button as='a' inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>
-                    Sign Up
-                  </Button> */}
                 </Menu.Item>
               </Container>
             </Menu>
             <HomepageHeading />
-          </Segment>
+            </div>
+          {/* </Segment> */}
+          {/* 00000000000000 NAV BAR AND BACKGROUND PHOTO 000000000000000000000 */}
         </Visibility>
         {children}
       </Responsive>
@@ -166,7 +113,6 @@ class DesktopContainer extends Component {
 DesktopContainer.propTypes = {
   children: PropTypes.node,
 }
-
 
 class MobileContainer extends Component {
   state = {}
@@ -185,6 +131,7 @@ class MobileContainer extends Component {
         getWidth={getWidth}
         maxWidth={Responsive.onlyMobile.maxWidth}
       >
+  {/* <div class="ui inverted menu">
         <Sidebar
           as={Menu}
           animation='push'
@@ -192,44 +139,43 @@ class MobileContainer extends Component {
           onHide={this.handleSidebarHide}
           vertical
           visible={sidebarOpened}
-        >
+        > */}
+        <div class="ui inverted fluid three item menu">
           <Menu.Item as='a' active>
-            Home
+          <Icon name='home' />
+                <Link to="/">Home</Link>
           </Menu.Item>
-          <Menu.Item as='a'>Work</Menu.Item>
-          <Menu.Item as='a'>Company</Menu.Item>
-          <Menu.Item as='a'>Careers</Menu.Item>
-          <Menu.Item as='a'>Log in</Menu.Item>
-          <Menu.Item as='a'>Sign Up</Menu.Item>
-        </Sidebar>
+          <Menu.Item as='a'>
+          <Icon name='archive' />
+                  <Link to="/history">Archives</Link>
+          </Menu.Item>
+          <Menu.Item as='a'>
+          <Icon name='image' />
+                  <Link to="/images">Image Gallery</Link>
+          </Menu.Item>
+          </div>
+        {/* </Sidebar> */}
 
-        <Sidebar.Pusher dimmed={sidebarOpened}>
-          <Segment
+        {/* <Sidebar.Pusher dimmed={sidebarOpened}> */}
+          {/* <Segment
             inverted
             textAlign='center'
             style={{ minHeight: 350, padding: '1em 0em' }}
             vertical
-          >
-            <Container>
+          > */}
+
+            {/* <Container>
               <Menu inverted pointing secondary size='large'>
                 <Menu.Item onClick={this.handleToggle}>
                   <Icon name='sidebar' />
                 </Menu.Item>
-                {/* <Menu.Item position='right'> */}
-                  {/* <Button as='a' inverted>
-                    Log in
-                  </Button>
-                  <Button as='a' inverted style={{ marginLeft: '0.5em' }}>
-                    Sign Up
-                  </Button> */}
-                {/* </Menu.Item> */}
               </Menu>
             </Container>
-            <HomepageHeading mobile />
-          </Segment>
+            <HomepageHeading mobile /> */}
 
+          {/* </Segment> */}
           {children}
-        </Sidebar.Pusher>
+        {/* </Sidebar.Pusher> */}
       </Responsive>
     )
   }
@@ -251,6 +197,7 @@ ResponsiveContainer.propTypes = {
 }
 
 const HomepageLayout = () => (
+  
   <ResponsiveContainer >
 {/* 000000000000000000000000000000000000000000000000000000000000000000000000 */}
     <Switch>
@@ -259,8 +206,7 @@ const HomepageLayout = () => (
     <Route path='/images' component={ImageGallery} />
     <Route component={Error} />
     </Switch>
-
-
+    
     <Segment inverted vertical style={{ padding: '5em 0em' }}>
       <Container>
         <Grid divided inverted stackable>

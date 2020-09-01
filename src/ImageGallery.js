@@ -121,6 +121,7 @@ import kim48 from './images/articlePictures/kim48.png'
 import dottieGus38 from './images/articlePictures/dottieGus38.png'
 // import williamReed20 from './images/articlePictures/williamReed20.png'
 
+import backgroundSmall from './images/backsplashPlain.png'
 
 function ImageGallery() {
 
@@ -1160,6 +1161,9 @@ function ImageGallery() {
 
     return (
 <React.Fragment>
+<div class = "backgroundSmall">
+    <img src={backgroundSmall} class="backgroundImage" alt="Background" />
+    </div>
 <div class = "mazeBackground">
 <Segment  style={{ padding: '0em 0em' }} vertical>
     <Grid celled='internally' columns='equal' stackable>

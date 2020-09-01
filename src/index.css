@@ -150,3 +150,23 @@ code {
 .farSideAd:hover {
   cursor: pointer;
 }
+
+/* SMALL BACKGROUND FOR ARCHIVES AND IMAGE GALLERY */
+
+.backgroundSmall {
+  /* object-fit: cover; */
+  /* background-image: url('./images/backsplashPlain.png');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  width: 100%;
+  height: 260px;
+}
+
+.backgroundImage {
+  object-fit: contain;
+  max-height: 100%;
+}
+
+.ui.inverted.menu{
+color:transparent
+}
