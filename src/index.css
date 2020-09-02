@@ -26,10 +26,19 @@ code {
 .ui.inverted.vertical.center.aligned.segment {
   background: transparent; 
   background-image: url('./images/backsplashWithLogo.png');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-size: 100%;
-  height: 535px !important;
+  height: 535px !important; */
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+width: 100%;
+min-height:40em;
+margin: auto;
+
 }
+
 
 /* CLYDE AND ROBERT BUTTONS ON FRONT PAGE */
 
@@ -158,14 +167,23 @@ code {
   /* background-image: url('./images/backsplashPlain.png');
   background-repeat: no-repeat;
   background-size: cover; */
+  /* width: 100%;
+  height: 260px; */
+  background-image: url('./images/backsplashPlain.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
   width: 100%;
-  height: 260px;
+  min-height:20em;
+  margin: auto;
+
 }
 
-.backgroundImage {
+/* .backgroundImage {
   object-fit: contain;
   max-height: 100%;
-}
+} */
 
 .ui.inverted.menu{
 color:transparent

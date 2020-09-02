@@ -36,11 +36,11 @@ import { SRLWrapper } from "simple-react-lightbox";
 const Home = () => (
 <div class = "mazeBackground">
 <Segment
-  inverted
-  textAlign='center'
-  style={{ padding: '1em 0em' }}
-  vertical >
-</Segment> 
+ inverted
+textAlign='center'
+style={{ padding: '1em 0em' }}
+ vertical
+ />
 <Segment style={{ padding: '8em 0em' }} vertical>
   <Grid container stackable verticalAlign='middle'>
     <Grid.Row>

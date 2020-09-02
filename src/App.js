@@ -19,7 +19,9 @@ import {
   Image,
   List,
   Menu,
+  Rail,
   Responsive,
+  Sticky,
   Segment,
   Sidebar,
   Visibility,
@@ -53,6 +55,7 @@ HomepageHeading.propTypes = {
  * It can be more complicated, but you can create really flexible markup.
  */
 class DesktopContainer extends Component {
+
   state = {}
 
   hideFixedMenu = () => this.setState({ fixed: false })
@@ -76,13 +79,17 @@ class DesktopContainer extends Component {
             style={{ padding: '1em 0em' }}
             vertical
           > */}
+            {/* <Rail>
+      <Sticky context={this.contextRef}> */}
         <div class="ui inverted menu">
             <Menu
-              fixed={fixed ? 'bottom' : null}
+              fixed={fixed ? 'top' : null}
               inverted={!fixed}
               pointing={!fixed}
               secondary={!fixed}
               size='large'
+              className="inverted" 
+              style={{backgroundColor: 'black'}}
             >
               <Container>
              <Menu.Item as='a' >
@@ -101,6 +108,8 @@ class DesktopContainer extends Component {
             </Menu>
             <HomepageHeading />
             </div>
+            {/* </Sticky>
+        </Rail> */}
           {/* </Segment> */}
           {/* 00000000000000 NAV BAR AND BACKGROUND PHOTO 000000000000000000000 */}
         </Visibility>
@@ -123,7 +132,6 @@ class MobileContainer extends Component {
 
   render() {
     const { children } = this.props
-    const { sidebarOpened } = this.state
 
     return (
       <Responsive
@@ -172,10 +180,10 @@ class MobileContainer extends Component {
               </Menu>
             </Container>
             <HomepageHeading mobile /> */}
-
           {/* </Segment> */}
           {children}
         {/* </Sidebar.Pusher> */}
+
       </Responsive>
     )
   }

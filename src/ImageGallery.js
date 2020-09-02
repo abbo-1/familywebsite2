@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import 'semantic-ui-css/semantic.min.css'
-import './index.css';
+// import './index.css';
 
 import { ProGallery } from 'pro-gallery';
 import 'pro-gallery/dist/statics/main.css';
@@ -125,13 +125,14 @@ import backgroundSmall from './images/backsplashPlain.png'
 
 function ImageGallery() {
 
-    const items = [{
+    const items = [
+        {
         itemId: 'sample-id',
         mediaUrl: charlesPilot19,
         metaData: {
           type: 'image',
           title: 'samaasddddddddtitlasdase',
-          description: 'Charles sfasdf',
+          description: "1919 - Charlie in a flying boat.",
           focalPoint: [0, 0],
         }
       },
@@ -141,7 +142,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'asd flying',
+        description: '1955 - Clyde Richardson and his son, Kim Richardson.',
         focalPoint: [0, 0],
       }
     },
@@ -151,7 +152,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '2000 - Edna and Clyde Richardson.',
           focalPoint: [0, 0],
         }
       },
@@ -161,7 +162,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: 'Clyde Richardson in uniform.',
           focalPoint: [0, 0],
         }
       },
@@ -171,7 +172,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1886 - Conrad Zulick.',
           focalPoint: [0, 0],
         }
       },
@@ -181,7 +182,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1927 - Edna Caroline Frank (Richardson).',
         focalPoint: [0, 0],
       }
     },
@@ -191,7 +192,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1931 - The Frank Sisters. Maizie, Edna, & Jo.',
           focalPoint: [0, 0],
         }
       },
@@ -201,7 +202,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1941 - Edna Caroline Frank (Richardson).',
           focalPoint: [0, 0],
         }
       },
@@ -211,7 +212,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1945 - Edna Caroline Frank (Richardson).',
           focalPoint: [0, 0],
         }
       },
@@ -221,7 +222,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1979 - Frank Siblings. Gus, Helen, Josephine, Maizie, & Edna.',
         focalPoint: [0, 0],
       }
     },
@@ -231,7 +232,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1988 - Edna & Clyde Richardson.',
           focalPoint: [0, 0],
         }
       },
@@ -241,7 +242,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1996 - Edna & Clyde Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -251,7 +252,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '2007 - The Richardson Family.',
           focalPoint: [0, 0],
         }
       },
@@ -261,7 +262,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '2008 - Edna Richardson.',
         focalPoint: [0, 0],
       }
     },
@@ -271,7 +272,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1923 - Edna Caroline Frank (Richardson) in New York',
           focalPoint: [0, 0],
         }
       },
@@ -281,7 +282,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1947 - Gloria Cassidy & Robert Jones on their wedding day.',
           focalPoint: [0, 0],
         }
       },
@@ -291,7 +292,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1948 - Gloria Margaret Cassidy (Jones) (Haddock)',
           focalPoint: [0, 0],
         }
       },
@@ -301,7 +302,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1970 - Gloria Margaret (Cassidy) (Jones) Haddock',
         focalPoint: [0, 0],
       }
     },
@@ -311,7 +312,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1977 - Gloria Margaret (Cassidy) (Jones) Haddock',
           focalPoint: [0, 0],
         }
       },
@@ -321,7 +322,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1963 - Carol Anne Jones (Richardson), Gloria Margaret (Cassidy) Jones, and Kathy Jones', 
           focalPoint: [0, 0],
         }
       },
@@ -331,7 +332,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1990 - Gloria & Joe Haddock  ',
           focalPoint: [0, 0],
         }
       },
@@ -341,7 +342,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1905 - John Robert Jones',
         focalPoint: [0, 0],
       }
     },
@@ -351,7 +352,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1916 - John & Marion Jones',
           focalPoint: [0, 0],
         }
       },
@@ -361,7 +362,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1923 - John Robert Jones',
           focalPoint: [0, 0],
         }
       },
@@ -371,7 +372,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1913 - John Robert Jones',
           focalPoint: [0, 0],
         }
       },
@@ -381,7 +382,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1980 - Carole Anne Jones (Richardson)',
         focalPoint: [0, 0],
       }
     },
@@ -391,7 +392,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1981 - The wedding of Carol Ann Jones & Kim Frank Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -401,7 +402,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1981 - Carol Ann Jones Richardson with her parents on her wedding day',
           focalPoint: [0, 0],
         }
       },
@@ -1141,9 +1142,9 @@ function ImageGallery() {
 
     // The options of the gallery (from the playground current state)
     const options = {
-      galleryLayout: 0,
+      galleryLayout: -1,
       imageMargin: 10,
-      itemClick: 'fullscreen',
+      itemClick: 'expand',
       imageHoverAnimation: 'BLUR',
     };
 
@@ -1160,9 +1161,9 @@ function ImageGallery() {
     const scrollingElement = window;
 
     return (
-<React.Fragment>
+<div>
 <div class = "backgroundSmall">
-    <img src={backgroundSmall} class="backgroundImage" alt="Background" />
+    {/* <img src={backgroundSmall} class="backgroundImage" alt="Background" /> */}
     </div>
 <div class = "mazeBackground">
 <Segment  style={{ padding: '0em 0em' }} vertical>
@@ -1179,7 +1180,7 @@ function ImageGallery() {
 
  {/* <Divider />  */}
 
-<Segment  style={{ padding: '0em 0em' }} vertical>
+<Segment  style={{ padding: '1em 1em' }} vertical>
 
 <ProGallery
         items={items}
@@ -1187,6 +1188,7 @@ function ImageGallery() {
         container={container}
         eventsListener={eventsListener}
         scrollingElement={scrollingElement}
+        customHoverRenderer={itemProps => <div>{itemProps.description}</div>}
         // customHoverRenderer={itemProps => <div>Hover #{itemProps.idx}</div>}
       />
 
@@ -1194,7 +1196,7 @@ function ImageGallery() {
 
 
 </div>
-</React.Fragment>
+</div>
 )
 }
 
