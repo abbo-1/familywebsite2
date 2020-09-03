@@ -28,6 +28,7 @@ import cassidyTree from './images/familyTrees/cassidy.png'
 import kernTree from './images/familyTrees/kern.png'
 import wherheimTree from './images/familyTrees/wherheim.png'
 
+
 import wedding from './images/wedding.jpg'
 
 import SimpleReactLightbox from "simple-react-lightbox";
@@ -75,11 +76,18 @@ style={{ padding: '1em 0em' }}
 <Segment  style={{ padding: '0em' }} vertical>
   <Grid celled='internally' columns='equal' stackable>
     <Grid.Row textAlign='center'>
+
       <Grid.Column  style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-      <a href='./MainPage.js'><button class ="clydeButton" /></a>
+      <Link to="/history"><button class ="clydeButton"/>    </Link>
       </Grid.Column>
+
       <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-        <button class="jonesButton" />
+      <Link to={{pathname: '/history',
+        state: {
+          fromJones: true}}}>
+          <button class="jonesButton"/>
+        </Link>
+
       </Grid.Column>
     </Grid.Row>
   </Grid>

@@ -50,6 +50,8 @@ import {
 
     const [displayComponent, setDisplayComponent] = useState(null);
 
+    if {fromJones}: true {() => setDisplayComponent(<RobertJonesBio/>)}
+
 
     return (
 <React.Fragment>
@@ -108,8 +110,8 @@ import {
         Jones:
     </Header>
     <Button.Group basic vertical>
-        <Button onClick={() => setDisplayComponent(<JohnJonesBio/>)}>John Erskine Jones: Biography</Button>
-        <Button onClick={() => setDisplayComponent(<RobertJonesBio/>)}>John Robert Jones: A Biography 1878 - 1963</Button>
+        <Button onClick={() => setDisplayComponent(<RobertJonesBio/>)}>Robert Erskine Jones: Biography</Button>
+        <Button onClick={() => setDisplayComponent(<JohnJonesBio/>)}>John Robert Jones: A Biography 1878 - 1963</Button>
     </Button.Group>
     </Grid.Column>
     
