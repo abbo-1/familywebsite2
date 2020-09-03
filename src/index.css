@@ -185,6 +185,11 @@ margin: auto;
   max-height: 100%;
 } */
 
-.ui.inverted.menu{
-color:transparent
+.gallery-item-hover-inner{
+  text-align: center;
+  color: #ddd;
+  font-size: 2em;
+  padding:20px;
+  margin: auto;
+  display: block;
 }
