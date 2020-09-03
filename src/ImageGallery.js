@@ -162,7 +162,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Clyde Richardson in uniform.',
+          description: '1945 - Clyde Richardson in uniform.',
           focalPoint: [0, 0],
         }
       },
@@ -412,7 +412,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1981 - The wedding of Carol Ann Jones & Kim Frank Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -422,7 +422,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1981 - Carol Ann Jones & Kim Frank Richardsons wedding party',
         focalPoint: [0, 0],
       }
     },
@@ -432,7 +432,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1984 - Scott Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -442,7 +442,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1985 - Scott Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -452,7 +452,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1988 - Kevin Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -462,7 +462,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1989 - Kevin Richardson',
         focalPoint: [0, 0],
       }
     },
@@ -472,7 +472,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1988 - Brothers, Scott & Kevin Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -482,7 +482,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1991 - Richardson Family Portrait',
           focalPoint: [0, 0],
         }
       },
@@ -492,7 +492,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1993 - Scott, Kim, & Carol Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -502,7 +502,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1995 - Scott & Kevin in front of the Spaceshuttle Columbia',
         focalPoint: [0, 0],
       }
     },
@@ -512,7 +512,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1996 - Disney World',
           focalPoint: [0, 0],
         }
       },
@@ -522,7 +522,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1997 - Scott & Kevin Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -532,7 +532,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '2003 - Kim & Kevin on the London Eye',
           focalPoint: [0, 0],
         }
       },
@@ -542,7 +542,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1988 - Kim Richardson and his sons',
         focalPoint: [0, 0],
       }
     },
@@ -552,7 +552,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1966 - Kim Richardson aboard the USS Great Sitkin ',
           focalPoint: [0, 0],
         }
       },
@@ -562,7 +562,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1967 - Petty Officier Third Class Kim Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -572,7 +572,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1967 - Kim Richardson on the Italian Riviera',
           focalPoint: [0, 0],
         }
       },
@@ -582,7 +582,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1968 - Kim Richardson and his navy buddies',
         focalPoint: [0, 0],
       }
     },
@@ -592,7 +592,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1968 - Kim Richardson and his navy buddies',
           focalPoint: [0, 0],
         }
       },
@@ -602,7 +602,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1968 - Kim Richardson and his navy buddies',
           focalPoint: [0, 0],
         }
       },
@@ -612,7 +612,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1968 - Kim Richardson and his navy buddies',
           focalPoint: [0, 0],
         }
       },
@@ -622,7 +622,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1968 - Kim Richardson',
         focalPoint: [0, 0],
       }
     },
@@ -632,7 +632,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1968 - Kim Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -642,7 +642,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1901 - Lucy Hayes Reed',
           focalPoint: [0, 0],
         }
       },
@@ -652,7 +652,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1932 - Frank Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -662,7 +662,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1932 - Clyde Richardson',
         focalPoint: [0, 0],
       }
     },
@@ -672,7 +672,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1945 - Lucy Hayes Reed',
           focalPoint: [0, 0],
         }
       },
@@ -682,7 +682,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1900 - Marie Zepf',
           focalPoint: [0, 0],
         }
       },
@@ -692,7 +692,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1948 - Marie (Mamie) & Michael Frank',
           focalPoint: [0, 0],
         }
       },
@@ -702,7 +702,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1958 – Helen, Joe, Maizie, and Marie Frank',
         focalPoint: [0, 0],
       }
     },
@@ -712,7 +712,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1976 – Marie, Maribeth, Helen, Jay, Jo, and Maizie',
           focalPoint: [0, 0],
         }
       },
@@ -722,7 +722,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1900 - Marion & Betty Abbott',
           focalPoint: [0, 0],
         }
       },
@@ -732,7 +732,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1913 - Marion Abbott',
           focalPoint: [0, 0],
         }
       },
@@ -742,7 +742,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1915 - Marion Abbott',
         focalPoint: [0, 0],
       }
     },
@@ -752,7 +752,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1958 - Marion Abbott',
           focalPoint: [0, 0],
         }
       },
@@ -762,7 +762,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1965 - Sandy & Sandy Baird on their wedding day',
           focalPoint: [0, 0],
         }
       },
@@ -772,7 +772,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '2007 - Sandy Baird sitting center. Standing, Kathy Jones & Jamie Baird',
           focalPoint: [0, 0],
         }
       },
@@ -782,7 +782,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1921 - Michael Frank',
         focalPoint: [0, 0],
       }
     },
@@ -792,7 +792,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1932 - Oliver Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -802,7 +802,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1931 Football Team – Clyde is on middle row left end and Ben (Frank) is on the middle row right, second from end',
           focalPoint: [0, 0],
         }
       },
@@ -812,7 +812,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1942 - Clyde Richardson and Edna Frank meet',
           focalPoint: [0, 0],
         }
       },
@@ -822,7 +822,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1947 - Edna & Clyde Richardson holding their son Kim',
         focalPoint: [0, 0],
       }
     },
@@ -832,7 +832,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1955 - Clyde, Edna, Gail & Kim (far right)',
           focalPoint: [0, 0],
         }
       },
@@ -842,7 +842,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1960 - Gail & Karen Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -852,17 +852,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
-          focalPoint: [0, 0],
-        }
-      },
-      {
-        itemId: 'sample-id',
-        mediaUrl: zepfFranks48, 
-        metaData: {
-          type: 'image',
-          title: 'sample-title',
-          description: 'Charles flying',
+          description: '1958 - Jay Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -872,7 +862,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1979 - Richardson family portrait',
         focalPoint: [0, 0],
       }
     },
@@ -882,7 +872,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1943 - Robert Erskine Jones',
           focalPoint: [0, 0],
         }
       },
@@ -892,7 +882,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1945 - Robert Erskine Jones (seen standing far right)',
           focalPoint: [0, 0],
         }
       },
@@ -902,7 +892,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1945 - Robert Erskine Jones (on left)',
           focalPoint: [0, 0],
         }
       },
@@ -912,7 +902,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1947 - Robert Jones & Gloria Cassidy at their wedding',
         focalPoint: [0, 0],
       }
     },
@@ -922,7 +912,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1956 - Robert Jones with his daughters, Kathy & Carol',
           focalPoint: [0, 0],
         }
       },
@@ -932,7 +922,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1925 - William (Bill) Abbott',
           focalPoint: [0, 0],
         }
       },
@@ -942,7 +932,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1915 - Oliver Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -952,7 +942,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1920 - William Reed',
         focalPoint: [0, 0],
       }
     },
@@ -962,7 +952,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1926 - Robert Jones and his mother, Marion',
           focalPoint: [0, 0],
         }
       },
@@ -972,7 +962,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1958 - Gail & Kim Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -982,7 +972,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1948 - Kim Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -992,7 +982,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1955 - Pete & Maribeth',
         focalPoint: [0, 0],
       }
     },
@@ -1002,7 +992,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1938 - Dottie & Gus',
           focalPoint: [0, 0],
         }
       },
@@ -1012,7 +1002,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1932 - Charles Cassidy',
           focalPoint: [0, 0],
         }
       },
@@ -1022,7 +1012,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1919 - Charles & Marion Cassidy',
           focalPoint: [0, 0],
         }
       },
@@ -1032,7 +1022,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1982 - Charles Cassidy',
         focalPoint: [0, 0],
       }
     },
@@ -1042,7 +1032,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1946 - Clyde & Edna on their wedding day',
           focalPoint: [0, 0],
         }
       },
@@ -1062,7 +1052,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1938 - Clyde Richardson (right)',
           focalPoint: [0, 0],
         }
       },
@@ -1072,7 +1062,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1941 - Clyde Richardson',
         focalPoint: [0, 0],
       }
     },
@@ -1082,17 +1072,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
-          focalPoint: [0, 0],
-        }
-      },
-    {
-        itemId: 'sample-id',
-        mediaUrl: gailKim58, 
-        metaData: {
-          type: 'image',
-          title: 'sample-title',
-          description: 'Charles flying',
+          description: '1945 - Clyde Richardson',
           focalPoint: [0, 0],
         }
       },
@@ -1102,7 +1082,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'sample-title',
-          description: 'Charles flying',
+          description: '1947 - Clyde Richardson & son, Kim',
           focalPoint: [0, 0],
         }
       },
@@ -1112,7 +1092,7 @@ function ImageGallery() {
       metaData: {
         type: 'image',
         title: 'sample-title',
-        description: 'Charles flying',
+        description: '1958 - Gail Richardson',
         focalPoint: [0, 0],
       }
     },
