@@ -34,8 +34,27 @@ import wedding from './images/wedding.jpg'
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
+import url from 'url'
+
+
+// const jonesRedirect =  url.article?RobertJonesBio({
+//   pathname: `/history`,
+//   query: {
+//     article: "RobertJonesBio",
+//   },
+// })
+
+// const jonesLocation = {
+//   pathname: '/history',
+//   state: {  setDisplayComponent:('<RobertJonesBio/>') }
+// }
+
+
+
 const Home = () => (
+  
 <div class = "mazeBackground">
+  
 <Segment
  inverted
 textAlign='center'
@@ -78,17 +97,13 @@ style={{ padding: '1em 0em' }}
     <Grid.Row textAlign='center'>
 
       <Grid.Column  style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-      <Link to="/history"><button class ="clydeButton"/>    </Link>
+        <button class ="clydeButton"/>
       </Grid.Column>
 
       <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-      <Link to={{pathname: '/history',
-        state: {
-          fromJones: true}}}>
-          <button class="jonesButton"/>
-        </Link>
-
+          <button class="jonesButton" />
       </Grid.Column>
+      
     </Grid.Row>
   </Grid>
   </Segment>

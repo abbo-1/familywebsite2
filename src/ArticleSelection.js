@@ -48,10 +48,20 @@ import {
 
   function ArticleSelection() {
 
+
+
     const [displayComponent, setDisplayComponent] = useState(null);
 
-    if {fromJones}: true {() => setDisplayComponent(<RobertJonesBio/>)}
+    // const search = new URLSearchParams(props.location.search)
+    // const article = search.get("article") 
 
+    // if {fromJones}: true {() => setDisplayComponent(<RobertJonesBio/>)}
+
+    // const If = ({{fromJones}:true, children }) => {
+    //   if (condition) {
+    //     setDisplayComponent(<RobertJonesBio/>);
+    //   }
+    // };
 
     return (
 <React.Fragment>

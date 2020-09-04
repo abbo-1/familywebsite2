@@ -52,7 +52,7 @@ margin: auto;
 }
 
 .clydeButton:hover {
-  cursor: pointer;
+  /* cursor: pointer; */
   background-image: url('./images/buttons/clydeHoverFeatured.png');
   box-shadow: 0px 0px 25px 5px rgb(110, 110, 110);
 }
@@ -66,7 +66,7 @@ margin: auto;
 }
 
 .jonesButton:hover {
-  cursor: pointer;
+  /* cursor: pointer; */
   background-image: url('./images/buttons/robertHoverFeatured.png');
   box-shadow: 0px 0px 25px 5px rgb(110, 110, 110);
 }

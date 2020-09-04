@@ -1476,7 +1476,8 @@ const ClydeWW2 = () => (
             </Grid.Column>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
                 <p style={{ fontSize: '1em' }}>
-                The Battle of Leyte Gulf was the largest naval battle ever fought.  The Marshall was part of the destroyer screen that protected Admiral William F. Halsey on the battleship New Jersey.  Admiral Halsey ordered his fleet of 17 Aircraft Carriers, 6 Battleships, 17 Cruisers and 64 Destroyers to steam North in pursuit of Admiral Ozawa’s fleet consisting of 7 Aircraft Carriers.  In this battle, the Japanese lost 4 Carriers, 3 Battleships, 10 Cruisers and 9 Destroyers.  After this battle the Japanese Navy was no longer was an effective fighting force.
+                USS Marshall sailing in Sibuyan Sea -
+                <br/>The Battle of Leyte Gulf was the largest naval battle ever fought.  The Marshall was part of the destroyer screen that protected Admiral William F. Halsey on the battleship New Jersey.  Admiral Halsey ordered his fleet of 17 Aircraft Carriers, 6 Battleships, 17 Cruisers and 64 Destroyers to steam North in pursuit of Admiral Ozawa’s fleet consisting of 7 Aircraft Carriers.  In this battle, the Japanese lost 4 Carriers, 3 Battleships, 10 Cruisers and 9 Destroyers.  After this battle the Japanese Navy was no longer was an effective fighting force.
                 </p>
             </Grid.Column>
         </Grid.Row>
