@@ -58,7 +58,7 @@ const RichardsonFtMyer = () => (
                     <img src={footballPromo} class="articlePhoto" alt="1930 - Football Lettermen – Clyde is bottom right" />
                 </div>
                 <div class="column">
-                    <img src={ftMyerBasketball} class="articlePhoto" alt="1932 – Basketball Team – Clyde on left and Frank on right" />
+                    <img src={ftMyerBasketball} class="articlePhoto" alt="1932 – Ft Myers High School Basketball Team – Clyde on left and Frank on right" />
                 </div>
                 </div>
                 <br/>

@@ -119,7 +119,9 @@ import gailKim58 from './images/articlePictures/gailKim58.png'
 import peteMaribeth55 from './images/articlePictures/peteMaribeth55.png'
 import kim48 from './images/articlePictures/kim48.png'
 import dottieGus38 from './images/articlePictures/dottieGus38.png'
-// import williamReed20 from './images/articlePictures/williamReed20.png'
+import madTifBrianCal from './images/articlePictures/madTifBrianCal.png'
+import tomFamily from './images/articlePictures/tomFamily.png'
+// import madTifBrianCal from './images/articlePictures/madTifBrianCal.png'
 
 import backgroundSmall from './images/backsplashPlain.png'
 
@@ -1042,7 +1044,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: 'Ft Myer Basketball',
-          description: 'Ft Myer Basketball Team',
+          description: 'Ft Myers High School Basketball Team     Clyde on left and Frank on the right',
           focalPoint: [0, 0],
         }
       },
@@ -1052,7 +1054,7 @@ function ImageGallery() {
         metaData: {
           type: 'image',
           title: '1938 Clyde',
-          description: '1938 - Clyde Richardson (right)',
+          description: '1938 - Clyde Richardson (left)',
           focalPoint: [0, 0],
         }
       },
@@ -1096,26 +1098,26 @@ function ImageGallery() {
         focalPoint: [0, 0],
       }
     },
-    // {
-    //     itemId: 'sample-id',
-    //     mediaUrl: dottieGus38, 
-    //     metaData: {
-    //       type: 'image',
-    //       title: 'sample-title',
-    //       description: 'Charles flying',
-    //       focalPoint: [0, 0],
-    //     }
-    //   },
-    // {
-    //     itemId: 'sample-id',
-    //     mediaUrl: gailKaren60,
-    //     metaData: {
-    //       type: 'image',
-    //       title: 'sample-title',
-    //       description: 'Charles flying',
-    //       focalPoint: [0, 0],
-    //     }
-    //   },
+    {
+        itemId: 'sheehanFam',
+        mediaUrl: madTifBrianCal, 
+        metaData: {
+          type: 'image',
+          title: 'sample-title',
+          description: '2018 - Sheehan Family. Madison, Tiffany, Brian, and Calan',
+          focalPoint: [0, 0],
+        }
+      },
+    {
+        itemId: 'allredFam',
+        mediaUrl: tomFamily,
+        metaData: {
+          type: 'image',
+          title: 'sample-title',
+          description: '2014 - Allred Family. Kaylin, Austin, Tom, Levi, and Brandy',
+          focalPoint: [0, 0],
+        }
+      },
     ];
 
 
