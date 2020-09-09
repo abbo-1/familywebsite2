@@ -121,7 +121,7 @@ import kim48 from './images/articlePictures/kim48.png'
 import dottieGus38 from './images/articlePictures/dottieGus38.png'
 import madTifBrianCal from './images/articlePictures/madTifBrianCal.png'
 import tomFamily from './images/articlePictures/tomFamily.png'
-// import madTifBrianCal from './images/articlePictures/madTifBrianCal.png'
+import orthFamily from './images/articlePictures/orthFamily.png'
 
 import backgroundSmall from './images/backsplashPlain.png'
 
@@ -1118,9 +1118,19 @@ function ImageGallery() {
           focalPoint: [0, 0],
         }
       },
+      {
+        itemId: 'orth',
+        mediaUrl: orthFamily,
+        metaData: {
+          type: 'image',
+          title: 'sample-title',
+          description: '2019 - Orth Family. Donnie, Brandy, Tiffany, Jerett, Gail',
+          focalPoint: [0, 0],
+        }
+      },
     ];
 
-
+    
 
     // The options of the gallery (from the playground current state)
     const options = {
