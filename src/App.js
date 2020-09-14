@@ -37,10 +37,6 @@ const getWidth = () => {
   return isSSR ? Responsive.onlyTablet.minWidth : window.innerWidth
 }
 
-/* eslint-disable react/no-multi-comp */
-/* Heads up! HomepageHeading uses inline styling, however it's not the best practice. Use CSS or styled components for
- * such things.
- */
 const HomepageHeading = ({ mobile }) => (
   <Container text>
   </Container>
@@ -50,10 +46,6 @@ HomepageHeading.propTypes = {
   mobile: PropTypes.bool,
 }
 
-/* Heads up!
- * Neither Semantic UI nor Semantic UI React offer a responsive navbar, however, it can be implemented easily.
- * It can be more complicated, but you can create really flexible markup.
- */
 class DesktopContainer extends Component {
 
   state = {}
@@ -73,14 +65,6 @@ class DesktopContainer extends Component {
           onBottomPassedReverse={this.hideFixedMenu}
         >
           {/* 00000000000000 NAV BAR AND BACKGROUND PHOTO 000000000000000000000 */}
-          {/* <Segment
-            inverted
-            textAlign='center'
-            style={{ padding: '1em 0em' }}
-            vertical
-          > */}
-            {/* <Rail>
-      <Sticky context={this.contextRef}> */}
         <div class="ui inverted menu">
             <Menu
               fixed={fixed ? 'top' : null}
@@ -108,9 +92,7 @@ class DesktopContainer extends Component {
             </Menu>
             <HomepageHeading />
             </div>
-            {/* </Sticky>
-        </Rail> */}
-          {/* </Segment> */}
+
           {/* 00000000000000 NAV BAR AND BACKGROUND PHOTO 000000000000000000000 */}
         </Visibility>
         {children}
@@ -139,15 +121,6 @@ class MobileContainer extends Component {
         getWidth={getWidth}
         maxWidth={Responsive.onlyMobile.maxWidth}
       >
-  {/* <div class="ui inverted menu">
-        <Sidebar
-          as={Menu}
-          animation='push'
-          inverted
-          onHide={this.handleSidebarHide}
-          vertical
-          visible={sidebarOpened}
-        > */}
         <div class="ui inverted fluid three item menu">
           <Menu.Item as='a' active>
           <Icon name='home' />
@@ -162,25 +135,6 @@ class MobileContainer extends Component {
                   <Link to="/images">Image Gallery</Link>
           </Menu.Item>
           </div>
-        {/* </Sidebar> */}
-
-        {/* <Sidebar.Pusher dimmed={sidebarOpened}> */}
-          {/* <Segment
-            inverted
-            textAlign='center'
-            style={{ minHeight: 350, padding: '1em 0em' }}
-            vertical
-          > */}
-
-            {/* <Container>
-              <Menu inverted pointing secondary size='large'>
-                <Menu.Item onClick={this.handleToggle}>
-                  <Icon name='sidebar' />
-                </Menu.Item>
-              </Menu>
-            </Container>
-            <HomepageHeading mobile /> */}
-          {/* </Segment> */}
           {children}
         {/* </Sidebar.Pusher> */}
 
@@ -207,7 +161,6 @@ ResponsiveContainer.propTypes = {
 const HomepageLayout = () => (
   
   <ResponsiveContainer >
-{/* 000000000000000000000000000000000000000000000000000000000000000000000000 */}
     <Switch>
     <Route exact path='/' component={Home} />
     <Route path='/history' component={ArticleSelection} />

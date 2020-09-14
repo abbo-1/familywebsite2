@@ -44,29 +44,13 @@ import {
   import MarionOwnWords from "./articles/MarionOwnWords";
   import ConradZulickBio from "./articles/ConradZulickBio";
 
-  import backgroundSmall from './images/backsplashPlain.png'
-
   function ArticleSelection() {
 
-
-
     const [displayComponent, setDisplayComponent] = useState(null);
-
-    // const search = new URLSearchParams(props.location.search)
-    // const article = search.get("article") 
-
-    // if {fromJones}: true {() => setDisplayComponent(<RobertJonesBio/>)}
-
-    // const If = ({{fromJones}:true, children }) => {
-    //   if (condition) {
-    //     setDisplayComponent(<RobertJonesBio/>);
-    //   }
-    // };
 
     return (
 <React.Fragment>
   <div class = "backgroundSmall">
-    {/* <img src={backgroundSmall} class="backgroundImage" alt="Background" /> */}
     </div>
 <div class = "mazeBackground">
 

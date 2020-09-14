@@ -122,6 +122,11 @@ import dottieGus38 from './images/articlePictures/dottieGus38.png'
 import madTifBrianCal from './images/articlePictures/madTifBrianCal.png'
 import tomFamily from './images/articlePictures/tomFamily.png'
 import orthFamily from './images/articlePictures/orthFamily.png'
+import emilMichaelFrank from './images/articlePictures/emilMichaelFrank.png'
+import kimMarkGail from './images/articlePictures/kimMarkGail.png'
+import cousins2017 from './images/articlePictures/cousins2017.png'
+import garyJudyWendyEtc from './images/articlePictures/garyJudyWendyEtc.png'
+
 
 import backgroundSmall from './images/backsplashPlain.png'
 
@@ -1128,9 +1133,47 @@ function ImageGallery() {
           focalPoint: [0, 0],
         }
       },
+    {
+    itemId: 'franksEmilMichael',
+    mediaUrl: emilMichaelFrank, 
+    metaData: {
+      type: 'image',
+      title: '1884 Emil & Michael',
+      description: '1884 - Emil & Michael Frank'
+    }
+  },
+  {
+      itemId: 'kimGailMark',
+      mediaUrl: kimMarkGail, 
+      metaData: {
+        type: 'image',
+        title: 'sample-title',
+        description: '2018 - Kim Richardson, Mark Richards, Gail Orth',
+        focalPoint: [0, 0],
+      }
+    },
+  {
+      itemId: '2017cousins',
+      mediaUrl: cousins2017,
+      metaData: {
+        type: 'image',
+        title: 'sample-title',
+        description: '2017 - Cousins - JoAnn, Mike, Jay, Maribeth, Kim, Gail and Pete',
+        focalPoint: [0, 0],
+      }
+    },
+    {
+      itemId: 'maribethPeterOthers',
+      mediaUrl: garyJudyWendyEtc,
+      metaData: {
+        type: 'image',
+        title: 'sample-title',
+        description: '1955 -  Gary, Judy, Wendy, Marie, Glenn, Maribeth, Peter,and JoAnn',
+        focalPoint: [0, 0],
+      }
+    },
     ];
 
-    
 
     // The options of the gallery (from the playground current state)
     const options = {
