@@ -804,7 +804,8 @@ const ClydeWW2 = () => (
             </Grid.Column>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
                 <p style={{ fontSize: '1em' }}>
-                Battle of the Philippine Sea (Marianas Turkey Shoot).  During the course of this battle the Japanese lost 3 aircraft carriers and 395 carrier based planes.  The Marshall was credited with an assist on downing two planes.  The Marshall was with Admiral Marc Mitscher when 216 planes were returning from a raid on Admiral Ozawa’s fleet.  It was after dark and unable to find the carriers, the planes began to run out of gas and crash into the sea.  At the risk of a submarine attack, Mitcher ordered the Task Force to turn on its lights.
+                <Header as='h2' style={{ fontSize: '1.5em', color:'red'}}>Battle of the Philippine Sea (Marianas Turkey Shoot)</Header> <br/>
+                     During the course of this battle the Japanese lost 3 aircraft carriers and 395 carrier based planes.  The Marshall was credited with an assist on downing two planes.  The Marshall was with Admiral Marc Mitscher when 216 planes were returning from a raid on Admiral Ozawa’s fleet.  It was after dark and unable to find the carriers, the planes began to run out of gas and crash into the sea.  At the risk of a submarine attack, Mitcher ordered the Task Force to turn on its lights.
                 </p>
             </Grid.Column>
         </Grid.Row>
@@ -1476,6 +1477,7 @@ const ClydeWW2 = () => (
             </Grid.Column>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
                 <p style={{ fontSize: '1em' }}>
+                <Header as='h2' style={{ fontSize: '1.5em', color:'red'}}>Battle of Leyte Gulf</Header>
                 USS Marshall sailing in Sibuyan Sea -
                 <br/>The Battle of Leyte Gulf was the largest naval battle ever fought.  The Marshall was part of the destroyer screen that protected Admiral William F. Halsey on the battleship New Jersey.  Admiral Halsey ordered his fleet of 17 Aircraft Carriers, 6 Battleships, 17 Cruisers and 64 Destroyers to steam North in pursuit of Admiral Ozawa’s fleet consisting of 7 Aircraft Carriers.  In this battle, the Japanese lost 4 Carriers, 3 Battleships, 10 Cruisers and 9 Destroyers.  After this battle the Japanese Navy was no longer was an effective fighting force.
                 </p>
@@ -1499,7 +1501,7 @@ const ClydeWW2 = () => (
             </Grid.Column>
             <Grid.Column  style={{ paddingBottom: '1em', paddingTop: '1em' }}>
                 <p style={{ fontSize: '1em' }}>
-                Steaming with USS Massachusetts (BB-59) USS Vincennes (CA-44), USS Miami (CVL-28), USS Biloxi (CL-80), USS Mobile (CL-63), USS New Orleans (CA-32), USS Santa Fe (CL-60) and USS Wichita (CA-45).  <br/>0259 -  Maneuvering at various courses and speeds in obedience to signal to form T.F.34. <br/> 0756 - Changed speed to 20 knots. <br/>  1118 - All units join their respective Task Groups.  Proceeding to join T.G. 38.2
+                <br/> 0400 - USS Marshall joined TF-34.5 <br/> 1055 - TF-34.5 released by Halsey to intercept Kurita's Center Force. <br/>  Steaming with USS Massachusetts (BB-59) USS Vincennes (CA-44), USS Miami (CVL-28), USS Biloxi (CL-80), USS Mobile (CL-63), USS New Orleans (CA-32), USS Santa Fe (CL-60) and USS Wichita (CA-45).  <br/>0259 -  Maneuvering at various courses and speeds in obedience to signal to form T.F.34. <br/> 0756 - Changed speed to 20 knots. <br/>  1118 - All units join their respective Task Groups.  Proceeding to join T.G. 38.2
                 </p>
             </Grid.Column>
         </Grid.Row>

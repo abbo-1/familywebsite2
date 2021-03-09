@@ -7,6 +7,7 @@ import { SRLWrapper } from "simple-react-lightbox";
 
 import sandyBairds65 from '../images/articlePictures/sandyBairds65.png'
 import sandy07 from '../images/articlePictures/sandy07.png'
+import sandy18 from '../images/articlePictures/sandy18.png'
 
 
 const options = {
@@ -43,7 +44,7 @@ const MarionCassidyBio = () => (
                     <SimpleReactLightbox>
                         <SRLWrapper>
                     <br/>
-                    Marion Sandra (Sandy) Cassidy Baird was the second child born to Marion Knell Cassidy and Charles Raymond Cassidy. Her arrival on December 7, 1935 was an unexpected surprise to her parents who had another daughter, Gloria, almost twelve, and were considered at that time to be a bit old to have a new baby (Marion was 35 and Charles was 42). The family lived at 333 Longshore Street in the Lawndale section of Philadelphia when Sandy was born.
+                    Marion Sandra (Sandy) Cassidy Baird was the second child born to Marion Knell Cassidy and Charles Raymond Cassidy. Her arrival on December 7, 1935 was an unexpected surprise to her parents who had another daughter, Gloria- almost twelve, and were considered at that time to be a bit old to have a new baby (Marion was 35 and Charles was 42). The family lived at 333 Longshore Street in the Lawndale section of Philadelphia when Sandy was born.
                     <br/>
                     <br/>
                     Of her younger years Sandy wrote:
@@ -96,12 +97,30 @@ const MarionCassidyBio = () => (
                     "The Sandys", as they called themselves, lived in Banstead for many years, then moved to a home in Epsom Downs and finally to Haywards Heath, all near London. They adopted a son, Jamie Douglas Baird, who was born on December 14, 1972. Both Sandys are very talented in art, Sandy Cassidy with watercolors, and her husband with pastels. After retiring, Sandy Baird busied himself with charity work, golf, and his painting. Sadly, he passed away in November 15, 2006 after a battle with lung cancer.
                     <br/>
                     <br/>
-                    At the time of this writing (2007), Sandy Cassidy still lives in their home in Haywards Heath but is planning a move to a retirement community nearby. She still loves to travel and no doubt will continue to do so as long as she is physically able. Her son, Jamie, eventually went on to University to study engineering and currently works in the nuclear engineering field. He is single and owns a home in the town of Chester which sadly he rarely occupies since his job requires a great deal of travel. He tries to visit his mother whenever he can.
-                    <br/>
-                    <br/>
                     <div class="column">
                         {/* <SRLWrapper options={options}> */}
                         <img src={sandy07} class="articlePhoto" alt="2007 - Sandy Baird sitting center. Behind her Kathy Jones &amp; Jamie Baird" />
+                    </div>
+                    <br/>
+                    In 2007, Sandy moved to St George, a retirement community close by.
+                    <br/>
+                    <br/>
+                    Jamie was married to Alexandra Seligman on July 4, 2009.
+                    <br/>
+                    <br/>
+                    On August 11, 2015 Carol and Kathy flew to England to help Sandy move to Bishopstoke Park Retirement Home in Eastleigh.
+                    <br/>
+                    <br/>
+                    In August of 2017, Sandy went on a Norway cruise with Carol, Kathy, Jamie, and Alex.
+                    <br/>
+                    <br/>
+                    On August 26, 2018 Sandy, Jamie, Alex, Kathy, Carol, and Kim went on a cruise to Germany, Oslo, Norway, and Belgium.
+                    <br/>
+                    <br/>
+
+                    <div class="column">
+                        {/* <SRLWrapper options={options}> */}
+                        <img src={sandy18} class="articlePhoto" alt="2018 - Sandy Baird sitting center. Behind her Alex and Jamie Baird, Kathy Jones, and Kim &amp; Carol Richardson" />
                     </div>
                     <br/>
                         </SRLWrapper>
